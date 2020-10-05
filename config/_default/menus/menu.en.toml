@@ -1,28 +1,48 @@
 [[main]]
-  name = "Home"
-  url = ""
+  name = "About"
+  url = "https://www.reprojobs.org/about"
   weight = -110
 
 [[main]]
-  name = "Archives"
-  url = "post/rich-content/"
+  name = "Jobs"
+  url = "https://www.browse.reprojobs.org"
+  weight = -109
+
+[[main]]
+  name = "Salaries"
+  url = "https://www.reprojobs.org/salaries"
+  weight = -108
+
+[[main]]
+  name = "Resources"
+  url = "https://www.reprojobs.org/resources"
+  weight = -107
+
+[[main]]
+  name = "Blog"
+  url = "https://www.reprojobs.org/blog-page"
+  weight = -106
+
+[[sub]]
+  name = "Contact Us"
+  url = "https://www.reprojobs.org/contact-us"
+  weight = -110
+
+[[sub]]
+  name = "Español"
+  url = "https://www.reprojobs.org/es/home?ref=en"
   weight = -109
 
 # Submenus are done this way: parent -> identifier
-[[main]]
-  name = "Links"
-  identifier = "Links"
-  weight = -108
-[[main]]
-  parent = "Links"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/"
-[[main]]
-  parent = "Links"
-  name = "Twitter"
-  url = "https://twitter.com/"
-
-[[main]]
-  name = "About"
-  url = "about/"
-  weight = -107
+# [[main]]
+#   name = "Links"
+#   identifier = "Links"
+#   weight = -108
+# [[main]]
+#   parent = "Links"
+#   name = "LinkedIn"
+#   url = "https://www.linkedin.com/"
+# [[main]]
+#   parent = "Links"
+#   name = "Twitter"
+#   url = "https://twitter.com/"

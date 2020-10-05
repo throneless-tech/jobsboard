@@ -1,11 +1,10 @@
 
 [en]
-  title = "Clarity"
+  title = "Jobs – ReproJobs"
   LanguageName = "English"
   weight = 1
 
-[pt]
-  title = "Claridade" # just for the sake of showing this is possible
-  LanguageName = "Português"
+[es]
+  title = "Trabajo – ReproJobs" # just for the sake of showing this is possible
+  LanguageName = "Español"
   weight = 2
-  
