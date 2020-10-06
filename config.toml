@@ -98,3 +98,6 @@ languageMenuName = "🌐"
 
 # Enable or disable comment globally. Default to true.
 # comment = false
+
+customCSS = ["sass/custom.sass"] # Include custom CSS files
+# customJS = ["js/custom.js"] # Include custom JS files
