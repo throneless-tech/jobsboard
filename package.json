@@ -1,0 +1,21 @@
+{
+  "name": "jobsboard",
+  "version": "1.0.0",
+  "description": "A jobs board for ReproJobs.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass static/styles/custom.sass static/styles/custom.css",
+    "start": "hugo server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/throneless-tech/jobsboard.git"
+  },
+  "author": "Rae Gaines, Throneless Tech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/throneless-tech/jobsboard/issues"
+  },
+  "homepage": "https://github.com/throneless-tech/jobsboard#readme"
+}

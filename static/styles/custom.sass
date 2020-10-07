@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap')
+
+.follow_footer
+  display: flex
+  margin-left: -15px
+
+.follow_footer
+  a
+    margin-left: 15px
+
+    svg
+      fill: #d2dfe0
+
+.footer
+  background-color: #0b203c
+
+.footer_inner
+  grid-template-columns: unset
+
+.footer_list
+  &_item
+    &_link
+      text-decoration: underline
+
+      &:active, &:focus, &:hover
+        color: rgba(210,223,224,.6)
+
+.footer_text
+  color: #d2dfe0
+  font-family: 'Poppins', sans-serif
+  font-size: 16px
+  font-weight: 600
+  letter-spacing: .01em
+  line-height: 1.6em
+
+  &_copyright
+    margin-top: 30px
+    text-align: center
+
+.footer_header
+  font-size: 18px
+  text-transform: uppercase
+
+@media screen and (max-width: 769px)
+  .nav_body
+    max-width: unset
+    width: calc(100% - 60px )
+
+  .nav_close svg
+    fill: var(--dark)
+
+  .nav_header
+    background-color: #fff
+
+  .nav_item
+    font-weight: 800
+    text-transform: uppercase
+
+@media screen and (min-width: 770px)
+  .follow
+    justify-content: flex-start
+
+  .footer_flex
+    display: flex
+    margin-left: -30px
+
+    &_item
+      flex-grow: 0
+      margin-left: 30px
+      max-width: 40%
+
+      &:first-child, &:last-child
+        flex-grow: 1
+
+  .nav
+    display: unset
+    font-family: 'Poppins', sans-serif
+    text-transform: uppercase
+
+  .nav_body
+    display: flex
+    justify-content: space-between
+
+    &.__top
+      background-color: #0a1e39
+
+    &.__bottom
+      background-color: #fff
+      display: inline-block
+      color: #0b203c
+      padding-top: 0.4rem
+      position: absolute
+      right: 0
+
+      a:hover, a:focus, a:active
+        color: #d69a00
+
+  .nav_close
+    svg
+      fill: var(--bg)
+
+  .nav_brand
+    display: inline-block
+
+  .nav_header
+    background-color: #fff
+    padding: 0
+    position: relative
+
+  .nav_menu
+    display: flex
+    justify-content: flex-end
+
+  .vh
+    clip: rect(0 0 0 0)
+    clip-path: inset(50%)
+    height: 1px
+    overflow: hidden
+    position: absolute
+    white-space: nowrap
+    width: 1px
