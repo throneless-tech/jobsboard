@@ -1,6 +1,6 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
-baseurl = "https://browse.reprojobs.com"  # Include trailing slash
+baseurl = "https://peaceful-hugle-5b9340.netlify.app/"  # Include trailing slash #FIXME update with correct url
 title = "Repro Jobs Board"
 author = "Rae Gaines, Throneless Tech"
 copyright = "MIT Copyright © 2020"
@@ -99,5 +99,5 @@ languageMenuName = "🌐"
 # Enable or disable comment globally. Default to true.
 # comment = false
 
-customCSS = ["sass/custom.sass"] # Include custom CSS files
+customCSS = ["css/custom.css"] # Include custom CSS files
 # customJS = ["js/custom.js"] # Include custom JS files
