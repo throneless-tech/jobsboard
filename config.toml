@@ -100,4 +100,4 @@ languageMenuName = "🌐"
 # comment = false
 
 customCSS = ["styles/custom.css"] # Include custom CSS files
-# customJS = ["js/custom.js"] # Include custom JS files
+customJS = ["js/index.js"] # Include custom JS files
