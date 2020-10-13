@@ -9,7 +9,7 @@
     "start": "run-s build:assets dev",
     "dev": "run-p dev:parcel dev:hugo",
     "dev:hugo": "cross-env NODE_ENV=development hugo server --gc --disableFastRender --navigateToChanged",
-    "dev:parcel": "cross-env NODE_ENV=development parcel watch ./static/js/index.js --out-dir static/output",
+    "dev:parcel": "cross-env NODE_ENV=development parcel watch ./themes/hugo-clarity/assets/js/index.js --out-dir static/output",
     "build:assets": "cross-env NODE_ENV=development parcel build ./static/js/index.js --out-dir static/output --experimental-scope-hoisting  --no-cache",
     "deploy:assets": "cross-env NODE_ENV=production parcel build ./static/js/index.js --out-dir static/output --experimental-scope-hoisting --no-cache",
     "build:hugo": "cross-env NODE_ENV=production hugo --gc --minify"
@@ -25,7 +25,9 @@
   },
   "homepage": "https://github.com/throneless-tech/jobsboard#readme",
   "dependencies": {
+    "airtable": "^0.10.0",
     "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
     "parcel-bundler": "^1.12.4"
   },
   "devDependencies": {
