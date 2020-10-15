@@ -18,16 +18,10 @@
     {{- $codeScriptPath := "js/code.js" }}
     {{- $code := resources.Get $codeScriptPath | resources.ExecuteAsTemplate $codeScriptPath . }}
 
-    {{- $customScriptPath := "js/custom.js" }}
-    {{ if (fileExists "../../assets/js/custom.js") }}
-      {{ $customScriptPath := "../../assets/js/custom.js" }}
-    {{ end }}
-    {{- $custom := resources.Get $customScriptPath | resources.ExecuteAsTemplate $customScriptPath . }}
-
     {{- $mainScriptPath := "js/index.js" }}
     {{- $main := resources.Get $mainScriptPath | resources.ExecuteAsTemplate $mainScriptPath . }}
 
-    {{- $bundle := slice $highlight $functions $code $main $custom | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "sha512" -}}
+    {{- $bundle := slice $highlight $functions $code $main | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "sha512" -}}
 
     <!-- preload assets declaration -->
     <link rel="preload" href="{{ $styles.Permalink }}" integrity = "{{ $styles.Data.Integrity }}" as="style" crossorigin="anonymous">
@@ -70,11 +64,15 @@
     {{- partial "icons" }}
     {{- partial "footer" . }}
     <script type="text/javascript" src="{{ $bundle.Permalink }}" integrity="{{ $bundle.Data.Integrity }}" crossorigin="anonymous"></script>
-    {{- with $params.customJS }}
-    {{- range . -}}
-    <script type="module" src="{{ . | relURL }}" ></script>
-    {{- end }}
-    {{- end }}
+    {{/*  We only want to run this process if there's a custom JS file  */}}
+    {{ if (fileExists "./static/output/custom.js") }}
+      {{ $js := resources.Get "output/custom.js" }}
+      {{ with $js }}
+        {{ $secureJS := . | resources.Fingerprint }}
+        <script type="module" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
+      {{- end }}
+    {{ end }}
+
     {{ partial "hooks/body-end.html" . }}
   </body>
 </html>

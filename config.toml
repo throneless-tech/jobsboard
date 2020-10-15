@@ -8,6 +8,8 @@ copyright = "MIT Copyright © 2020"
 paginate = 10
 theme = "hugo-clarity"
 
+assetDir = "./static"
+
 disqusShortname = ""
 
 DefaultContentLanguage = "en"
