@@ -10,8 +10,8 @@
     "dev": "run-p dev:parcel dev:hugo",
     "dev:hugo": "cross-env NODE_ENV=development hugo server --gc --disableFastRender --navigateToChanged",
     "dev:parcel": "cross-env NODE_ENV=development parcel watch ./static/js/custom.js --out-dir static/output --target node --bundle-node-modules",
-    "build:assets": "cross-env NODE_ENV=development parcel build ./static/js/index.js --out-dir static/output --experimental-scope-hoisting  --no-cache",
-    "deploy:assets": "cross-env NODE_ENV=production parcel build ./static/js/index.js --out-dir static/output --experimental-scope-hoisting --no-cache",
+    "build:assets": "cross-env NODE_ENV=development parcel build ./static/js/custom.js --out-dir static/output --experimental-scope-hoisting  --no-cache",
+    "deploy:assets": "cross-env NODE_ENV=production parcel build ./static/js/custom.js --out-dir static/output --experimental-scope-hoisting --no-cache",
     "build:hugo": "cross-env NODE_ENV=production hugo --gc --minify"
   },
   "repository": {
