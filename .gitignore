@@ -1,6 +1,29 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.env
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
+# *.lock
+
+# OS or Editor folders
+*.scssc
+.DS_Store
+Thumbs.db
 .cache
-.env
+.parcel-cache
+.project
+.settings
+.tmproj
+.asset-cache
+
+# Folders to ignore
 dist
 node_modules
 public
-.DS_Store

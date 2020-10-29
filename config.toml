@@ -73,7 +73,7 @@ mainSections = ["post"] # see config details here https://gohugo.io/functions/wh
 # center logo on navbar
 centerLogo = false # Set to "true" for centering or "false" for left aligned.
 
-logo = "logos/logo.png"
+logo = "logos/RJ-logo.svg"
 
 # Label Non inline images on an article body
 figurePositionShow = false # toggle on or off globally
@@ -102,4 +102,3 @@ languageMenuName = "🌐"
 # comment = false
 
 customCSS = ["styles/custom.css"] # Include custom CSS files
-customJS = ["js/index.js"] # Include custom JS files

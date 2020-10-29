@@ -2,17 +2,24 @@
   "name": "jobsboard",
   "version": "1.0.0",
   "description": "A jobs board for ReproJobs.",
-  "main": "index.js",
   "scripts": {
     "sass": "node-sass static/styles/custom.sass static/styles/custom.css",
     "build": "run-s deploy:assets build:hugo",
-    "start": "run-s build:assets dev",
-    "dev": "run-p dev:parcel dev:hugo",
+    "start": "run-s build:assets start:dev",
+    "start:dev": "run-p dev:parcel dev:hugo",
     "dev:hugo": "cross-env NODE_ENV=development hugo server --gc --disableFastRender --navigateToChanged",
-    "dev:parcel": "cross-env NODE_ENV=development parcel watch ./static/js/custom.js --out-dir public/output --target node --bundle-node-modules",
-    "build:assets": "cross-env NODE_ENV=development parcel build ./static/js/index.js --out-dir static/output --experimental-scope-hoisting  --no-cache",
-    "deploy:assets": "cross-env NODE_ENV=production parcel build ./static/js/index.js --out-dir static/output --experimental-scope-hoisting --no-cache",
+    "dev:parcel": "cross-env NODE_ENV=development parcel watch ./static/js/custom.js --dist-dir public/output --no-source-maps",
+    "build:assets": "cross-env NODE_ENV=development parcel build ./static/js/custom.js --dist-dir static/output  --no-cache --no-source-maps --no-scope-hoist",
+    "deploy:assets": "cross-env NODE_ENV=production parcel build ./static/js/custom.js --dist-dir static/output --no-cache --no-source-maps --no-scope-hoist",
     "build:hugo": "cross-env NODE_ENV=production hugo --gc --minify"
+  },
+  "targets": {
+    "default": {
+      "includeNodeModules": true
+    }
+  },
+  "engines": {
+    "node": "10"
   },
   "repository": {
     "type": "git",
@@ -27,10 +34,10 @@
   "dependencies": {
     "airtable": "^0.10.0",
     "cross-env": "^7.0.2",
-    "dotenv": "^8.2.0",
-    "parcel-bundler": "^1.12.4"
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "parcel": "^2.0.0-beta.1"
   }
 }
