@@ -59,6 +59,12 @@
 @media screen and (min-width: 770px)
   .follow
     justify-content: flex-start
+    margin-left: 20px
+
+    svg
+      height: 30px
+      margin-left: 4px
+      width: 30px
 
   .footer_flex
     display: flex
@@ -71,6 +77,9 @@
 
       &:first-child, &:last-child
         flex-grow: 1
+
+  .grid-inverse
+    grid-template-columns: 1fr 70%
 
   .nav
     display: unset
@@ -88,19 +97,23 @@
       background-color: #fff
       display: inline-block
       color: #0b203c
-      padding-top: 0.4rem
+      padding-top: 1.6arem
       position: absolute
       right: 0
 
       a:hover, a:focus, a:active
         color: #d69a00
 
+  .nav_brand
+    display: inline-block
+    margin-left: 20px
+
+    img
+      width: 250px
+
   .nav_close
     svg
       fill: var(--bg)
-
-  .nav_brand
-    display: inline-block
 
   .nav_header
     background-color: #fff
