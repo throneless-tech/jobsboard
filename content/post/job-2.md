@@ -1,7 +1,10 @@
 +++
 author = "None"
 title = "Job Title"
-date = "2020-04-12"
+organization = "Organization Name"
+location = "Location"
+link="http://reprojobs.org"
+date = "2020-10-31"
 description = "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 categories = [
     "Full Time",
@@ -14,6 +17,7 @@ tags = [
 series = [
     "High Five",
 ]
+thumbnail = "../../icons/circle.svg"
 
 +++
 

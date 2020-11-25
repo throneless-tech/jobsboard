@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+/* Font styles */
+.f-bold {
+  font-weight: bold; }
+
 /* Headings */
 .h3 {
   font-family: "Poppins", sans-serif;
@@ -6,6 +10,15 @@
 
 .h4 {
   font-family: "Poppins", sans-serif; }
+
+/* Buttons */
+.button_translucent {
+  background: #D3E0E1;
+  color: #0B203C; }
+  .button_translucent:hover, .button_translucent:focus, .button_translucent:active {
+    background-color: #0B203C;
+    color: #fff;
+    border: 1px solid #0B203C; }
 
 /* Footer */
 .follow_footer {
@@ -220,6 +233,7 @@
   border-radius: 30px;
   box-shadow: none;
   max-width: 165px;
+  margin-top: 2em;
   padding: 12px 24px;
   text-align: center; }
   .submit-text {
@@ -236,5 +250,29 @@
   height: 20px;
   border: 1px solid #0B203C;
   margin-right: 8px; }
+
+/* Jobs */
+.excerpt {
+  padding: 30px; }
+  .excerpt .excerpt_header .post_link {
+    color: #0B203C;
+    font-size: 2em;
+    font-weight: 800; }
+  .excerpt .excerpt_header .meta {
+    color: #000; }
+    .excerpt .excerpt_header .meta .organization {
+      font-size: 1em; }
+    .excerpt .excerpt_header .meta .date {
+      font-size: 0.8em; }
+      .excerpt .excerpt_header .meta .date .post_tag {
+        background: #D3E0E1;
+        color: #0B203C; }
+  .excerpt .excerpt_footer {
+    padding: 0; }
+    .excerpt .excerpt_footer .excerpt_more {
+      color: #D04400;
+      font-weight: bold; }
+    .excerpt .excerpt_footer.partition {
+      grid-template-columns: 1.5fr 7.5fr; }
 
 /*# sourceMappingURL=custom.css.map */

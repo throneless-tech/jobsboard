@@ -1,7 +1,10 @@
 +++
 author = "None"
-title = "Job Title"
-date = "2020-03-05"
+title = "Advocacy Director"
+organization = "Michigan Organization on Adolenscent Sexual Health"
+location = "Michigan"
+link = "https://www.moash.org/"
+date = "2020-11-05"
 description = "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 categories = [
     "Full Time",

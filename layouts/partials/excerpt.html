@@ -1,0 +1,24 @@
+<li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_footer partition">
+      <div class="excerpt_thumbnail">
+        {{- with .Params.thumbnail }}
+        <img src='{{ if (hasPrefix . "http") }}{{ . }}{{ else }}{{ absURL . }}{{ end }}' alt="" aria-hidden="true">
+        {{ else }}
+        <img src="../../icons/circle.svg" alt="" aria-hidden="true">
+        {{- end }}
+      </div>
+      <div class="excerpt_footer">
+        <div class="">
+          <h3 class="post_link">
+            {{ .Title  }}
+          </h3>
+          {{ partial "post-meta.html" . }}
+        </div>
+        <div>
+          <p class="pale">{{ .Summary | truncate 320 }}</p>
+          <a href="{{ .Params.link }}" class="excerpt_more">{{ .Params.link }}</a>
+        </div>
+      </div>
+    </div>
+  </li>

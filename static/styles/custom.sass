@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap')
 
+/* Font styles */
+
+.f-bold
+  font-weight: bold
+
 /* Headings */
 .h3
   font-family: 'Poppins', sans-serif
@@ -7,6 +12,16 @@
 
 .h4
   font-family: 'Poppins', sans-serif
+
+/* Buttons*/
+.button_translucent
+  background: #D3E0E1
+  color: #0B203C
+
+  &:hover, &:focus, &:active
+    background-color: #0B203C
+    color: #fff
+    border: 1px solid #0B203C
 
 /* Footer */
 .follow_footer
@@ -249,6 +264,7 @@
   border-radius: 30px
   box-shadow: none
   max-width: 165px
+  margin-top: 2em
   padding: 12px 24px
   text-align: center
 
@@ -267,3 +283,37 @@
     height: 20px
     border: 1px solid #0B203C
     margin-right: 8px
+
+/* Jobs */
+
+.excerpt
+  padding: 30px
+
+  .excerpt_header
+    .post_link
+      color: #0B203C
+      font-size: 2em
+      font-weight: 800
+
+    .meta
+      color: #000
+
+      .organization
+        font-size: 1em
+
+      .date
+        font-size: 0.8em
+
+        .post_tag
+          background: #D3E0E1
+          color: #0B203C
+
+  .excerpt_footer
+    padding: 0
+
+    .excerpt_more
+      color: #D04400
+      font-weight: bold
+
+    &.partition
+      grid-template-columns: 1.5fr 7.5fr

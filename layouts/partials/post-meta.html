@@ -1,0 +1,16 @@
+<div class="meta">
+  <div class="organization">
+    <span class="f-bold">{{ .Params.organization }}</span> | {{ .Params.location }}
+  </div>
+  <div class="date">
+    <span>{{ .Date.Format "Jan 2, 2006" -}}</span>
+    {{- with .Params.tags -}}
+    {{- range . }}
+    {{- $tag := . | urlize }}
+    <a href='{{ absLangURL (printf "tags/%s" $tag) }}' class="post_tag button button_translucent">
+      {{- . }}
+    </a>
+    {{- end }}
+    {{- end }}
+  </div>
+</div>
