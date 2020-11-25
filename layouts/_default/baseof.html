@@ -65,7 +65,7 @@
     {{ partial "footer" . }}
     <script type="text/javascript" src="{{ $bundle.Permalink }}" integrity="{{ $bundle.Data.Integrity }}" crossorigin="anonymous"></script>
     {{/*  We only want to run this process if there's a custom JS file  */}}
-    {{ if (fileExists "./static/output/custom.js") }}
+    {{ if (fileExists "./static/js/custom.js") }}
       {{ $js := resources.Get "output/custom.js" }}
       {{ with $js }}
         {{ $secureJS := . | resources.Fingerprint }}

@@ -2,6 +2,9 @@
 {{ if .IsHome }}
   {{ $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{ end }}
+<div class="heading wrap content">
+  <h1 class="heading-content">Browse Jobs</h1>
+</div>
 <div class="grid-inverse wrap content">
   {{- partial "sidebar" . }}
   <ul class="posts" id="posts">

@@ -5,4 +5,4 @@ dotenv.config();
 
 Airtable.configure({ apiKey: process.env.AIRTABLE_API_KEY });
 
-console.log('test.....');
+console.log('boop');

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap')
 
+/* Footer */
 .follow_footer
   display: flex
   margin-left: -15px
@@ -41,6 +42,63 @@
   font-size: 18px
   text-transform: uppercase
 
+/* Heading h1 block */
+.heading
+
+  &-content
+    background: #0B203C
+    color: #D3E0E1
+    font-family: 'Poppins', sans-serif
+    font-size: 1.5em
+    padding-bottom: 30px
+    padding-left: 30px
+    padding-top: 30px
+    padding-right: 30px
+    position: relative
+    text-transform: uppercase
+
+    @media screen and (min-width: 769px)
+      font-size: 3.5em
+      padding-bottom: 125px
+      padding-left: 125px
+      padding-top: 125px
+      padding-right: 20px
+
+      &::after
+        background: #D04400
+        bottom: 0
+        clip-path: circle(100px at 85% 75%)
+        content: ''
+        display: block
+        height: 216px
+        position: absolute
+        right: 0
+        width: 216px
+
+      &::before
+        background: #D69900
+        bottom: 0
+        clip-path: circle(200px at 70% 115%)
+        content: ''
+        display: block
+        height: 445px
+        position: absolute
+        right: 0
+        width: 445px
+
+    @media screen and (min-width: 990px)
+      &::after
+        clip-path: circle(200px at 85% 75%)
+        height: 316px
+        width: 316px
+
+      &::before
+        clip-path: circle(300px at 70% 115%)
+        height: 645px
+        width: 645px
+
+/* Navigation */
+
 @media screen and (max-width: 769px)
   .nav_body
     max-width: unset
@@ -55,6 +113,8 @@
   .nav_item
     font-weight: 800
     text-transform: uppercase
+
+/* Desktop screens */
 
 @media screen and (min-width: 770px)
   .follow
@@ -124,11 +184,11 @@
     display: flex
     justify-content: flex-end
 
-  .vh
-    clip: rect(0 0 0 0)
-    clip-path: inset(50%)
-    height: 1px
-    overflow: hidden
-    position: absolute
-    white-space: nowrap
-    width: 1px
+.vh
+  clip: rect(0 0 0 0)
+  clip-path: inset(50%)
+  height: 1px
+  overflow: hidden
+  position: absolute
+  white-space: nowrap
+  width: 1px
