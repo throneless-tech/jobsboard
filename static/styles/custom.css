@@ -193,6 +193,20 @@
 .fieldset {
   border: none;
   margin-top: 2em; }
+  .fieldset-search {
+    position: relative; }
+    .fieldset-search::before {
+      background-image: url("../icons/search.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+      content: "";
+      height: 27px;
+      left: 10px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 17px; }
 
 .legend {
   font-family: "Poppins", sans-serif; }
@@ -226,6 +240,20 @@
     color: #222;
     outline: none; }
   .location option {
+    font-weight: normal; }
+
+.search {
+  background: #FFFFFF;
+  border: 1px solid #0B203C;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  padding-top: 12px;
+  width: 100%; }
+  .search::placeholder {
+    color: #000;
+    font-family: "Poppins", sans-serif;
     font-weight: normal; }
 
 .submit {
