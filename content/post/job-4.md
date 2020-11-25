@@ -2,6 +2,9 @@
 author = "None"
 title = "Job Title"
 date = "2020-05-06"
+organization = "Organization Name"
+location = "Location"
+link="http://reprojobs.org"
 description = "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 categories = [
     "Full Time",

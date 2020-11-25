@@ -20,6 +20,10 @@
     color: #fff;
     border: 1px solid #0B203C; }
 
+/* General */
+.content {
+  padding-top: 0; }
+
 /* Footer */
 .follow_footer {
   display: flex;
@@ -194,6 +198,7 @@
   border: none;
   margin-top: 2em; }
   .fieldset-search {
+    margin-bottom: 2em;
     position: relative; }
     .fieldset-search::before {
       background-image: url("../icons/search.svg");

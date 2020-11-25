@@ -1,7 +1,10 @@
 +++
 author = "None"
-title = "Job Title"
+title = "Communications Director"
+organization = "Paid Leave for the United States (PL+US)"
+location = "DC"
 date = "2020-10-13"
+link = "http://www.idealist.org"
 description = "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 categories = [
     "Full Time",
