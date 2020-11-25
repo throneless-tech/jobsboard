@@ -19,6 +19,7 @@ Thumbs.db
 .cache
 .parcel-cache
 .project
+.sass-cache
 .settings
 .tmproj
 .asset-cache

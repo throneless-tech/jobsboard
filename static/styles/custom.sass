@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap')
 
+/* Headings */
+.h3
+  font-family: 'Poppins', sans-serif
+  text-transform: uppercase
+
+.h4
+  font-family: 'Poppins', sans-serif
+
 /* Footer */
 .follow_footer
   display: flex
@@ -192,3 +200,70 @@
   position: absolute
   white-space: nowrap
   width: 1px
+
+/* Sidebar form */
+.fieldset
+  border: none
+  margin-top: 2em
+
+.legend
+  font-family: 'Poppins', sans-serif
+
+.location
+  display: block
+  font-size: 16px
+  line-height: 1.3
+  padding: 10px
+  width: 100%
+  max-width: 100%
+  box-sizing: border-box
+  margin: 0
+  border: 1px solid #0B203C
+  -moz-appearance: none
+  -webkit-appearance: none
+  appearance: none
+  background-color: #fff
+  background-image: url('../icons/chev-down.svg')
+  background-repeat: no-repeat, repeat
+  background-position: right .7em top 50%, 0 0
+  background-size: .9em auto, 100%
+
+  &::-ms-expand
+    display: none
+
+  &:hover
+    border-color: #888
+
+  &:focus
+    border-color: #aaa
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7)
+    box-shadow: 0 0 0 3px -moz-mac-focusring
+    color: #222
+    outline: none
+
+  & option
+    font-weight: normal
+
+.submit
+  background: #D69900
+  border-radius: 30px
+  box-shadow: none
+  max-width: 165px
+  padding: 12px 24px
+  text-align: center
+
+  &-text
+    color: #000
+    font-family: 'Poppins', sans-serif
+    font-size: 0.8em
+    text-transform: uppercase
+
+.checkbox
+  &::before
+    content: ""
+    display: inline-block
+    vertical-align: middle
+    width: 20px
+    height: 20px
+    border: 1px solid #0B203C
+    margin-right: 8px
