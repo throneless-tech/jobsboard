@@ -1,0 +1,62 @@
+{{ $title := .Title }}
+<aside class="sidebar">
+  <section class="sidebar_inner">
+    <h3 class="h3">Filter</h3>
+    <form class="filters" action="/" method="get">
+      <fieldset class="fieldset">
+        <label class="vh" for="search">Search</label>
+        <input type="text" name="" value="" placeholder="Search">
+      </fieldset>
+      <fieldset class="fieldset">
+        <legend class="legend">Location</legend>
+        <select class="location" name="location">
+          <option value="all">– Add location –</option>
+        </select>
+      </fieldset>
+      {{- $numberOfTagsLimit := $.Site.Params.numberOfTagsShown }} <!-- See config -->
+      {{ range $key, $value := .Site.Taxonomies }}
+      {{ if gt $value 0 }}
+      <fieldset class="fieldset">
+        <legend class="mt-4 legend" id="{{ $key }}-section">{{ i18n $key }}</legend>
+        <div>
+          {{- $onPageTags := $.Page.Params.tags }}
+          {{- $slicedTags := ($value.ByCount | first $numberOfTagsLimit) }}
+          {{- range $slicedTags }}
+          <div class="checkbox">
+            <input class="vh" type="checkbox" id="flag" name="feedback">
+            <label for="flag">{{ replace .Name "-" " " | title }} ({{ .Count }})</label>
+          </div>
+          <a href='{{ absLangURL $key }}/{{ (replace .Name "#" "%23") | urlize }}/' class="vh checkbox-link">
+          </a>
+          {{ end }}
+          {{ if gt (len $value.ByCount) $numberOfTagsLimit }}
+          <br>
+          <div class="post_tags_toggle button">{{ printf "all_%s" $key | i18n }}</div>
+          {{- $tagsInfo := newScratch }}
+          <div class="post_tags">
+            <div class="tags_list">
+              {{- range $value.Alphabetical }}
+              {{ $tagsInfo.Add "tagsInfo" (slice .Name .Count)}}
+              <a href='{{ absLangURL $key }}/{{ (replace .Name "#" "%23") | urlize }}/' class=" post_tag button button_translucent" data-position={{ .Count }}>
+                {{- upper .Name -}}
+                <span class="button_tally">{{ .Count }}</span>
+              </a>
+              {{ end }}
+              <div class="tags_sort"><span title="sort alphabetically">[A~Z]</span><span title="sort by count">[0~9]</span>
+              </div>
+              <span class="tags_hide"><svg class="icon">
+              <use xlink:href="#closeme"></use>
+            </svg></span>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </fieldset>
+      {{ end }}
+      {{ end }}
+      <div class="submit">
+        <a href='#' class="submit-text" type="submit">Apply Filters</a>
+      </div>
+    </form>
+  </section>
+</aside>
