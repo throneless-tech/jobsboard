@@ -41,25 +41,24 @@
       {{- end }}
     </div>
 
-    <a href='{{ absLangURL "" }}' class="nav_brand nav_item{{ if eq $centerLogo true }} nav_hide{{ end }}">
-      {{- with $logo }}
-      <img src="{{ absURL . }}" class="logo">
-      {{- else }}
-        {{ .Site.Title }}
-      {{- end }}
-      <div class="nav_close">
-        <div class="">
-          <svg class="icon">
-            <use xlink:href="#open-menu"></use>
-          </svg>
-          <svg class="icon">
-            <use xlink:href="#closeme"></use>
-          </svg>
-        </div>
-      </div>
-    </a>
-
     <div class="nav_body __bottom nav_body_{{ .Site.Params.mobileNavigation }}">
+      <a href='{{ absLangURL "" }}' class="nav_brand nav_item{{ if eq $centerLogo true }} nav_hide{{ end }}">
+        {{- with $logo }}
+        <img src="{{ absURL . }}" class="logo">
+        {{- else }}
+          {{ .Site.Title }}
+        {{- end }}
+        <div class="nav_close">
+          <div class="">
+            <svg class="icon">
+              <use xlink:href="#open-menu"></use>
+            </svg>
+            <svg class="icon">
+              <use xlink:href="#closeme"></use>
+            </svg>
+          </div>
+        </div>
+      </a>
 
       <div class="nav_menu">
         {{ $context := . }}

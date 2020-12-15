@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,400;1,800&display=swap')
+
+/* Variables */
+html
+  --bg: #0B203C
 
 /* Font styles */
-
-body
-  font-family: 'Poppins', sans-serif
-  font-size: 16px
-  line-height: 1.5em
-
-  @media screen and (min-width: 769px)
-    font-size: 18px
 
 .f-bold
   font-weight: bold
@@ -85,6 +81,7 @@ body
     color: #D3E0E1
     font-family: 'Poppins', sans-serif
     font-size: 32px
+    font-weight: bold
     line-height: 0.8em
     padding-bottom: 30px
     padding-left: 30px
@@ -135,6 +132,14 @@ body
 
 /* Navigation */
 
+.nav_header
+  background-color: #f2f2f2
+
+.nav_item
+  font-size: 13px
+  font-weight: bold
+  padding: 0.5rem
+
 @media screen and (max-width: 769px)
   .nav_body
     max-width: unset
@@ -143,29 +148,33 @@ body
   .nav_close svg
     fill: var(--dark)
 
-  .nav_header
-    background-color: #fff
-
   .nav_item
-    color: #d2dfe0
-    font-size: 13px
     font-weight: 800
-    padding: 0.5rem
+    padding: 0.5rem 1rem
     text-transform: uppercase
-
-    &:active, &:focus, &:hover
-      color: #d69a00
 
 /* Desktop screens */
 
 @media screen and (min-width: 770px)
+  main
+    font-family: 'Poppins', sans-serif
+    font-size: 16px
+    line-height: 1.5e
+    margin-left: auto
+    margin-right: auto
+    max-width: 1240pxm
+
+    @media screen and (min-width: 769px)
+      font-size: 18px
+
   .follow
     justify-content: flex-start
-    margin-left: 20px
+    margin-left: 25px
 
     svg
+      fill: unset
       height: 30px
-      margin-left: 4px
+      margin: 4px
       width: 30px
 
   .footer_flex
@@ -195,16 +204,28 @@ body
     &.__top
       background-color: #0a1e39
 
-    &.__bottom
-      background-color: #fff
-      display: inline-block
-      color: #0b203c
-      padding-top: 1.6arem
-      position: absolute
-      right: 0
+      & .nav_item
+        color: #d2dfe0
 
-      a:hover, a:focus, a:active
-        color: #d69a00
+        &:active, &:focus, &:hover
+          color: #d69a00
+
+    &.__bottom
+      color: #0b203c
+      display: flex
+      margin-left: auto
+      margin-right: auto
+      max-width: 1240px
+
+      & .nav_parent:nth-child(2)
+        & .nav_item
+          color: #d69a00
+
+      & .nav_item
+        font-size: 16px
+
+        &:hover, &:focus, &:active
+          color: #d69a00
 
   .nav_brand
     display: inline-block
@@ -218,13 +239,17 @@ body
       fill: var(--bg)
 
   .nav_header
-    background-color: #fff
     padding: 0
     position: relative
 
   .nav_menu
     display: flex
     justify-content: flex-end
+    margin-right: 20px
+
+  .search-site
+    margin-left: 40px
+    margin-right: 15px
 
 .vh
   clip: rect(0 0 0 0)
@@ -344,28 +369,28 @@ body
 .excerpt
   padding: 30px
 
-  .excerpt_header
-    .post_link
-      color: #0B203C
-      font-size: 24px
-      font-weight: bold
-      line-height: 1.2em
+  .post_link
+    color: #0B203C
+    font-size: 24px
+    font-weight: bold
+    line-height: 1.2em
 
     @media screen and (min-width: 769px)
-      font-size: 30px
+    font-size: 30px
 
-    .meta
-      color: #000
 
-      .organization
-        font-size: 1em
+  .meta
+    color: #000
 
-      .date
-        font-size: 14px
+    & .organization
+      font-size: 1em
 
-        .post_tag
-          background: #D3E0E1
-          color: #0B203C
+    & .date
+      font-size: 14px
+
+      .post_tag
+        background: #D3E0E1
+        color: #0B203C
 
   .excerpt_footer
     padding: 0
@@ -376,3 +401,10 @@ body
 
     &.partition
       grid-template-columns: 1.5fr 7.5fr
+
+/* Dark mode */
+
+html[data-mode="dim"]
+  & .excerpt
+    & .post_link, & .meta
+      color: #fff

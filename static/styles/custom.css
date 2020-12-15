@@ -1,13 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
-/* Font styles */
-body {
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  line-height: 1.5em; }
-  @media screen and (min-width: 769px) {
-    body {
-      font-size: 18px; } }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,400;1,800&display=swap");
+/* Variables */
+html {
+  --bg: #0B203C; }
 
+/* Font styles */
 .f-bold {
   font-weight: bold; }
 
@@ -74,6 +70,7 @@ body {
   color: #D3E0E1;
   font-family: "Poppins", sans-serif;
   font-size: 32px;
+  font-weight: bold;
   line-height: 0.8em;
   padding-bottom: 30px;
   padding-left: 30px;
@@ -119,6 +116,14 @@ body {
       width: 645px; } }
 
 /* Navigation */
+.nav_header {
+  background-color: #f2f2f2; }
+
+.nav_item {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0.5rem; }
+
 @media screen and (max-width: 769px) {
   .nav_body {
     max-width: unset;
@@ -127,25 +132,31 @@ body {
   .nav_close svg {
     fill: var(--dark); }
 
-  .nav_header {
-    background-color: #fff; }
-
   .nav_item {
-    color: #d2dfe0;
-    font-size: 13px;
     font-weight: 800;
-    padding: 0.5rem;
-    text-transform: uppercase; }
-    .nav_item:active, .nav_item:focus, .nav_item:hover {
-      color: #d69a00; } }
+    padding: 0.5rem 1rem;
+    text-transform: uppercase; } }
 /* Desktop screens */
+@media screen and (min-width: 770px) {
+  main {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.5e;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1240pxm; } }
+  @media screen and (min-width: 770px) and (min-width: 769px) {
+    main {
+      font-size: 18px; } }
+
 @media screen and (min-width: 770px) {
   .follow {
     justify-content: flex-start;
-    margin-left: 20px; }
+    margin-left: 25px; }
     .follow svg {
+      fill: unset;
       height: 30px;
-      margin-left: 4px;
+      margin: 4px;
       width: 30px; }
 
   .footer_flex {
@@ -171,15 +182,22 @@ body {
     justify-content: space-between; }
     .nav_body.__top {
       background-color: #0a1e39; }
+      .nav_body.__top .nav_item {
+        color: #d2dfe0; }
+        .nav_body.__top .nav_item:active, .nav_body.__top .nav_item:focus, .nav_body.__top .nav_item:hover {
+          color: #d69a00; }
     .nav_body.__bottom {
-      background-color: #fff;
-      display: inline-block;
       color: #0b203c;
-      padding-top: 1.6arem;
-      position: absolute;
-      right: 0; }
-      .nav_body.__bottom a:hover, .nav_body.__bottom a:focus, .nav_body.__bottom a:active {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1240px; }
+      .nav_body.__bottom .nav_parent:nth-child(2) .nav_item {
         color: #d69a00; }
+      .nav_body.__bottom .nav_item {
+        font-size: 16px; }
+        .nav_body.__bottom .nav_item:hover, .nav_body.__bottom .nav_item:focus, .nav_body.__bottom .nav_item:active {
+          color: #d69a00; }
 
   .nav_brand {
     display: inline-block;
@@ -191,13 +209,17 @@ body {
     fill: var(--bg); }
 
   .nav_header {
-    background-color: #fff;
     padding: 0;
     position: relative; }
 
   .nav_menu {
     display: flex;
-    justify-content: flex-end; } }
+    justify-content: flex-end;
+    margin-right: 20px; }
+
+  .search-site {
+    margin-left: 40px;
+    margin-right: 15px; } }
 .vh {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -304,21 +326,19 @@ body {
 /* Jobs */
 .excerpt {
   padding: 30px; }
-  .excerpt .excerpt_header .post_link {
+  .excerpt .post_link {
     color: #0B203C;
     font-size: 24px;
     font-weight: bold;
-    line-height: 1.2em; }
-  @media screen and (min-width: 769px) {
-    .excerpt .excerpt_header {
-      font-size: 30px; } }
-  .excerpt .excerpt_header .meta {
+    line-height: 1.2em;
+    font-size: 30px; }
+  .excerpt .meta {
     color: #000; }
-    .excerpt .excerpt_header .meta .organization {
+    .excerpt .meta .organization {
       font-size: 1em; }
-    .excerpt .excerpt_header .meta .date {
+    .excerpt .meta .date {
       font-size: 14px; }
-      .excerpt .excerpt_header .meta .date .post_tag {
+      .excerpt .meta .date .post_tag {
         background: #D3E0E1;
         color: #0B203C; }
   .excerpt .excerpt_footer {
@@ -328,5 +348,9 @@ body {
       font-weight: bold; }
     .excerpt .excerpt_footer.partition {
       grid-template-columns: 1.5fr 7.5fr; }
+
+/* Dark mode */
+html[data-mode="dim"] .excerpt .post_link, html[data-mode="dim"] .excerpt .meta {
+  color: #fff; }
 
 /*# sourceMappingURL=custom.css.map */
