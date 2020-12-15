@@ -16,7 +16,7 @@
           {{ partial "post-meta.html" . }}
         </div>
         <div>
-          <p class="pale">{{ .Summary | truncate 320 }}</p>
+          <p class="pale">{{ .Summary }}</p>
           <a href="{{ .Params.link }}" class="excerpt_more">{{ .Params.link }}</a>
         </div>
       </div>

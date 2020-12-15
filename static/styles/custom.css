@@ -4,6 +4,10 @@ html {
   --bg: #0B203C; }
 
 /* Font styles */
+p {
+  margin-bottom: 20px;
+  padding: 0; }
+
 .f-bold {
   font-weight: bold; }
 
@@ -167,8 +171,8 @@ html {
       margin-left: 30px;
       max-width: 40%; }
       .footer_flex_item:first-child, .footer_flex_item:last-child {
-        flex-grow: 1; }
-
+        flex-grow: 1; } }
+@media screen and (min-width: 42rem) {
   .grid-inverse {
     grid-template-columns: 1fr 70%; }
 
@@ -342,7 +346,16 @@ html {
         background: #D3E0E1;
         color: #0B203C; }
   .excerpt .excerpt_footer {
+    display: block;
     padding: 0; }
+    .excerpt .excerpt_footer .excerpt_thumbnail {
+      display: block;
+      min-height: 0;
+      padding: 0;
+      margin: 0; }
+    @media screen and (min-width: 769px) {
+      .excerpt .excerpt_footer {
+        display: grid; } }
     .excerpt .excerpt_footer .excerpt_more {
       color: #D04400;
       font-weight: bold; }

@@ -6,6 +6,10 @@ html
 
 /* Font styles */
 
+p
+  margin-bottom: 20px
+  padding: 0
+
 .f-bold
   font-weight: bold
 
@@ -189,8 +193,10 @@ html
       &:first-child, &:last-child
         flex-grow: 1
 
+@media screen and (min-width: 42rem)
   .grid-inverse
     grid-template-columns: 1fr 70%
+
 
   .nav
     display: unset
@@ -393,7 +399,17 @@ html
         color: #0B203C
 
   .excerpt_footer
+    display: block
     padding: 0
+
+    & .excerpt_thumbnail
+      display: block
+      min-height: 0
+      padding: 0
+      margin: 0
+
+    @media screen and (min-width: 769px)
+      display: grid
 
     .excerpt_more
       color: #D04400
