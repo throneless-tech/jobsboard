@@ -2,6 +2,14 @@
 
 /* Font styles */
 
+body
+  font-family: 'Poppins', sans-serif
+  font-size: 16px
+  line-height: 1.5em
+
+  @media screen and (min-width: 769px)
+    font-size: 18px
+
 .f-bold
   font-weight: bold
 
@@ -76,7 +84,8 @@
     background: #0B203C
     color: #D3E0E1
     font-family: 'Poppins', sans-serif
-    font-size: 1.5em
+    font-size: 32px
+    line-height: 0.8em
     padding-bottom: 30px
     padding-left: 30px
     padding-top: 30px
@@ -85,7 +94,7 @@
     text-transform: uppercase
 
     @media screen and (min-width: 769px)
-      font-size: 3.5em
+      font-size: 85px
       padding-bottom: 125px
       padding-left: 125px
       padding-top: 125px
@@ -138,8 +147,14 @@
     background-color: #fff
 
   .nav_item
+    color: #d2dfe0
+    font-size: 13px
     font-weight: 800
+    padding: 0.5rem
     text-transform: uppercase
+
+    &:active, &:focus, &:hover
+      color: #d69a00
 
 /* Desktop screens */
 
@@ -319,6 +334,10 @@
     height: 20px
     border: 1px solid #0B203C
     margin-right: 8px
+    margin-top: 10px
+
+  label
+    font-size: 16px
 
 /* Jobs */
 
@@ -328,8 +347,12 @@
   .excerpt_header
     .post_link
       color: #0B203C
-      font-size: 2em
-      font-weight: 800
+      font-size: 24px
+      font-weight: bold
+      line-height: 1.2em
+
+    @media screen and (min-width: 769px)
+      font-size: 30px
 
     .meta
       color: #000
@@ -338,7 +361,7 @@
         font-size: 1em
 
       .date
-        font-size: 0.8em
+        font-size: 14px
 
         .post_tag
           background: #D3E0E1
