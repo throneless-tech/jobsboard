@@ -16,25 +16,29 @@ const checkStatus = (record) => {
   return status == "Ready to publish";
 };
 
-const createPosts = (jobs) => {
-  console.log('creating...');
-  return jobs.forEach(job => {
+const createPosts = async (jobs) => {
+  jobs.forEach(async job => {
     const content = ```
-        +++
-        author = "None"
-        title = ${job.title}
-        organization = ${job.organization}
-        location = ${job.location}
-        link = ${job.link}
-        date = ${ new Date()}
-        categories = ${job.type}
-        tags = ${job.benefits}
-        series = ${job.rating}
-        thumbnail = ${job.logo}
-        +++
-        ${job.description}
-      ```
-    fs.writeFile(`${job.organization}-${job.title}.md`, content, err => {if (err) throw err})
+      +++
+      author = "None"
+      title = ${job.title}
+      organization = ${job.organization}
+      location = ${job.location}
+      link = ${job.link}
+      date = ${ new Date()}
+      categories = ${job.type}
+      tags = ${job.benefits}
+      series = ${job.rating}
+      thumbnail = ${job.logo}
+      +++
+      ${job.description}
+    ```
+    const basename = path.basename(`${job.organization}-${job.title}.md`);
+    const contentPath = path.join('content', baseName);
+    console.log('***********************');
+    console.log(contentPath);
+    console.log('***********************');
+    await fs.writeFile(contentPath, content, err => {if (err) throw err});
   })
 };
 
@@ -131,7 +135,7 @@ const isValidURL = string => {
 
 base('Submitted Jobs').select({
     view: "Grid view"
-  }).eachPage(function page(records, fetchNextPage) {
+  }).eachPage(async function page(records, fetchNextPage) {
     records.forEach(async function(record) {
       const publishable = checkStatus(record);
       if (publishable) {
@@ -147,6 +151,8 @@ base('Submitted Jobs').select({
         })
       }
     });
+    console.log('jobs: ', jobs);
+    await createPosts(jobs);
 
     // To fetch the next page of records, call `fetchNextPage`.
     // If there are more records, `page` will get called again.
@@ -155,6 +161,4 @@ base('Submitted Jobs').select({
 
   }, function done(err) {
     if (err) { console.error(err); return; }
-    console.log(jobs);
-    createPosts(jobs);
   })
