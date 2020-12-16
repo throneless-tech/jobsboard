@@ -8,15 +8,15 @@
     "start": "run-s build:assets start:dev",
     "start:dev": "run-p dev:parcel dev:hugo",
     "dev:hugo": "cross-env NODE_ENV=development hugo server --gc --disableFastRender --navigateToChanged",
-    "dev:parcel": "cross-env NODE_ENV=development parcel watch ./static/js/custom.js --dist-dir public/output --no-source-maps",
-    "build:assets": "cross-env NODE_ENV=development parcel build --target=frontend ./static/js/custom.js --dist-dir static/output --no-cache --no-scope-hoist",
-    "deploy:assets": "cross-env NODE_ENV=production parcel build ./static/js/custom.js --dist-dir static/output --no-cache --no-source-maps --no-scope-hoist",
+    "dev:parcel": "cross-env NODE_ENV=development parcel watch ./static/js/custom.js",
+    "build:assets": "cross-env NODE_ENV=development parcel build ./static/js/custom.js",
+    "deploy:assets": "cross-env NODE_ENV=production parcel build ./static/js/custom.js",
     "build:hugo": "cross-env NODE_ENV=production hugo --gc --minify"
   },
   "frontend": "static/output/custom.js",
   "targets": {
     "frontend": {
-      "context": "node",
+      "context": "browser",
       "distDir": "static/output",
       "includeNodeModules": true
     }
@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/throneless-tech/jobsboard#readme",
   "dependencies": {
-    "airtable": "^0.10.0",
+    "airtable": "^0.10.1",
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0"
   },

@@ -9,6 +9,7 @@ paginate = 10
 theme = "hugo-clarity"
 
 assetDir = "./static"
+ignoreFiles = './static/output/custom.js'
 
 disqusShortname = ""
 
