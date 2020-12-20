@@ -1,5 +1,5 @@
 <li class="post_item">
-  <div class="excerpt">
+  <div class="excerpt" id='{{ replaceRE "(\\s)" "" .Title }}'>
     <div class="excerpt_footer partition">
       <div class="excerpt_thumbnail">
         {{- with .Params.thumbnail }}
