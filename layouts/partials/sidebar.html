@@ -11,6 +11,14 @@
         <legend class="legend">Location</legend>
         <select class="location" name="location">
           <option value="all">– Add location –</option>
+          {{ $locations := (slice) }}
+          {{- $posts := (where .Site.Pages "Type" "post") }}
+          {{- range $posts }}
+            {{ $locations = union $locations ( slice .Params.location ) }}
+          {{ end }}
+          {{- range $lKey, $lValue := $locations}}
+            <option value="{{ $lValue }}">{{ $lValue }}</option>
+          {{ end }}
         </select>
       </fieldset>
       {{- $numberOfTagsLimit := $.Site.Params.numberOfTagsShown }} <!-- See config -->
@@ -23,8 +31,8 @@
           {{- $slicedTags := ($value.ByCount | first $numberOfTagsLimit) }}
           {{- range $slicedTags }}
           <div class="checkbox">
-            <input class="vh" type="checkbox" id="flag" name="feedback">
-            <label for="flag">{{ replace .Name "-" " " | title }} ({{ .Count }})</label>
+            <input class="vh" type="checkbox" id='{{ replaceRE "(\\s)" "" .Name }}' name="feedback">
+            <label for='{{ replaceRE "(\\s)" "" .Name }}'>{{ replace .Name "-" " " | title }} ({{ .Count }})</label>
           </div>
           <a href='{{ absLangURL $key }}/{{ (replace .Name "#" "%23") | urlize }}/' class="vh checkbox-link">
           </a>

@@ -315,17 +315,24 @@ p {
     font-size: 0.8em;
     text-transform: uppercase; }
 
-.checkbox::before {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  width: 20px;
-  height: 20px;
-  border: 1px solid #0B203C;
-  margin-right: 8px;
-  margin-top: 10px; }
 .checkbox label {
-  font-size: 16px; }
+  font-size: 16px;
+  margin-top: 10px;
+  user-select: none; }
+  .checkbox label::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #0B203C;
+    margin-right: 8px; }
+.checkbox input:checked + label:before {
+  background-color: #D04400;
+  background-image: url("../icons/checkbox.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 /* Jobs */
 .excerpt {
