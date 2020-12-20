@@ -9,37 +9,29 @@ dotenv.config();
 
 const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base(process.env.AIRTABLE_BASE_ID);
 
-const jobs = [];
+const allRecords = [];
 
 const checkStatus = (record) => {
   const status = record.get("Status");
   return status == "Ready to publish";
 };
 
-const createPosts = async (jobs) => {
-  jobs.forEach(async job => {
-    const content = ```
-      +++
-      author = "None"
-      title = ${job.title}
-      organization = ${job.organization}
-      location = ${job.location}
-      link = ${job.link}
-      date = ${ new Date()}
-      categories = ${job.type}
-      tags = ${job.benefits}
-      series = ${job.rating}
-      thumbnail = ${job.logo}
-      +++
-      ${job.description}
-    ```
-    const basename = path.basename(`${job.organization}-${job.title}.md`);
-    const contentPath = path.join('content', baseName);
-    console.log('***********************');
-    console.log(contentPath);
-    console.log('***********************');
-    await fs.writeFile(contentPath, content, err => {if (err) throw err});
+const createPost = async (job) => {
+  const timeOptions = { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' };
+  const today = new Date();
+
+  let benefits = [];
+
+  job.benefits.forEach(benefit => {
+    benefits.push(`"${benefit}"`)
   })
+
+  const content = `+++\nauthor = "None"\ntitle = "${job.title}"\norganization = "${job.organization}"\nlocation = "${job.location}"\nlink = "${job.link}"\ndate = "${ today.toLocaleDateString("en-US", timeOptions) }"\ncategories = "${job.type}"\ntags = [${benefits}]\nseries = "${job.rating}"\nthumbnail = "../../${job.logo}"\n+++\n${job.description}`
+
+  const basename = path.basename(`${job.organization.replace(/\s/g, '-')}_${job.title.replace(/\s/g, '-')}.md`);
+  const contentPath = path.join('content/post', basename);
+
+  await fs.writeFile(contentPath, content, err => {if (err) throw err});
 };
 
 const downloadToBuffer = async (url) => {
@@ -108,24 +100,18 @@ const extractJob = async (record) => {
 }
 
 const extractLogo = async (record) => {
-    const logo = findImageInfo(record);
-    if (logo) {
-        const bytes = await downloadToBuffer(logo.url);
-        const ext = path.extname(logo.filename) || logo.type.replace(/^image\//, '').replace(/;.*/, '');
-        const basename = path.basename(logo.filename, ext);
-        const logoPath = escapeFileName('images', ext, [basename], bytes);
-        const staticPath = path.join('static', logoPath);
-        await new Promise((resolve, reject) => fs.writeFile(staticPath, bytes, (err) => {
-            if (err) {
-                reject(err);
-            } else {
-                resolve()
-            };
-        }));
-        return logoPath;
-    } else {
-        return undefined;
-    }
+  const logo = findImageInfo(record);
+  if (logo) {
+    const bytes = await downloadToBuffer(logo.url);
+    const ext = path.extname(logo.filename) || logo.type.replace(/^image\//, '').replace(/;.*/, '');
+    const basename = path.basename(logo.filename, ext);
+    const logoPath = escapeFileName('images', ext, [basename], bytes);
+    const staticPath = path.join('static', logoPath);
+    await fs.writeFile(staticPath, bytes, (err) => { if (err) throw err;});
+    return logoPath;
+  } else {
+    return undefined;
+  }
 };
 
 const isValidURL = string => {
@@ -133,16 +119,17 @@ const isValidURL = string => {
     return (res !== null)
 };
 
-base('Submitted Jobs').select({
-    view: "Grid view"
-  }).eachPage(async function page(records, fetchNextPage) {
-    records.forEach(async function(record) {
+base('Submitted Jobs')
+  .select()
+  .eachPage(function page(records, fetchNextPage) {
+    records.forEach(async (record) => {
       const publishable = checkStatus(record);
       if (publishable) {
+        allRecords.push(record);
         let job = await extractJob(record);
-        job && jobs.push(job);
+        let post = await createPost(job);
         base('Submitted Jobs').update(record.id, {
-          "Status": "In progress",
+          "Status": "Published",
         }, function(err, record) {
           if (err) {
             console.error(err);
@@ -151,8 +138,6 @@ base('Submitted Jobs').select({
         })
       }
     });
-    console.log('jobs: ', jobs);
-    await createPosts(jobs);
 
     // To fetch the next page of records, call `fetchNextPage`.
     // If there are more records, `page` will get called again.
@@ -160,5 +145,17 @@ base('Submitted Jobs').select({
     fetchNextPage();
 
   }, function done(err) {
-    if (err) { console.error(err); return; }
-  })
+    if (err) {console.error(err);}
+    if (allRecords.length) {
+      allRecords.forEach(record => {
+        base('Submitted Jobs').update(record.id, {
+          "Status": "In progress",
+        }, function(err, record) {
+          if (err) {
+            console.error(err);
+            return;
+          }
+        })
+      })
+    }
+  });
