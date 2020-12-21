@@ -79,6 +79,9 @@ filter.addEventListener('submit', event => {
 
   let results = miniSearch.search(options, { combineWith: "AND" });
 
+  console.log('options: ', options);
+  console.log('results: ', results);
+
   if (options.length && results.length) {
     noResults.classList.add('hidden');
     postsContainer.classList.remove('hidden');
