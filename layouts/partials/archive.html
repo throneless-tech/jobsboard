@@ -7,12 +7,17 @@
 </div>
 <div class="grid-inverse wrap content">
   {{- partial "sidebar" . }}
-  <ul class="posts" id="posts">
-    {{- range (.Paginate $pages).Pages }}
-      {{ partial "excerpt" . }}
-    {{- end }}
-    <li>
-      {{- template "_internal/pagination.html" . }}
-    </li>
-  </ul>
+  <div>
+    <ul class="posts" id="posts">
+      {{- range (.Paginate $pages).Pages }}
+        {{ partial "excerpt" . }}
+      {{- end }}
+      <li>
+        {{- template "_internal/pagination.html" . }}
+      </li>
+    </ul>
+    <div id="no-results" class="hidden">
+      No results.
+    </div>
+  </div>
 </div>

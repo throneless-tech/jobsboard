@@ -27,6 +27,10 @@ p {
     background-color: #0B203C;
     color: #fff;
     border: 1px solid #0B203C; }
+.button_high_five {
+  background: #B4DDC0 !important; }
+.button_red_flag {
+  background: #FBBEA7 !important; }
 
 /* General */
 .content {
@@ -148,7 +152,7 @@ p {
     line-height: 1.5e;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1240pxm; } }
+    width: 100%; } }
   @media screen and (min-width: 770px) and (min-width: 769px) {
     main {
       font-size: 18px; } }
@@ -224,15 +228,6 @@ p {
   .search-site {
     margin-left: 40px;
     margin-right: 15px; } }
-.vh {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px; }
-
 /* Sidebar form */
 .fieldset {
   border: none;
@@ -383,5 +378,18 @@ p {
 /* Dark mode */
 html[data-mode="dim"] .excerpt .post_link, html[data-mode="dim"] .excerpt .meta {
   color: #fff; }
+
+/* Hidden */
+.hidden {
+  display: none; }
+
+.vh {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px; }
 
 /*# sourceMappingURL=custom.css.map */

@@ -4,10 +4,10 @@ title = "Job title"
 organization = "Organization LLC"
 location = "New York"
 link = "http://reprojobs.org"
-date = "December 21, 2020, 9:08 AM"
+created_at = "December 21, 2020, 3:06 PM"
 a_job_type = "Full Time"
 b_benefits = ["Retirement"]
-c_feedback = "Preferred"
+c_feedback = "High Five"
 thumbnail = "../../images/red_40248064.png"
 +++
 Nihil hic munitissimus habendi senatus locus, nihil horum? At nos hinc posthac, sitientis piros Afros. Praeterea iter est quasdam res quas ex communi.

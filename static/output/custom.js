@@ -428,6 +428,8 @@ const htmlCollection = document.getElementsByClassName('excerpt');
 const htmlPosts = [...htmlCollection];
 const searchbar = document.getElementById('search');
 const filter = document.getElementById('filter');
+const postsContainer = document.getElementById('posts');
+const noResults = document.getElementById('no-results');
 const posts = htmlPosts.map(post => ({
   id: post.id,
   content: post.textContent,
@@ -435,11 +437,7 @@ const posts = htmlPosts.map(post => ({
   type: post.dataset.type
 }));
 let miniSearch = new _minisearch.default({
-  fields: ['content', 'feedback', 'type'],
-  searchOptions: {
-    // combineWith: "AND",
-    fuzzy: 0.2
-  }
+  fields: ['content', 'feedback', 'type']
 });
 miniSearch.addAll(posts);
 
@@ -452,16 +450,32 @@ const checkEnter = e => {
 searchbar.onkeypress = checkEnter;
 searchbar.addEventListener('input', event => {
   event.preventDefault();
-  let results = miniSearch.search(event.target.value);
-  htmlPosts.filter(post => results.some(result => {
-    if (result.id !== post.id) {
-      post.classList.add('vh');
-    } else {
-      htmlPosts.map(post => {
-        post.classList.remove('vh');
+  let results = miniSearch.search(event.target.value, {
+    fuzzy: 0.2,
+    prefix: true
+  });
+
+  if (event.target.value && results.length) {
+    noResults.classList.add('hidden');
+    postsContainer.classList.remove('hidden');
+    htmlPosts.filter(post => {
+      post.classList.add('hidden');
+      results.some(result => {
+        if (result.id === post.id) {
+          post.classList.remove('hidden');
+        }
       });
-    }
-  }));
+    });
+  } else if (event.target.value) {
+    noResults.classList.remove('hidden');
+    postsContainer.classList.add('hidden');
+  } else {
+    noResults.classList.add('hidden');
+    postsContainer.classList.remove('hidden');
+    htmlPosts.map(post => {
+      post.classList.remove('hidden');
+    });
+  }
 });
 filter.addEventListener('submit', event => {
   event.preventDefault();
@@ -477,18 +491,31 @@ filter.addEventListener('submit', event => {
       return option.replace(/-/g, ' ');
     }
   }).join(" ");
-  let results = miniSearch.search(options);
-  htmlPosts.filter(post => results.some(result => {
-    if (result.id !== post.id) {
-      console.log('result: ', result.id);
-      console.log('post: ', post.id);
-      post.classList.add('vh');
-    } else {
-      htmlPosts.map(post => {
-        post.classList.remove('vh');
+  let results = miniSearch.search(options, {
+    combineWith: "AND"
+  });
+
+  if (options.length && results.length) {
+    noResults.classList.add('hidden');
+    postsContainer.classList.remove('hidden');
+    htmlPosts.filter(post => {
+      post.classList.add('hidden');
+      results.some(result => {
+        if (result.id === post.id) {
+          post.classList.remove('hidden');
+        }
       });
-    }
-  }));
+    });
+  } else if (options.length) {
+    noResults.classList.remove('hidden');
+    postsContainer.classList.add('hidden');
+  } else {
+    noResults.classList.add('hidden');
+    postsContainer.classList.remove('hidden');
+    htmlPosts.map(post => {
+      post.classList.remove('hidden');
+    });
+  }
 });
 },{"gray-matter":"3ec3d4beafc34f3b942272ac34118a5b","minisearch":"c3cdddd1ff962aedcc95f9a23cacc24b"}],"3ec3d4beafc34f3b942272ac34118a5b":[function(require,module,exports) {
 'use strict';

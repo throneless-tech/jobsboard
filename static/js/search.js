@@ -5,6 +5,8 @@ const htmlCollection = document.getElementsByClassName('excerpt');
 const htmlPosts = [...htmlCollection];
 const searchbar = document.getElementById('search');
 const filter = document.getElementById('filter');
+const postsContainer = document.getElementById('posts');
+const noResults = document.getElementById('no-results');
 
 const posts = htmlPosts.map(post => (
   {
@@ -17,10 +19,6 @@ const posts = htmlPosts.map(post => (
 
 let miniSearch = new MiniSearch({
   fields: ['content', 'feedback', 'type'],
-  searchOptions: {
-    // combineWith: "AND",
-    fuzzy: 0.2
-  }
 })
 
 miniSearch.addAll(posts);
@@ -35,17 +33,32 @@ searchbar.onkeypress = checkEnter;
 
 searchbar.addEventListener('input', event => {
   event.preventDefault();
-  let results = miniSearch.search(event.target.value);
+  let results = miniSearch.search(event.target.value, {
+    fuzzy: 0.2,
+    prefix: true
+  });
 
-  htmlPosts.filter(post => results.some(result => {
-    if (result.id !== post.id) {
-      post.classList.add('vh');
-    } else {
-      htmlPosts.map(post => {
-        post.classList.remove('vh');
+  if (event.target.value && results.length) {
+    noResults.classList.add('hidden');
+    postsContainer.classList.remove('hidden');
+    htmlPosts.filter(post => {
+      post.classList.add('hidden');
+      results.some(result => {
+        if (result.id === post.id) {
+          post.classList.remove('hidden');
+        }
       })
-    }
-  }))
+    })
+  } else if (event.target.value) {
+    noResults.classList.remove('hidden');
+    postsContainer.classList.add('hidden');
+  } else {
+    noResults.classList.add('hidden');
+    postsContainer.classList.remove('hidden');
+    htmlPosts.map(post => {
+      post.classList.remove('hidden');
+    })
+  }
 })
 
 filter.addEventListener('submit', event => {
@@ -64,17 +77,27 @@ filter.addEventListener('submit', event => {
     })
     .join(" ");
 
-  let results = miniSearch.search(options);
+  let results = miniSearch.search(options, { combineWith: "AND" });
 
-  htmlPosts.filter(post => results.some(result => {
-    if (result.id !== post.id) {
-      console.log('result: ', result.id);
-      console.log('post: ', post.id);
-      post.classList.add('vh');
-    } else {
-      htmlPosts.map(post => {
-        post.classList.remove('vh');
+  if (options.length && results.length) {
+    noResults.classList.add('hidden');
+    postsContainer.classList.remove('hidden');
+    htmlPosts.filter(post => {
+      post.classList.add('hidden');
+      results.some(result => {
+        if (result.id === post.id) {
+          post.classList.remove('hidden');
+        }
       })
-    }
-  }))
+    })
+  } else if (options.length) {
+    noResults.classList.remove('hidden');
+    postsContainer.classList.add('hidden');
+  } else {
+    noResults.classList.add('hidden');
+    postsContainer.classList.remove('hidden');
+    htmlPosts.map(post => {
+      post.classList.remove('hidden');
+    })
+  }
 })

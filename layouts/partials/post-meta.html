@@ -3,8 +3,8 @@
     <span class="f-bold">{{ .Params.organization }}</span> | {{ .Params.location }}
   </div>
   <div class="date">
-    <span>{{ .Params.date }}</span>
-    {{- with .Params.tags -}}
+    <span>{{ .Params.created_at }}</span>
+    {{- with .Params.b_benefits -}}
     {{- range . }}
     {{- $tag := . | urlize }}
     <span class="post_tag button button_translucent">
@@ -12,5 +12,12 @@
     </span>
     {{- end }}
     {{- end }}
+
+    {{ if eq .Params.c_feedback "High Five"}}
+      <span class="post_tag button button_translucent button_high_five">High Five</span>
+    {{ end }}
+    {{ if eq .Params.c_feedback "Red Flag"}}
+      <span class="post_tag button button_translucent button_red_flag">Red Flag</span>
+    {{ end }}
   </div>
 </div>
