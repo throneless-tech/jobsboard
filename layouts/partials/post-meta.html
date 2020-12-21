@@ -7,9 +7,9 @@
     {{- with .Params.tags -}}
     {{- range . }}
     {{- $tag := . | urlize }}
-    <a href='{{ absLangURL (printf "tags/%s" $tag) }}' class="post_tag button button_translucent">
+    <span class="post_tag button button_translucent">
       {{- . }}
-    </a>
+    </span>
     {{- end }}
     {{- end }}
   </div>

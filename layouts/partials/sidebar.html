@@ -1,7 +1,7 @@
 {{ $title := .Title }}
 <aside class="sidebar">
   <section class="sidebar_inner">
-    <form class="filters" action="/" method="get">
+    <form class="filters" id="filter">
       <fieldset class="fieldset fieldset-search">
         <label class="vh" for="search">Search</label>
         <input id='search' class='search' type='text' value="" autoComplete='none' autoCorrect='none' autoCapitalize='none' spellCheck='false' placeholder="Search jobs" />
@@ -10,7 +10,7 @@
       <fieldset class="fieldset">
         <legend class="legend">Location</legend>
         <select class="location" name="location">
-          <option value="all">– Add location –</option>
+          <option value="">– Add location –</option>
           {{ $locations := (slice) }}
           {{- $posts := (where .Site.Pages "Type" "post") }}
           {{- range $posts }}
@@ -31,7 +31,7 @@
           {{- $slicedTags := ($value.ByCount | first $numberOfTagsLimit) }}
           {{- range $slicedTags }}
           <div class="checkbox">
-            <input class="vh" type="checkbox" id='{{ replaceRE "(\\s)" "" .Name }}' name="feedback">
+            <input class="vh" type="checkbox" id='{{ replaceRE "(\\s)" "" .Name }}' name='{{ replaceRE "(\\s)" "" .Name }}'>
             <label for='{{ replaceRE "(\\s)" "" .Name }}'>{{ replace .Name "-" " " | title }} ({{ .Count }})</label>
           </div>
           <a href='{{ absLangURL $key }}/{{ (replace .Name "#" "%23") | urlize }}/' class="vh checkbox-link">
@@ -62,9 +62,9 @@
       </fieldset>
       {{ end }}
       {{ end }}
-      <div class="submit">
-        <a href='#' class="submit-text" type="submit">Apply Filters</a>
-      </div>
+      <button class="submit" type="submit">
+        <div class="submit-text">Apply Filters</div>
+      </button>
     </form>
   </section>
 </aside>

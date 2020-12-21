@@ -4,10 +4,10 @@ title = "Another test"
 organization = "A Non Profit"
 location = "Minnesota"
 link = "https://www.test.com"
-date = "December 17, 2020, 11:06 AM"
-categories = "Part Time"
-tags = ["General Benefits","Retirement","Tuition Reimbursement"]
-series = "Red Flag"
+date = "December 21, 2020, 9:08 AM"
+a_job_type = "Part Time"
+b_benefits = ["General Benefits","Retirement","Tuition Reimbursement"]
+c_feedback = "Red Flag"
 thumbnail = "../../images/blue_b5f20021.png"
 +++
 At nos hinc posthac, sitientis piros Afros. Quid securi etiam tamquam eu fugiat nulla pariatur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Mercedem aut nummos unde unde extricat, amaras. Quo usque tandem abutere, Catilina, patientia nostra? Ambitioni dedisse scripsisse iudicaretur.

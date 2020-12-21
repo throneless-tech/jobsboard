@@ -21,9 +21,10 @@ DefaultContentLanguage = "en"
 # config/_default/menus/menu.xx.toml
 
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+category = "a_job_type"
+tag = "b_benefits"
+series = "c_feedback"
+search = "search"
 
 
 [markup]

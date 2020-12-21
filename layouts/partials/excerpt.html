@@ -1,5 +1,5 @@
 <li class="post_item">
-  <div class="excerpt" id='{{ replaceRE "(\\s)" "" .Title }}'>
+  <div class="excerpt" id='{{ replaceRE "(\\s)" "" .Title }}' data-type='{{ .Params.a_job_type }}' data-feedback='{{ .Params.c_feedback }}'>
     <div class="excerpt_footer partition">
       <div class="excerpt_thumbnail">
         {{- with .Params.thumbnail }}

@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <!-- Search hack thanks to -->
+  <!-- https://discourse.gohugo.io/t/solved-how-to-create-union-list-of-terms-of-two-taxonomies/9539 -->
+  {{ $var := .Scratch }}
+
+  <!-- Collect Specific cateogries -->
+  {{ range $taxName, $terms := .Site.Taxonomies.a_job_type }}
+    {{ $var.Add "mergedTax" (slice (dict "termName" $taxName "term" . ))}}
+  {{ end }}
+  {{ range $taxName, $terms := .Site.Taxonomies.b_benefits }}
+    {{ $var.Add "mergedTax" (slice (dict "termName" $taxName "term" . ))}}
+  {{ end }}
+  {{ range $taxName, $terms := .Site.Taxonomies.c_feedback }}
+    {{ $var.Add "mergedTax" (slice (dict "termName" $taxName "term" . ))}}
+  {{ end }}
+
+  <!-- Test (presumably your template) -->
+  {{ range ($var.Get "mergedTax") }}
+
+    <!-- Terms key -->
+    <p><strong>{{ .termName }}</strong></p>
+
+     <!-- Terms map (weighted pages, if needed) -->
+    <p>{{ .term.Pages }}</p>
+  {{ end }}
+
+{{ end }}

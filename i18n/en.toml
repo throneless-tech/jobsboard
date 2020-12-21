@@ -28,20 +28,20 @@ other = "Go Back"
 [translations]
 other = "Translations"
 
-[categories]
+[a_job_type]
 other = "Job Type"
 
-[tags]
+[b_benefits]
 other = "Benefits Listed"
 
-[series]
+[c_feedback]
 other = "Community Feedback"
 
-[all_categories]
+[all_a_job_type]
 other = "All Job Types"
 
-[all_tags]
+[all_b_benefits]
 other = "All Benefits"
 
-[all_series]
+[all_c_feedback]
 other = "All Feedback"
