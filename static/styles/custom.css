@@ -49,29 +49,28 @@ p {
 
 .footer {
   background-color: #0b203c; }
-
-.footer_inner {
-  grid-template-columns: unset; }
-
-.footer_list_item_link {
-  text-decoration: underline; }
-  .footer_list_item_link:active, .footer_list_item_link:focus, .footer_list_item_link:hover {
-    color: rgba(210, 223, 224, 0.6); }
-
-.footer_text {
-  color: #d2dfe0;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-  line-height: 1.6em; }
-  .footer_text_copyright {
-    margin-top: 30px;
-    text-align: center; }
-
-.footer_header {
-  font-size: 18px;
-  text-transform: uppercase; }
+  .footer_inner {
+    grid-template-columns: unset; }
+  .footer_list_item_link {
+    text-decoration: underline; }
+    .footer_list_item_link:active, .footer_list_item_link:focus, .footer_list_item_link:hover {
+      color: rgba(210, 223, 224, 0.6); }
+  .footer_text {
+    color: #d2dfe0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    line-height: 1.6em; }
+    .footer_text_light {
+      font-weight: 500; }
+    .footer_text_copyright {
+      font-weight: 500;
+      margin-top: 30px;
+      text-align: center; }
+  .footer_header {
+    font-size: 18px;
+    text-transform: uppercase; }
 
 /* Heading h1 block */
 .heading-content {

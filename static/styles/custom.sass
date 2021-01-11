@@ -60,32 +60,36 @@ p
 .footer
   background-color: #0b203c
 
-.footer_inner
-  grid-template-columns: unset
+  &_inner
+    grid-template-columns: unset
 
-.footer_list
-  &_item
-    &_link
-      text-decoration: underline
+  &_list
+    &_item
+      &_link
+        text-decoration: underline
 
-      &:active, &:focus, &:hover
-        color: rgba(210,223,224,.6)
+        &:active, &:focus, &:hover
+          color: rgba(210,223,224,.6)
 
-.footer_text
-  color: #d2dfe0
-  font-family: 'Poppins', sans-serif
-  font-size: 16px
-  font-weight: 600
-  letter-spacing: .01em
-  line-height: 1.6em
+  &_text
+    color: #d2dfe0
+    font-family: 'Poppins', sans-serif
+    font-size: 16px
+    font-weight: 600
+    letter-spacing: .01em
+    line-height: 1.6em
 
-  &_copyright
-    margin-top: 30px
-    text-align: center
+    &_light
+      font-weight: 500
 
-.footer_header
-  font-size: 18px
-  text-transform: uppercase
+    &_copyright
+      font-weight: 500
+      margin-top: 30px
+      text-align: center
+
+  &_header
+    font-size: 18px
+    text-transform: uppercase
 
 /* Heading h1 block */
 .heading
