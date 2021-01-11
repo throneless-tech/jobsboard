@@ -5,7 +5,7 @@
         {{- with .Params.thumbnail }}
         <img src='{{ if (hasPrefix . "http") }}{{ . }}{{ else }}{{ absURL . }}{{ end }}' alt="" aria-hidden="true">
         {{ else }}
-        <img src="../../icons/circle.svg" alt="" aria-hidden="true">
+        <div class="excerpt_thumbnail_placeholder"></div>
         {{- end }}
       </div>
       <div class="excerpt_footer">
