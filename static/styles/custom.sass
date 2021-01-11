@@ -296,6 +296,7 @@ p
             color: #d69a00
 
         & .nav_item
+          color: #0b203c
           font-size: 16px
 
           &:hover, &:focus, &:active
@@ -362,6 +363,18 @@ p
 .legend
   font-family: 'Poppins', sans-serif
   font-weight: bold
+  position: relative
+
+  .info
+    cursor: pointer
+    position: absolute
+    right: -20px
+    top: 45%
+    transform: translateY(-50%)
+
+    svg
+      height: 14px
+      width: 14px
 
 .location
   display: block
@@ -537,3 +550,88 @@ html[data-mode="dim"]
   position: absolute
   white-space: nowrap
   width: 1px
+
+/* Modals */
+
+.Modal
+  $selector: &
+  $open-speed: 250ms
+  $close-speed: 500ms
+  $z-index: 900
+  $bg-default: #fff
+
+  background-color: rgba(#000, 0.5)
+  bottom: 0
+  left: 0
+  margin: 0 !important
+  max-height: 0
+  opacity: 0
+  overflow: auto
+  -webkit-overflow-scrolling: touch
+  position: fixed
+  right: 0
+  top: 0
+  transition: max-height 0s linear $close-speed, visibility 0s linear $close-speed, opacity $close-speed
+  visibility: hidden
+  z-index: $z-index
+
+  // Styles will be applied when URL hash matches modal ID attribute
+  &:not([aria-hidden]):target,
+  &[aria-hidden="false"]
+    max-height: 100vh
+    opacity: 1
+    transition: max-height 0s linear 0s, visibility 0s linear 0s, opacity $open-speed
+    visibility: visible
+
+  // Modal content wrapper
+  &-content
+    background-color: $bg-default
+    opacity: 0
+    position: relative
+    transform: scale(0.95)
+    transition: all $close-speed ease-in-out
+    visibility: hidden
+    width: 100%
+    z-index: $z-index + 1
+
+    #{$selector}:not([aria-hidden]):target &,
+    #{$selector}[aria-hidden="false"] &
+      border-top: 24px solid #D69900
+      margin-left: auto
+      margin-right: auto
+      max-width: 600px
+      opacity: 1
+      padding-bottom: 50px
+      padding-left: 40px
+      padding-right: 40px
+      padding-top: 65px
+      top: 50%
+      transform: scale(1) translateY(-50%)
+      transition: all $open-speed ease-in-out
+      visibility: visible
+
+      &-title
+        color: #0B203C
+        font-size: 1.5rem
+        margin-bottom: 18px
+
+      &-body
+        font-weight: 500
+
+  // Close button
+  &-close
+    padding: 15px
+    position: fixed
+    right: 0
+    top: 0
+    transition: all 150ms ease-in-out
+    z-index: $z-index + 2
+
+    svg
+      height: 22px
+      width: 22px
+
+  // if you want the modal window to take up the entire screen (optional)
+  &--fullWidth
+    #{$selector}-content
+      min-height: 100%

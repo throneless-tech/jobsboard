@@ -245,6 +245,7 @@ p {
         .nav_body.__bottom .nav_parent:nth-child(2) .nav_item {
           color: #d69a00; }
         .nav_body.__bottom .nav_item {
+          color: #0b203c;
           font-size: 16px; }
           .nav_body.__bottom .nav_item:hover, .nav_body.__bottom .nav_item:focus, .nav_body.__bottom .nav_item:active {
             color: #d69a00; }
@@ -296,7 +297,17 @@ p {
 
 .legend {
   font-family: "Poppins", sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+  position: relative; }
+  .legend .info {
+    cursor: pointer;
+    position: absolute;
+    right: -20px;
+    top: 45%;
+    transform: translateY(-50%); }
+    .legend .info svg {
+      height: 14px;
+      width: 14px; }
 
 .location {
   display: block;
@@ -444,5 +455,68 @@ html[data-mode="dim"] .excerpt .post_link, html[data-mode="dim"] .excerpt .meta 
   position: absolute;
   white-space: nowrap;
   width: 1px; }
+
+/* Modals */
+.Modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  left: 0;
+  margin: 0 !important;
+  max-height: 0;
+  opacity: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: max-height 0s linear 500ms, visibility 0s linear 500ms, opacity 500ms;
+  visibility: hidden;
+  z-index: 900; }
+  .Modal:not([aria-hidden]):target, .Modal[aria-hidden="false"] {
+    max-height: 100vh;
+    opacity: 1;
+    transition: max-height 0s linear 0s, visibility 0s linear 0s, opacity 250ms;
+    visibility: visible; }
+  .Modal-content {
+    background-color: #fff;
+    opacity: 0;
+    position: relative;
+    transform: scale(0.95);
+    transition: all 500ms ease-in-out;
+    visibility: hidden;
+    width: 100%;
+    z-index: 901; }
+    .Modal:not([aria-hidden]):target .Modal-content, .Modal[aria-hidden="false"] .Modal-content {
+      border-top: 24px solid #D69900;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 600px;
+      opacity: 1;
+      padding-bottom: 50px;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 65px;
+      top: 50%;
+      transform: scale(1) translateY(-50%);
+      transition: all 250ms ease-in-out;
+      visibility: visible; }
+      .Modal:not([aria-hidden]):target .Modal-content-title, .Modal[aria-hidden="false"] .Modal-content-title {
+        color: #0B203C;
+        font-size: 1.5rem;
+        margin-bottom: 18px; }
+      .Modal:not([aria-hidden]):target .Modal-content-body, .Modal[aria-hidden="false"] .Modal-content-body {
+        font-weight: 500; }
+  .Modal-close {
+    padding: 15px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: all 150ms ease-in-out;
+    z-index: 902; }
+    .Modal-close svg {
+      height: 22px;
+      width: 22px; }
+  .Modal--fullWidth .Modal-content {
+    min-height: 100%; }
 
 /*# sourceMappingURL=custom.css.map */
