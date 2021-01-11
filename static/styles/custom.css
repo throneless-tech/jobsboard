@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,400;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
 /* Variables */
 html {
   --bg: #0B203C; }
@@ -49,6 +49,29 @@ p {
 
 .footer {
   background-color: #0b203c; }
+  .footer_form_input {
+    border: none;
+    border-radius: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 0.75em 1.5em; }
+  .footer_form_submit {
+    background-color: #d69a00;
+    border: 1px solid #d69a00;
+    border-radius: 300px;
+    color: #0b203c;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    opacity: 1;
+    padding: 1em 2.5em;
+    text-transform: uppercase;
+    transition: 250ms opacity linear; }
+    .footer_form_submit:active, .footer_form_submit:focus, .footer_form_submit:hover {
+      opacity: 0.8;
+      transition: 250ms opacity linear; }
   .footer_inner {
     grid-template-columns: unset; }
   .footer_list_item_link {
@@ -59,7 +82,7 @@ p {
     color: #d2dfe0;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 0.01em;
     line-height: 1.6em; }
     .footer_text_light {
