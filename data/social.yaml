@@ -1,10 +1,10 @@
 # Show or hide by uncommenting and vice versa
 - item: "facebook"
-  url: "https://facebook.com/#"
+  url: "https://www.facebook.com/reprojobs/"
 - item: "twitter"
-  url: "https://twitter.com/#"
+  url: "https://twitter.com/ReproJobs"
 - item: "instagram"
-  url: "https://instagram.com/#"
+  url: "https://www.instagram.com/reprojobs/"
 # - item: "github"
 #   url: "https://github.com/#"
 # - item: "linkedin"
