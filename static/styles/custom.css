@@ -14,6 +14,7 @@ p {
 /* Headings */
 .h3 {
   font-family: "Poppins", sans-serif;
+  font-weight: bold;
   text-transform: uppercase; }
 
 .h4 {
@@ -295,7 +296,8 @@ p {
       width: 17px; }
 
 .legend {
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  font-weight: bold; }
 
 .location {
   display: block;
