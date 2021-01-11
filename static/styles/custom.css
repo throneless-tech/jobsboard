@@ -122,34 +122,70 @@ p {
       clip-path: circle(300px at 70% 115%);
       height: 645px;
       width: 645px; } }
+@media screen and (max-width: 769px) {
+  .heading {
+    margin-top: 110px; } }
 
 /* Navigation */
+.nav_brand_mobile {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 135px;
+  z-index: 0; }
+.nav_close {
+  right: -6rem; }
 .nav_header {
   background-color: #f2f2f2; }
-
 .nav_item {
   font-size: 13px;
-  font-weight: bold;
-  padding: 0.5rem; }
-
-@media screen and (max-width: 769px) {
-  .nav_body {
-    max-width: unset;
-    width: calc(100% - 60px ); }
-
-  .nav_close svg {
-    fill: var(--dark); }
-
-  .nav_item {
+  font-weight: 800;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase; }
+  .nav_item_top {
+    color: #d2dfe0;
+    font-family: "Poppins", sans-serif;
     font-weight: 800;
-    padding: 0.5rem 1rem;
-    text-transform: uppercase; } }
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase; }
+.nav_body {
+  max-width: unset;
+  width: calc(100% - 60px ); }
+.nav_close svg {
+  fill: var(--dark); }
+@media screen and (max-width: 770px) {
+  .nav_hide {
+    display: none;
+    visibility: hidden; } }
+.nav .nav_parent:first-child {
+  margin-top: 2rem; }
+
+.jsopen .nav_close {
+  background-color: #D04400;
+  padding: 30px;
+  padding-right: 40px;
+  right: -31vw;
+  top: -2vh; }
+  .jsopen .nav_close:before {
+    background-color: #d2dfe0;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 56px;
+    width: 100%;
+    z-index: -1; }
+
 /* Desktop screens */
 @media screen and (min-width: 770px) {
   main {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    line-height: 1.5e;
+    line-height: 1.5;
     margin-left: auto;
     margin-right: auto;
     width: 100%; } }
@@ -184,46 +220,53 @@ p {
     display: unset;
     font-family: "Poppins", sans-serif;
     text-transform: uppercase; }
-
-  .nav_body {
-    display: flex;
-    justify-content: space-between; }
-    .nav_body.__top {
-      background-color: #0a1e39; }
-      .nav_body.__top .nav_item {
-        color: #d2dfe0; }
-        .nav_body.__top .nav_item:active, .nav_body.__top .nav_item:focus, .nav_body.__top .nav_item:hover {
-          color: #d69a00; }
-    .nav_body.__bottom {
-      color: #0b203c;
+    .nav_body {
       display: flex;
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 1240px; }
-      .nav_body.__bottom .nav_parent:nth-child(2) .nav_item {
-        color: #d69a00; }
-      .nav_body.__bottom .nav_item {
-        font-size: 16px; }
-        .nav_body.__bottom .nav_item:hover, .nav_body.__bottom .nav_item:focus, .nav_body.__bottom .nav_item:active {
+      justify-content: space-between;
+      width: 100%; }
+      .nav_body_mobile {
+        display: none;
+        visibility: hidden; }
+      .nav_body.__top {
+        background-color: #0a1e39; }
+        .nav_body.__top .nav_item {
+          color: #d2dfe0; }
+          .nav_body.__top .nav_item:active, .nav_body.__top .nav_item:focus, .nav_body.__top .nav_item:hover {
+            color: #d69a00; }
+      .nav_body.__bottom {
+        color: #0b203c;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1240px; }
+        .nav_body.__bottom .nav_parent:nth-child(2) .nav_item {
           color: #d69a00; }
-
-  .nav_brand {
-    display: inline-block;
-    margin-left: 20px; }
-    .nav_brand img {
+        .nav_body.__bottom .nav_item {
+          font-size: 16px; }
+          .nav_body.__bottom .nav_item:hover, .nav_body.__bottom .nav_item:focus, .nav_body.__bottom .nav_item:active {
+            color: #d69a00; }
+    .nav_brand {
+      display: inline-block;
+      margin-left: 20px; }
+      .nav_brand_mobile {
+        display: none;
+        visibility: hidden; }
+    .nav img {
       width: 250px; }
-
-  .nav_close svg {
-    fill: var(--bg); }
-
-  .nav_header {
-    padding: 0;
-    position: relative; }
-
-  .nav_menu {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 20px; }
+    .nav_close svg {
+      fill: var(--bg); }
+    .nav_header {
+      padding: 0;
+      position: relative; }
+    .nav_menu {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 20px; }
+      .nav_menu_sub {
+        display: none;
+        visibility: hidden; }
+    .nav .nav_parent:first-child {
+      margin-top: 0.25rem; }
 
   .search-site {
     margin-left: 40px;

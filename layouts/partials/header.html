@@ -3,6 +3,32 @@
 {{ $logo := $params.logo }}
 <header class="nav_header" >
   <nav class="nav">
+    <a href='{{ absLangURL "" }}' class="nav_brand nav_brand_mobile nav_item{{ if eq $centerLogo true }} nav_hide{{ end }}">
+      {{- with $logo }}
+      <img src="{{ absURL . }}" class="logo">
+      {{- else }}
+        {{ .Site.Title }}
+      {{- end }}
+      <div class="nav_close">
+        <div>
+          <svg class="icon">
+            <use xlink:href="#open-menu"></use>
+          </svg>
+          <svg class="icon">
+            <use xlink:href="#closeme"></use>
+          </svg>
+        </div>
+      </div>
+    </a>
+    <div class="nav_body nav_body_mobile nav_body_{{ .Site.Params.mobileNavigation }}">
+      {{ $context := . }}
+      {{ $menuData := .Site.Data.menu }}
+      {{ with $menuData }}
+        {{ partial "nav" (dict "context" $context "menu" $menuData) }}
+      {{- else }}
+        {{ partial "nav" (dict "context" . "menu" .Site.Menus.main) }}
+      {{- end }}
+    </div>
     <div class='nav_body __top nav_body_{{ .Site.Params.mobileNavigation }}'>
 
       {{- partial "follow" . }}
@@ -42,7 +68,7 @@
     </div>
 
     <div class="nav_body __bottom nav_body_{{ .Site.Params.mobileNavigation }}">
-      <a href='{{ absLangURL "" }}' class="nav_brand nav_item{{ if eq $centerLogo true }} nav_hide{{ end }}">
+      <a href='{{ absLangURL "" }}' class="nav_brand nav_item nav_hide">
         {{- with $logo }}
         <img src="{{ absURL . }}" class="logo">
         {{- else }}
@@ -67,7 +93,7 @@
           {{ partial "nav" (dict "context" $context "menu" $menuData) }}
         {{- else }}
           {{ partial "nav" (dict "context" . "menu" .Site.Menus.main) }}
-          <div class="vh">
+          <div class="nav_menu_sub">
             {{ partial "nav" (dict "context" . "menu" .Site.Menus.sub) }}
           </div>
         {{- end }}
