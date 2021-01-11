@@ -85,7 +85,8 @@ p {
   padding-top: 30px;
   padding-right: 30px;
   position: relative;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  z-index: 1; }
   @media screen and (min-width: 769px) {
     .heading-content {
       font-size: 85px;
@@ -102,7 +103,8 @@ p {
         height: 216px;
         position: absolute;
         right: 0;
-        width: 216px; }
+        width: 216px;
+        z-index: -1; }
       .heading-content::before {
         background: #D69900;
         bottom: 0;
@@ -112,7 +114,8 @@ p {
         height: 445px;
         position: absolute;
         right: 0;
-        width: 445px; } }
+        width: 445px;
+        z-index: -1; } }
   @media screen and (min-width: 990px) {
     .heading-content::after {
       clip-path: circle(200px at 85% 75%);
