@@ -1,7 +1,7 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
 baseurl = "https://peaceful-hugle-5b9340.netlify.app/"  # Include trailing slash #FIXME update with correct url
-title = "Repro Jobs Board"
+title = "Browse Jobs — ReproJobs"
 author = "Rae Gaines, Throneless Tech"
 copyright = "MIT Copyright © 2020"
 # canonifyurls = true
