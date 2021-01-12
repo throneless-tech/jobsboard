@@ -119,7 +119,7 @@ const isValidURL = string => {
     return (res !== null)
 };
 
-(async () => {
+exports.handler = async () => {
   base('Submitted Jobs')
     .select()
     .eachPage(function page(records, fetchNextPage) {
@@ -162,4 +162,4 @@ const isValidURL = string => {
         // })
       }
     });
-})()
+}
