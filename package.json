@@ -13,7 +13,6 @@
     "build:assets": "cross-env NODE_ENV=development parcel build ./static/js/custom.js",
     "deploy:assets": "cross-env NODE_ENV=production parcel build ./static/js/custom.js",
     "build:hugo": "cross-env NODE_ENV=production hugo --gc --minify",
-    "build:hugo:workflow": "hugo --minify",
     "build:data": "node ./static/js/custom.js"
   },
   "frontend": "static/output/custom.js",
