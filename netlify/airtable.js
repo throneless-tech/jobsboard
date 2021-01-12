@@ -26,7 +26,7 @@ const createPost = async (job) => {
     benefits.push(`"${benefit}"`)
   })
 
-  const content = `+++\nauthor = "None"\ntitle = "${job.title}"\norganization = "${job.organization}"\nlocation = "${job.location}"\nlink = "${job.link}"\ncreated_at = "${ today.toLocaleDateString("en-US", timeOptions) }"\na_job_type = "${job.type}"\nb_benefits = [${benefits}]\nc_feedback = "${job.rating}"\nthumbnail = "../../${job.logo}"\n+++\n${job.description}`
+  const content = `+++\nauthor = "None"\ntitle = "${job.title}"\norganization = "${job.organization}"\nlocation = "${job.location}"\nlink = "${job.link}"\ncreated_at = "${ today.toLocaleDateString("en-US", timeOptions) }"\na_job_type = "${job.type}"\nb_benefits = [${benefits}]\nc_feedback = "${job.rating}"\nthumbnail = "${job.logo ? `../../${job.logo}` : ""}"\n+++\n${job.description}`
 
   const basename = path.basename(`${job.organization.replace(/\s/g, '-')}_${job.title.replace(/\s/g, '-')}.md`);
   const contentPath = path.join('content/post', basename);
@@ -119,43 +119,47 @@ const isValidURL = string => {
     return (res !== null)
 };
 
-base('Submitted Jobs')
-  .select()
-  .eachPage(function page(records, fetchNextPage) {
-    records.forEach(async (record) => {
-      const publishable = checkStatus(record);
-      if (publishable) {
-        allRecords.push(record);
-        let job = await extractJob(record);
-        let post = await createPost(job);
-        base('Submitted Jobs').update(record.id, {
-          "Status": "In progress",
-        }, function(err, record) {
-          if (err) {
-            console.error(err);
-            return;
-          }
-        })
+(async () => {
+  base('Submitted Jobs')
+    .select()
+    .eachPage(function page(records, fetchNextPage) {
+      records.forEach(async (record) => {
+        const publishable = checkStatus(record);
+        if (publishable) {
+          console.log(`Found publishable record ${record.id}`);
+          allRecords.push(record);
+          let job = await extractJob(record);
+          let post = await createPost(job);
+          base('Submitted Jobs').update(record.id, {
+            "Status": "Published",
+          }, function(err, record) {
+            if (err) {
+              console.error(err);
+              return;
+            }
+          })
+        }
+      });
+
+      // To fetch the next page of records, call `fetchNextPage`.
+      // If there are more records, `page` will get called again.
+      // If there are no more records, `done` will get called.
+      fetchNextPage();
+
+    }, function done(err) {
+      if (err) {console.error(err);}
+      console.log('Process complete.');
+      if (allRecords.length) {
+        // allRecords.forEach(record => {
+        //   base('Submitted Jobs').update(record.id, {
+        //     "Status": "In progress",
+        //   }, function(err, record) {
+        //     if (err) {
+        //       console.error(err);
+        //       return;
+        //     }
+        //   })
+        // })
       }
     });
-
-    // To fetch the next page of records, call `fetchNextPage`.
-    // If there are more records, `page` will get called again.
-    // If there are no more records, `done` will get called.
-    fetchNextPage();
-
-  }, function done(err) {
-    if (err) {console.error(err);}
-    if (allRecords.length) {
-      allRecords.forEach(record => {
-        base('Submitted Jobs').update(record.id, {
-          "Status": "Published",
-        }, function(err, record) {
-          if (err) {
-            console.error(err);
-            return;
-          }
-        })
-      })
-    }
-  });
+})()

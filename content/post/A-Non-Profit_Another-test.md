@@ -4,9 +4,9 @@ title = "Another test"
 organization = "A Non Profit"
 location = "Minnesota"
 link = "https://www.test.com"
-created_at = "December 21, 2020, 3:06 PM"
+created_at = "January 11, 2021, 7:08 PM"
 a_job_type = "Part Time"
-b_benefits = ["General Benefits","Retirement","Tuition Reimbursement"]
+b_benefits = ["Retirement","General Benefits"]
 c_feedback = "Red Flag"
 thumbnail = "../../images/blue_b5f20021.png"
 +++
