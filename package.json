@@ -2,7 +2,6 @@
   "name": "jobsboard",
   "version": "1.0.0",
   "description": "A jobs board for ReproJobs.",
-  "type": "module",
   "scripts": {
     "sass": "node-sass static/styles/custom.sass static/styles/custom.css",
     "build": "run-s deploy:assets build:hugo",
