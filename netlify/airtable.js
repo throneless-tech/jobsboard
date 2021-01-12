@@ -129,7 +129,7 @@ base('Submitted Jobs')
         let job = await extractJob(record);
         let post = await createPost(job);
         base('Submitted Jobs').update(record.id, {
-          "Status": "Published",
+          "Status": "In progress",
         }, function(err, record) {
           if (err) {
             console.error(err);
@@ -149,7 +149,7 @@ base('Submitted Jobs')
     if (allRecords.length) {
       allRecords.forEach(record => {
         base('Submitted Jobs').update(record.id, {
-          "Status": "In progress",
+          "Status": "Published",
         }, function(err, record) {
           if (err) {
             console.error(err);

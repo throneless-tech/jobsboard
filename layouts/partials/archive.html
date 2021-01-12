@@ -9,7 +9,7 @@
   {{- partial "sidebar" . }}
   <div>
     <ul class="posts" id="posts">
-      {{- range (.Paginate $pages).Pages }}
+      {{- range sort (.Paginate $pages).Pages "Params.created_at" "desc" }}
         {{ partial "excerpt" . }}
       {{- end }}
       <li>
