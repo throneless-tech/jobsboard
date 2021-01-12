@@ -2,6 +2,6 @@
 
 set -o errexit
 
-npm run generate:jobs
+sudo npm run generate:jobs
 
-npm run build
+sudo npm run build

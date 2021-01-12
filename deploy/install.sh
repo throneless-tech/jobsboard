@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-set -o errexit
+sudo set -o errexit
 
-BASE_DIR="$(dirname "$0")"
+sudo BASE_DIR="$(dirname "$0")"
 
-bash "${BASE_DIR}/install-system-deps.sh"
+sudo bash "${BASE_DIR}/install-system-deps.sh"
 
-bash "${BASE_DIR}/install-unmanaged-deps.sh"
+sudo bash "${BASE_DIR}/install-unmanaged-deps.sh"
