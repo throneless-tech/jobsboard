@@ -29,12 +29,6 @@ jobs:
           git config user.email "rae@throneless.tech"
           git config user.name "Rae Throneless Tech"
 
-      # Add environment variables
-      - name: Env vars
-        run: |
-          echo "AIRTABLE_API_KEY=${{ secrets.AIRTABLE_API_KEY }}" >> $GITHUB_ENV
-          echo "AIRTABLE_BASE_ID=${{ secrets.AIRTABLE_BASE_ID }}" >> $GITHUB_ENV
-
       - name: Make deploy scripts executable
         run: |
           chmod +x ./deploy/install.sh
@@ -52,6 +46,9 @@ jobs:
 
       - name: Generate new content
         run: ./deploy/generate.sh
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
 
       - name: Commit generated content
       # NOTE: if generate does not create the directories below, then this will
