@@ -2,7 +2,7 @@
 
 name: CI
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on regular cron intervals. Schedule is approximate.
   schedule:
@@ -28,13 +28,16 @@ jobs:
           # Hard-code user configuration.
           git config user.email "rae@throneless.tech"
           git config user.name "Rae Throneless Tech"
-        
+
       # Add environment variables
       - name: Env vars
         run: |
           echo "AIRTABLE_API_KEY=${{ secrets.AIRTABLE_API_KEY }}" >> $GITHUB_ENV
           echo "AIRTABLE_BASE_ID=${{ secrets.AIRTABLE_BASE_ID }}" >> $GITHUB_ENV
-          
+
+      - name: Make install executable
+        run: chmod +x ./deploy/install.sh
+
       - name: Install dependencies
         run: ./deploy/install.sh
 
@@ -44,10 +47,10 @@ jobs:
         run: |
           find content/post static/images \
            -type f -not -name "_index.md" -not -name ".gitkeep" -delete
-      
+
       - name: Generate new content
         run: ./deploy/generate.sh
-      
+
       - name: Commit generated content
       # NOTE: if generate does not create the directories below, then this will
       # fail and stop execution. There should be no commit when there is no
