@@ -6,6 +6,7 @@
     "generate:jobs": "node ./airtable.js",
     "sass": "node-sass static/styles/custom.sass static/styles/custom.css",
     "build": "run-s deploy:assets build:hugo",
+    "build:workflow": "run-s deploy:assets build:hugo:workflow",
     "start": "run-s build:assets start:dev",
     "start:dev": "run-p dev:parcel dev:hugo",
     "dev:hugo": "cross-env NODE_ENV=development hugo server --gc --disableFastRender --navigateToChanged",
@@ -13,6 +14,7 @@
     "build:assets": "cross-env NODE_ENV=development parcel build ./static/js/custom.js",
     "deploy:assets": "cross-env NODE_ENV=production parcel build ./static/js/custom.js",
     "build:hugo": "cross-env NODE_ENV=production hugo --gc --minify",
+    "build:hugo:workflow": "cross-env NODE_ENV=production hugo",
     "build:data": "node ./static/js/custom.js"
   },
   "frontend": "static/output/custom.js",
