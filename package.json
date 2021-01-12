@@ -11,7 +11,7 @@
     "dev:hugo": "cross-env NODE_ENV=development hugo server --gc --disableFastRender --navigateToChanged",
     "dev:parcel": "cross-env NODE_ENV=development parcel watch ./static/js/custom.js",
     "build:assets": "cross-env NODE_ENV=development parcel build ./static/js/custom.js",
-    "deploy:assnv NODE_ENV=production parcel build ./static/js/custom.js",
+    "deploy:assets": "cross-env NODE_ENV=production parcel build ./static/js/custom.js",
     "build:hugo": "cross-env NODE_ENV=production hugo --gc --minify",
     "build:data": "node ./static/js/custom.js"
   },
