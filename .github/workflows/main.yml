@@ -20,21 +20,42 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
- 
+
+      - name: Setup git config and auth
+        env:
+          GITHUB_TOKEN: ${{ secrets.github_token }}
+        run: |
+          # Hard-code user configuration.
+          git config user.email "rae@throneless.tech"
+          git config user.name "Rae Throneless Tech"
+        
       # Add environment variables
       - name: Env vars
         run: |
           echo "AIRTABLE_API_KEY=${{ secrets.AIRTABLE_API_KEY }}" >> $GITHUB_ENV
           echo "AIRTABLE_BASE_ID=${{ secrets.AIRTABLE_BASE_ID }}" >> $GITHUB_ENV
-      
-      # Install dependencies for the jobsboard to fetch content from airtable.
-      - name: NPM install
-        run: npm install
+          
+      - name: Install dependencies
+        run: ./deploy/install.sh
 
-      # Fetch new data from Airtable
-      - name: Run Airtable script
-        run: npm run generate:jobs
+      - name: Remove existing content
+        # NOTE: if the directory names change, then this will fail and stop
+        # execution.
+        run: |
+          find content/post static/images \
+           -type f -not -name "_index.md" -not -name ".gitkeep" -delete
       
-      # Rebuild the site with the new content
-      - name: Run Airtable script
-        run: npm run build
+      - name: Generate new content
+        run: ./deploy/generate.sh
+      
+      - name: Commit generated content
+      # NOTE: if generate does not create the directories below, then this will
+      # fail and stop execution. There should be no commit when there is no
+      # change.
+        run: |
+         git add content/post static/images
+         # Only commit and push if there were effective changes.
+          if !(git diff --quiet && git diff --staged --quiet) ; then
+           git commit -m "CRON ACTION: CI to update content from Airtable"
+            git push origin main
+         fi
