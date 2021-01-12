@@ -13,7 +13,7 @@ const allRecords = [];
 
 const checkStatus = (record) => {
   const status = record.get("Status");
-  return status == "Ready to publish";
+  return status == "Ready to publish" || "Published";
 };
 
 const createPost = async (job) => {
