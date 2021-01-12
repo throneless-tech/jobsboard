@@ -1,9 +1,9 @@
-import dotenv from 'dotenv';
-import * as fs from 'fs';
-import https from 'https';
-import path from 'path';
-import Airtable from 'airtable';
-import hash from 'object-hash';
+const dotenv = require('dotenv');
+const fs = require('fs');
+const https = require('https');
+const path = require('path');
+const Airtable = require('airtable');
+const hash = require('object-hash');
 
 dotenv.config();
 

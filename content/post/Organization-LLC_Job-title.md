@@ -4,9 +4,9 @@ title = "Job title"
 organization = "Organization LLC"
 location = "New York"
 link = "http://reprojobs.org"
-created_at = "December 21, 2020, 3:06 PM"
+created_at = "January 11, 2021, 7:20 PM"
 a_job_type = "Full Time"
-b_benefits = ["Retirement"]
+b_benefits = ["Union-Eligible"]
 c_feedback = "High Five"
 thumbnail = "../../images/red_40248064.png"
 +++
