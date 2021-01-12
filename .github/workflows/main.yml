@@ -20,7 +20,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      
+      # Install dependencies for the jobsboard to fetch content from airtable.
+      - name: NPM install
+        run: npm install
 
       # Runs a single command using the runners shell to fetch new data from Airtable
-      - name: Run a one-line script
+      - name: Run Airtable script
         run: npm run generate:jobs
