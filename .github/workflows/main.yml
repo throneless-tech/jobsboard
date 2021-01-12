@@ -31,6 +31,10 @@ jobs:
       - name: NPM install
         run: npm install
 
-      # Runs a single command using the runners shell to fetch new data from Airtable
+      # Fetch new data from Airtable
       - name: Run Airtable script
         run: npm run generate:jobs
+      
+      # Rebuild the site with the new content
+      - name: Run Airtable script
+        run: npm run build
