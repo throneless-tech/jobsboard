@@ -23,7 +23,9 @@ jobs:
  
       # Add environment variables
       - name: Env vars
-        run: echo "AIRTABLE_API_KEY=${{ secrets.AIRTABLE_API_KEY }} AIRTABLE_BASE_ID=${{ secrets.AIRTABLE_BASE_ID }}" >> $GITHUB_ENV
+        run: |
+          echo "AIRTABLE_API_KEY=${{ secrets.AIRTABLE_API_KEY }}" >> $GITHUB_ENV
+          echo "AIRTABLE_BASE_ID=${{ secrets.AIRTABLE_BASE_ID }}" >> $GITHUB_ENV
       
       # Install dependencies for the jobsboard to fetch content from airtable.
       - name: NPM install
