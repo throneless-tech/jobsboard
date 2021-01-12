@@ -35,8 +35,10 @@ jobs:
           echo "AIRTABLE_API_KEY=${{ secrets.AIRTABLE_API_KEY }}" >> $GITHUB_ENV
           echo "AIRTABLE_BASE_ID=${{ secrets.AIRTABLE_BASE_ID }}" >> $GITHUB_ENV
 
-      - name: Make install executable
-        run: chmod +x ./deploy/install.sh
+      - name: Make deploy scripts executable
+        run: |
+          chmod +x ./deploy/install.sh
+          chmod +x ./deploy/generate.sh
 
       - name: Install dependencies
         run: ./deploy/install.sh
