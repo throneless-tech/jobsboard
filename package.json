@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A jobs board for ReproJobs.",
   "scripts": {
+    "generate:jobs": "node ./netlify/airtable.js",
     "sass": "node-sass static/styles/custom.sass static/styles/custom.css",
     "build": "run-s deploy:assets build:hugo",
     "start": "run-s build:assets start:dev",
