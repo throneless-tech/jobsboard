@@ -17,8 +17,24 @@ const checkStatus = (record) => {
 };
 
 const createPost = async (job) => {
-  const timeOptions = { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' };
+  const timeOptions = { year: 'numeric', month: 'long', day: 'numeric' };
   const today = new Date();
+
+  let postingDate, closingDate;
+
+  if (job.postingDate) {
+    const date = Date.parse(job.postingDate);
+    postingDate = new Date(date).toLocaleDateString("en-US", timeOptions);
+  } else {
+    postingDate = new Date().toLocaleDateString("en-US", timeOptions);
+  }
+
+  if (job.closingDate) {
+    const date = Date.parse(job.closingDate);
+    closingDate = new Date(date).toLocaleDateString("en-US", timeOptions);
+  } else {
+    closingDate = '-';
+  }
 
   let benefits = [];
 
@@ -34,7 +50,7 @@ const createPost = async (job) => {
 
   const locations = job.location.join(', ');
 
-  const content = `+++\nauthor = "None"\ntitle = "${job.title}"\norganization = "${job.organization}"\nlocation = "${locations}"\nlink = "${job.link}"\ncreated_at = "${ today.toLocaleDateString("en-US", timeOptions) }"\na_job_type = [${types}]\nb_benefits = [${benefits}]\nc_feedback = "${job.rating}"\nthumbnail = "${job.logo ? `../../${job.logo}` : ""}"\n+++\n${job.description}`
+  const content = `+++\nauthor = "None"\ntitle = "${job.title}"\norganization = "${job.organization}"\nlocation = "${locations}"\nlink = "${job.link}"\ncreated_at = "${postingDate}"\nclosing_date = "${closingDate}"\na_job_type = [${types}]\nb_benefits = [${benefits}]\nc_feedback = "${job.rating}"\nthumbnail = "${job.logo ? `../../${job.logo}` : ""}"\n+++\n${job.description}`
 
   const basename = path.basename(`${job.organization.replace(/\s/g, '-')}_${job.title.replace(/\s/g, '-')}.md`);
   const contentPath = path.join('content/post', basename);
@@ -92,6 +108,8 @@ const extractJob = async (record) => {
   const type = record.get('Job Type') || [];
   const benefits = record.get('Benefits') || [];
   const rating = record.get('Rating') || '';
+  const postingDate = record.get('Posting Date');
+  const closingDate = record.get('Closing Date');
   const logo = await extractLogo(record);
 
   return {
@@ -103,7 +121,9 @@ const extractJob = async (record) => {
     location,
     type,
     benefits,
-    rating
+    rating,
+    postingDate,
+    closingDate,
   };
 }
 

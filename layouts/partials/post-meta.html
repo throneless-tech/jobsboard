@@ -6,6 +6,10 @@
   </div>
   <div class="date">
     <span>{{ .Params.created_at }}</span>
+    {{ if not (eq .Params.closing_date "-") }}
+      <span> | Closes {{ .Params.closing_date }}</span>
+    {{ end }}
+
     {{- with .Params.a_job_type -}}
     {{- range . }}
     {{- $tag := . | urlize }}
