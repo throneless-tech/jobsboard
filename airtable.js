@@ -13,7 +13,7 @@ const allRecords = [];
 
 const checkStatus = (record) => {
   const status = record.get("Status");
-  return status == "Ready to publish" || "Published";
+  return status == "Ready to publish";
 };
 
 const createPost = async (job) => {
@@ -26,7 +26,9 @@ const createPost = async (job) => {
     benefits.push(`"${benefit}"`)
   })
 
-  const content = `+++\nauthor = "None"\ntitle = "${job.title}"\norganization = "${job.organization}"\nlocation = "${job.location}"\nlink = "${job.link}"\ncreated_at = "${ today.toLocaleDateString("en-US", timeOptions) }"\na_job_type = "${job.type}"\nb_benefits = [${benefits}]\nc_feedback = "${job.rating}"\nthumbnail = "${job.logo ? `../../${job.logo}` : ""}"\n+++\n${job.description}`
+  let locations = job.location.join(', ');
+
+  const content = `+++\nauthor = "None"\ntitle = "${job.title}"\norganization = "${job.organization}"\nlocation = "${locations}"\nlink = "${job.link}"\ncreated_at = "${ today.toLocaleDateString("en-US", timeOptions) }"\na_job_type = "${job.type}"\nb_benefits = [${benefits}]\nc_feedback = "${job.rating}"\nthumbnail = "${job.logo ? `../../${job.logo}` : ""}"\n+++\n${job.description}`
 
   const basename = path.basename(`${job.organization.replace(/\s/g, '-')}_${job.title.replace(/\s/g, '-')}.md`);
   const contentPath = path.join('content/post', basename);

@@ -2,9 +2,9 @@
 author = "None"
 title = "Another test"
 organization = "A Non Profit"
-location = "Minnesota"
+location = "Minnesota, Arizona, Michigan"
 link = "https://www.test.com"
-created_at = "February 5, 2021, 6:41 PM"
+created_at = "February 5, 2021, 1:51 PM"
 a_job_type = "Part Time"
 b_benefits = ["Retirement","General Benefits"]
 c_feedback = "Red Flag"
