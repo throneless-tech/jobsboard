@@ -529,6 +529,8 @@ html[data-mode="dim"] .excerpt .post_link, html[data-mode="dim"] .excerpt .meta 
         margin-bottom: 18px; }
       .Modal:not([aria-hidden]):target .Modal-content-body, .Modal[aria-hidden="false"] .Modal-content-body {
         font-weight: 500; }
+        .Modal:not([aria-hidden]):target .Modal-content-body-email, .Modal[aria-hidden="false"] .Modal-content-body-email {
+          text-decoration: underline; }
   .Modal-close {
     padding: 15px;
     position: fixed;
