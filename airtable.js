@@ -23,12 +23,18 @@ const createPost = async (job) => {
   let benefits = [];
 
   job.benefits.forEach(benefit => {
-    benefits.push(`"${benefit}"`)
-  })
+    benefits.push(`"${benefit}"`);
+  });
 
-  let locations = job.location.join(', ');
+  let types = [];
 
-  const content = `+++\nauthor = "None"\ntitle = "${job.title}"\norganization = "${job.organization}"\nlocation = "${locations}"\nlink = "${job.link}"\ncreated_at = "${ today.toLocaleDateString("en-US", timeOptions) }"\na_job_type = "${job.type}"\nb_benefits = [${benefits}]\nc_feedback = "${job.rating}"\nthumbnail = "${job.logo ? `../../${job.logo}` : ""}"\n+++\n${job.description}`
+  job.type.forEach(jobType => {
+    types.push(`"${jobType}"`);
+  });
+
+  const locations = job.location.join(', ');
+
+  const content = `+++\nauthor = "None"\ntitle = "${job.title}"\norganization = "${job.organization}"\nlocation = "${locations}"\nlink = "${job.link}"\ncreated_at = "${ today.toLocaleDateString("en-US", timeOptions) }"\na_job_type = [${types}]\nb_benefits = [${benefits}]\nc_feedback = "${job.rating}"\nthumbnail = "${job.logo ? `../../${job.logo}` : ""}"\n+++\n${job.description}`
 
   const basename = path.basename(`${job.organization.replace(/\s/g, '-')}_${job.title.replace(/\s/g, '-')}.md`);
   const contentPath = path.join('content/post', basename);
@@ -83,7 +89,7 @@ const extractJob = async (record) => {
   let link = record.get('Link') || '';
   link = (!link || isValidURL(link)) ? link : `https://${link}`;
   const location = record.get('Location') || '';
-  const type = record.get('Job Type') || '';
+  const type = record.get('Job Type') || [];
   const benefits = record.get('Benefits') || [];
   const rating = record.get('Rating') || '';
   const logo = await extractLogo(record);

@@ -6,6 +6,15 @@
   </div>
   <div class="date">
     <span>{{ .Params.created_at }}</span>
+    {{- with .Params.a_job_type -}}
+    {{- range . }}
+    {{- $tag := . | urlize }}
+    <span class="post_tag button button_translucent">
+      {{- . }}
+    </span>
+    {{- end }}
+    {{- end }}
+
     {{- with .Params.b_benefits -}}
     {{- range . }}
     {{- $tag := . | urlize }}
