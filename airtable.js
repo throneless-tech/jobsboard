@@ -17,6 +17,10 @@ const checkStatus = (record) => {
 };
 
 const createPost = async (job) => {
+  if (!job.title && !job.organization) {
+    return false;
+  }
+
   const timeOptions = { year: 'numeric', month: 'long', day: 'numeric' };
   const today = new Date();
 
@@ -26,7 +30,7 @@ const createPost = async (job) => {
     const date = Date.parse(job.postingDate);
     postingDate = new Date(date).toLocaleDateString("en-US", timeOptions);
   } else {
-    postingDate = new Date().toLocaleDateString("en-US", timeOptions);
+    postingDate = today.toLocaleDateString("en-US", timeOptions);
   }
 
   if (job.closingDate) {
@@ -62,6 +66,20 @@ const createPost = async (job) => {
   const contentPath = path.join('content/post', basename);
 
   await fs.writeFile(contentPath, content, err => {if (err) throw err});
+
+  if (job.closingDate && (new Date(job.closingDate) <= today)) {
+    return "Expired";
+  } else if (!job.closingDate) {
+    let expirationDate = new Date();
+    expirationDate.setMonth(expirationDate.getMonth() - 3);
+    if (job.postingDate && (new Date(job.postingDate) <= expirationDate) ) {
+      return "Expired";
+    } else {
+      return "Published";
+    }
+  } else {
+    return "Published";
+  }
 };
 
 const downloadToBuffer = async (url) => {
@@ -165,14 +183,20 @@ const isValidURL = string => {
           allRecords.push(record);
           let job = await extractJob(record);
           let post = await createPost(job);
-          base('Submitted Jobs').update(record.id, {
-            "Status": "Published",
-          }, function(err, record) {
-            if (err) {
-              console.error(err);
-              return;
-            }
-          })
+
+          if (!post) {
+            console.log(`Found an empty row; not publishing.`);
+            return false;
+          } else {
+            base('Submitted Jobs').update(record.id, {
+              "Status": post,
+            }, function(err, record) {
+              if (err) {
+                console.error(err);
+                return;
+              }
+            })
+          }
         }
       });
 
