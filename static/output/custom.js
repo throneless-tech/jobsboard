@@ -421,7 +421,10 @@ var _modals = _interopRequireDefault(require("./modals.js"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const container = document.getElementById("info");
-new _modals.default(container); // If you have more than one modal on the page
+
+if (container) {
+  new _modals.default(container);
+} // If you have more than one modal on the page
 // const containers = document.querySelectorAll(".Modal");
 // containers.forEach(container => new Modal(container));
 },{"./modals.js":"b137fe10dec2bf438d5c99f44af31b0d"}],"b137fe10dec2bf438d5c99f44af31b0d":[function(require,module,exports) {
