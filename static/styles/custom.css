@@ -398,7 +398,7 @@ p {
     background: #000;
     color: #D69900; }
 
-.clear {
+.clear-filters {
   background: #D3E0E1;
   border: 1px solid #0B203C;
   border-radius: 30px;
@@ -410,12 +410,12 @@ p {
   padding: 12px 24px;
   text-align: center;
   width: 164px; }
-  .clear-text {
+  .clear-filters-text {
     font-family: "Poppins", sans-serif;
     font-size: 0.8em;
     font-weight: bold;
     text-transform: uppercase; }
-  .clear:active, .clear:focus, .clear:hover {
+  .clear-filters:active, .clear-filters:focus, .clear-filters:hover {
     background: #000;
     color: #D3E0E1; }
 

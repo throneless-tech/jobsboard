@@ -1162,7 +1162,7 @@ filter.addEventListener('submit', event => {
     });
   }
 });
-const clearButton = document.getElementById('clear');
+const clearButton = document.getElementById('clear-filters');
 clearButton.addEventListener('click', event => {
   filter.reset();
   htmlPosts.map(post => {
