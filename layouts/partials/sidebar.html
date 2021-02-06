@@ -10,13 +10,17 @@
       <fieldset class="fieldset">
         <legend class="legend">Location</legend>
         <select class="location" name="location">
-          <option value="">– Add location –</option>
+          <option value="">– Choose location –</option>
           {{ $locations := (slice) }}
+          {{ $filtered := (slice) }}
+          {{ $filteredLocations := (slice) }}
           {{- $posts := (where .Site.Pages "Type" "post") }}
           {{- range $posts }}
             {{ $locations = union $locations ( slice .Params.location ) }}
+            {{ $filtered = trim (delimit $locations ", ") "-" }}
+            {{ $filteredLocations = split $filtered ", "  | uniq}}
           {{ end }}
-          {{- range $lKey, $lValue := $locations}}
+          {{- range $lKey, $lValue := $filteredLocations}}
             <option value="{{ $lValue }}">{{ $lValue }}</option>
           {{ end }}
         </select>

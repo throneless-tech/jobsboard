@@ -13,7 +13,7 @@ const allRecords = [];
 
 const checkStatus = (record) => {
   const status = record.get("Status");
-  return status == "Ready to publish";
+  return status == "Ready to publish" || "Published";
 };
 
 const createPost = async (job) => {
@@ -42,13 +42,19 @@ const createPost = async (job) => {
     benefits.push(`"${benefit}"`);
   });
 
+  let locations;
+
+  if (job.location.length > 1) {
+    locations = job.location.join(', ');
+  } else {
+    locations = job.location;
+  }
+
   let types = [];
 
   job.type.forEach(jobType => {
     types.push(`"${jobType}"`);
   });
-
-  const locations = job.location.join(', ');
 
   const content = `+++\nauthor = "None"\ntitle = "${job.title}"\norganization = "${job.organization}"\nlocation = "${locations}"\nlink = "${job.link}"\ncreated_at = "${postingDate}"\nclosing_date = "${closingDate}"\na_job_type = [${types}]\nb_benefits = [${benefits}]\nc_feedback = "${job.rating}"\nthumbnail = "${job.logo ? `../../${job.logo}` : ""}"\n+++\n${job.description}`
 
