@@ -41,8 +41,7 @@
     "airtable": "^0.10.1",
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
-    "gray-matter": "^4.0.2",
-    "minisearch": "^3.0.2",
+    "lunr": "^2.3.9",
     "object-hash": "^2.0.3"
   },
   "devDependencies": {

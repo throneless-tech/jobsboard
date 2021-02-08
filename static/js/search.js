@@ -1,5 +1,4 @@
-import * as matter from 'gray-matter';
-import MiniSearch from 'minisearch';
+import lunr from 'lunr';
 
 const htmlCollection = document.getElementsByClassName('excerpt');
 const htmlPosts = [...htmlCollection];
@@ -17,11 +16,16 @@ const posts = htmlPosts.map(post => (
   }
 ));
 
-let miniSearch = new MiniSearch({
-  fields: ['content', 'feedback', 'type'],
-})
+let idx = lunr(function () {
+  this.ref('id')
+  this.field('content')
+  this.field('feedback')
+  this.field('type')
 
-miniSearch.addAll(posts);
+  posts.forEach(function (doc) {
+    this.add(doc)
+  }, this)
+})
 
 const checkEnter = (e) => {
  e = e || event;
@@ -33,10 +37,7 @@ searchbar.onkeypress = checkEnter;
 
 searchbar.addEventListener('input', event => {
   event.preventDefault();
-  let results = miniSearch.search(event.target.value, {
-    fuzzy: 0.2,
-    prefix: true
-  });
+  let results = idx.search(`*${event.target.value}*~2`);
 
   if (event.target.value && results.length) {
     noResults.classList.add('hidden');
@@ -44,7 +45,7 @@ searchbar.addEventListener('input', event => {
     htmlPosts.filter(post => {
       post.classList.add('hidden');
       results.some(result => {
-        if (result.id === post.id) {
+        if (result.ref === post.id) {
           post.classList.remove('hidden');
         }
       })
@@ -70,14 +71,11 @@ filter.addEventListener('submit', event => {
   }
 
   options = options
-    .filter(option => {
-      if (option !== "on" && option != "location" && option.length) {
-        return option.replace(/-/g, ' ');
-      }
-    })
-    .join(" ");
+    .filter(option => (option !== "on" && option != "location" && option.length))
+    .map(option => option.replace(/\-/g, ' +'))
+    .join(" +");
 
-  let results = miniSearch.search(options, { combineWith: "AND" });
+  let results = idx.search(`+${options}`);
 
   if (options.length && results.length) {
     noResults.classList.add('hidden');
@@ -85,7 +83,7 @@ filter.addEventListener('submit', event => {
     htmlPosts.filter(post => {
       post.classList.add('hidden');
       results.some(result => {
-        if (result.id === post.id) {
+        if (result.ref === post.id) {
           post.classList.remove('hidden');
         }
       })
