@@ -17,10 +17,9 @@ const posts = htmlPosts.map(post => (
   }
 ));
 
-console.log('posts: ',posts);
-
 let miniSearch = new MiniSearch({
   fields: ['content', 'feedback', 'type'],
+  storeFields: ['content', 'feedback', 'type'],
 })
 
 miniSearch.addAll(posts);
@@ -80,9 +79,6 @@ filter.addEventListener('submit', event => {
     .join(" ");
 
   let results = miniSearch.search(options, { combineWith: "AND" });
-
-  console.log('options: ', options);
-  console.log('results: ', results);
 
   if (options.length && results.length) {
     noResults.classList.add('hidden');
