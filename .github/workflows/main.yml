@@ -55,7 +55,6 @@ jobs:
       # fail and stop execution. There should be no commit when there is no
       # change.
         run: |
-         git pull
          git add content/post static/images
          # Only commit and push if there were effective changes.
           if !(git diff --quiet && git diff --staged --quiet) ; then
