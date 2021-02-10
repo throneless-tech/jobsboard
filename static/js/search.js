@@ -7,12 +7,10 @@ const filter = document.getElementById('filter');
 const postsContainer = document.getElementById('posts');
 const noResults = document.getElementById('no-results');
 
-console.log('posts: ', htmlPosts);
-
 const posts = htmlPosts.map(post => (
   {
     id: post.id,
-    content: post.textContent.replace(/\n/g, ' '),
+    content: post.innerText.replace(/\n/g, ' '),
     feedback: post.dataset.feedback,
     type: post.dataset.type,
   }
