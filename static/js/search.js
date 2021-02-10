@@ -24,11 +24,13 @@ let idx = lunr(function () {
 
   this.pipeline.reset();
   this.searchPipeline.reset();
-  
+
   posts.forEach(function (doc) {
     this.add(doc);
   }, this);
 })
+
+console.log(idx);
 
 const checkEnter = (e) => {
  e = e || event;

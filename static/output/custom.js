@@ -1095,6 +1095,7 @@ let idx = (0, _lunr.default)(function () {
     this.add(doc);
   }, this);
 });
+console.log(idx);
 
 const checkEnter = e => {
   e = e || event;
