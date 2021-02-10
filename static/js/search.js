@@ -8,15 +8,15 @@ const postsContainer = document.getElementById('posts');
 const noResults = document.getElementById('no-results');
 
 const posts = htmlPosts.map(post => (
+  console.log('post: ', post);
   {
     id: post.id,
-    content: post.textContent, //.replace(/\n/g, ' , '),
+    content: post.textContent.replace(/\n/g, ' '),
     feedback: post.dataset.feedback,
     type: post.dataset.type,
   }
 ));
 
-console.log('posts: ', posts);
 
 let idx = lunr(function () {
   this.ref('id');
