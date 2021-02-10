@@ -1088,14 +1088,17 @@ let idx = (0, _lunr.default)(function () {
   });
   this.field('type', {
     boost: 10
-  });
+  }); // similarity tuning
+
+  this.k1(0.5);
+  this.b(0); // remove buzz words that are causing random word eliminiation
+
   this.pipeline.reset();
   this.searchPipeline.reset();
   posts.forEach(function (doc) {
     this.add(doc);
   }, this);
 });
-console.log(idx);
 
 const checkEnter = e => {
   e = e || event;
@@ -1106,7 +1109,25 @@ const checkEnter = e => {
 searchbar.onkeypress = checkEnter;
 searchbar.addEventListener('input', event => {
   event.preventDefault();
-  let results = idx.search(`*${event.target.value}*~2`);
+  idx.query(function (q) {
+    // look for an exact match and apply a large positive boost
+    q.term(event.target.value, {
+      usePipeline: true,
+      boost: 100
+    }); // look for terms that match the beginning of this query term and apply a medium boost
+
+    q.term(event.target.value + "*", {
+      usePipeline: false,
+      boost: 10
+    }); // look for terms that match with an edit distance of 2 and apply a small boost
+
+    q.term(event.target.value, {
+      usePipeline: false,
+      editDistance: 2,
+      boost: 1
+    });
+  });
+  let results = idx.search(`${event.target.value}^100 ${event.target.value}*^10 ${event.target.value}~2`);
 
   if (event.target.value && results.length) {
     noResults.classList.add('hidden');
@@ -1140,6 +1161,13 @@ filter.addEventListener('submit', event => {
   }
 
   options = options.filter(option => option !== "on" && option != "location" && option.length).map(option => option.replace(/\-/g, ' +')).join(" +");
+  idx.query(function (q) {
+    // look for an exact match and apply a large positive boost
+    q.term(options, {
+      usePipeline: true,
+      boost: 100
+    });
+  });
   let results = idx.search(`+${options}`);
   console.log('options: ', options);
   console.log('results: ', results);
