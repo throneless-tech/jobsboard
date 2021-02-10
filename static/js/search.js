@@ -16,6 +16,8 @@ const posts = htmlPosts.map(post => (
   }
 ));
 
+console.log('posts: ', posts);
+
 let idx = lunr(function () {
   this.ref('id');
   this.field('content', {boost: 10});
@@ -101,7 +103,7 @@ filter.addEventListener('submit', event => {
   })
 
   let results = idx.search(`+${options}`);
-  
+
   if (options.length && results.length) {
     noResults.classList.add('hidden');
     postsContainer.classList.remove('hidden');
