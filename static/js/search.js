@@ -10,7 +10,7 @@ const noResults = document.getElementById('no-results');
 const posts = htmlPosts.map(post => (
   {
     id: post.id,
-    content: post.textContent.replace(/\n/g,' '),
+    content: post.textContent.replace(/\n/g, ' , '),
     feedback: post.dataset.feedback,
     type: post.dataset.type,
   }
@@ -53,7 +53,7 @@ searchbar.addEventListener('input', event => {
     q.term(event.target.value, { usePipeline: true, boost: 100 })
 
     // look for terms that match the beginning of this query term and apply a medium boost
-    q.term(event.target.value + "*", { usePipeline: false, boost: 10 })
+    q.term(`${event.target.value}*`, { usePipeline: false, boost: 10 })
 
     // look for terms that match with an edit distance of 2 and apply a small boost
     q.term(event.target.value, { usePipeline: false, editDistance: 2, boost: 1 })
