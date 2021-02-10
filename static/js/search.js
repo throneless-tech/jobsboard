@@ -7,8 +7,9 @@ const filter = document.getElementById('filter');
 const postsContainer = document.getElementById('posts');
 const noResults = document.getElementById('no-results');
 
+console.log('posts: ', htmlPosts);
+
 const posts = htmlPosts.map(post => (
-  console.log('post: ', post);
   {
     id: post.id,
     content: post.textContent.replace(/\n/g, ' '),
