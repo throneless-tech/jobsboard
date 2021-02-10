@@ -10,7 +10,7 @@ const noResults = document.getElementById('no-results');
 const posts = htmlPosts.map(post => (
   {
     id: post.id,
-    content: post.textContent,
+    content: post.textContent.replace(/\n/g,' '),
     feedback: post.dataset.feedback,
     type: post.dataset.type,
   }

@@ -1074,10 +1074,11 @@ const postsContainer = document.getElementById('posts');
 const noResults = document.getElementById('no-results');
 const posts = htmlPosts.map(post => ({
   id: post.id,
-  content: post.textContent,
+  content: post.textContent.replace(/\n/g, ''),
   feedback: post.dataset.feedback,
   type: post.dataset.type
 }));
+console.log('posts: ', posts);
 let idx = (0, _lunr.default)(function () {
   this.ref('id');
   this.field('content', {
@@ -1169,8 +1170,6 @@ filter.addEventListener('submit', event => {
     });
   });
   let results = idx.search(`+${options}`);
-  console.log('options: ', options);
-  console.log('results: ', results);
 
   if (options.length && results.length) {
     noResults.classList.add('hidden');
