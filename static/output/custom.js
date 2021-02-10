@@ -1074,7 +1074,8 @@ const postsContainer = document.getElementById('posts');
 const noResults = document.getElementById('no-results');
 const posts = htmlPosts.map(post => ({
   id: post.id,
-  content: post.textContent.replace(/\n/g, ''),
+  content: post.textContent,
+  //.replace(/\n/g, ' , '),
   feedback: post.dataset.feedback,
   type: post.dataset.type
 }));
@@ -1088,7 +1089,7 @@ let idx = (0, _lunr.default)(function () {
     boost: 5
   });
   this.field('type', {
-    boost: 10
+    boost: 5
   }); // similarity tuning
 
   this.k1(0.5);
@@ -1117,7 +1118,7 @@ searchbar.addEventListener('input', event => {
       boost: 100
     }); // look for terms that match the beginning of this query term and apply a medium boost
 
-    q.term(event.target.value + "*", {
+    q.term(`${event.target.value}*`, {
       usePipeline: false,
       boost: 10
     }); // look for terms that match with an edit distance of 2 and apply a small boost

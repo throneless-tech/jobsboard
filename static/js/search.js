@@ -10,7 +10,7 @@ const noResults = document.getElementById('no-results');
 const posts = htmlPosts.map(post => (
   {
     id: post.id,
-    content: post.textContent.replace(/\n/g, ' , '),
+    content: post.textContent, //.replace(/\n/g, ' , '),
     feedback: post.dataset.feedback,
     type: post.dataset.type,
   }
@@ -22,7 +22,7 @@ let idx = lunr(function () {
   this.ref('id');
   this.field('content', {boost: 10});
   this.field('feedback', {boost: 5});
-  this.field('type', {boost: 10});
+  this.field('type', {boost: 5});
 
   // similarity tuning
   this.k1(0.5);
