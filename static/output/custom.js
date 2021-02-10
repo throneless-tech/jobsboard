@@ -1080,9 +1080,17 @@ const posts = htmlPosts.map(post => ({
 }));
 let idx = (0, _lunr.default)(function () {
   this.ref('id');
-  this.field('content');
-  this.field('feedback');
-  this.field('type');
+  this.field('content', {
+    boost: 10
+  });
+  this.field('feedback', {
+    boost: 5
+  });
+  this.field('type', {
+    boost: 10
+  });
+  this.pipeline.reset();
+  this.searchPipeline.reset();
   posts.forEach(function (doc) {
     this.add(doc);
   }, this);
@@ -1132,6 +1140,8 @@ filter.addEventListener('submit', event => {
 
   options = options.filter(option => option !== "on" && option != "location" && option.length).map(option => option.replace(/\-/g, ' +')).join(" +");
   let results = idx.search(`+${options}`);
+  console.log('options: ', options);
+  console.log('results: ', results);
 
   if (options.length && results.length) {
     noResults.classList.add('hidden');

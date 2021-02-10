@@ -17,14 +17,17 @@ const posts = htmlPosts.map(post => (
 ));
 
 let idx = lunr(function () {
-  this.ref('id')
-  this.field('content')
-  this.field('feedback')
-  this.field('type')
+  this.ref('id');
+  this.field('content', {boost: 10});
+  this.field('feedback', {boost: 5});
+  this.field('type', {boost: 10});
 
+  this.pipeline.reset();
+  this.searchPipeline.reset();
+  
   posts.forEach(function (doc) {
-    this.add(doc)
-  }, this)
+    this.add(doc);
+  }, this);
 })
 
 const checkEnter = (e) => {
@@ -76,6 +79,9 @@ filter.addEventListener('submit', event => {
     .join(" +");
 
   let results = idx.search(`+${options}`);
+
+  console.log('options: ', options);
+  console.log('results: ', results);
 
   if (options.length && results.length) {
     noResults.classList.add('hidden');
