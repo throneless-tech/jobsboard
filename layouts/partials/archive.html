@@ -9,15 +9,13 @@
   {{- partial "sidebar" . }}
   <div>
     <ul class="posts" id="posts">
-      {{- range sort (.Paginate $pages).Pages "Params.created_at" "desc" }}
+      {{- range sort $pages "Params.created_at" "desc" }}
         {{ partial "excerpt" . }}
       {{- end }}
-      <li>
-        {{- template "_internal/pagination.html" . }}
-      </li>
     </ul>
+    <button type="button" name="button" class="button button_more" id="load-more">Load more</button>
     <div id="no-results" class="hidden">
-      No results.
+      End of results.
     </div>
   </div>
 </div>

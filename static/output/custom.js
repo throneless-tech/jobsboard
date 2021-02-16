@@ -1066,20 +1066,24 @@ var _lunr = _interopRequireDefault(require("lunr"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// set variables
 const htmlCollection = document.getElementsByClassName('excerpt');
 const htmlPosts = [...htmlCollection];
 const searchbar = document.getElementById('search');
 const filter = document.getElementById('filter');
 const postsContainer = document.getElementById('posts');
 const noResults = document.getElementById('no-results');
+const clearButton = document.getElementById('clear-filters');
+const loadButton = document.getElementById('load-more');
+let counter = 10; // create array of objects containing posts texts
+
 const posts = htmlPosts.map(post => ({
   id: post.id,
-  content: post.textContent,
-  //.replace(/\n/g, ' , '),
+  content: post.innerText.replace(/\n/g, ' '),
   feedback: post.dataset.feedback,
   type: post.dataset.type
-}));
-console.log('posts: ', posts);
+})); // initiate lunr
+
 let idx = (0, _lunr.default)(function () {
   this.ref('id');
   this.field('content', {
@@ -1100,7 +1104,7 @@ let idx = (0, _lunr.default)(function () {
   posts.forEach(function (doc) {
     this.add(doc);
   }, this);
-});
+}); // automatic text search by typing in text input field
 
 const checkEnter = e => {
   e = e || event;
@@ -1111,6 +1115,7 @@ const checkEnter = e => {
 searchbar.onkeypress = checkEnter;
 searchbar.addEventListener('input', event => {
   event.preventDefault();
+  loadButton.classList.add('hidden');
   idx.query(function (q) {
     // look for an exact match and apply a large positive boost
     q.term(event.target.value, {
@@ -1152,9 +1157,11 @@ searchbar.addEventListener('input', event => {
       post.classList.remove('hidden');
     });
   }
-});
+}); // search by submitting form of dropdown/checkboxes
+
 filter.addEventListener('submit', event => {
   event.preventDefault();
+  loadButton.classList.add('hidden');
   let formData = new FormData(filter);
   let options = [];
 
@@ -1193,13 +1200,45 @@ filter.addEventListener('submit', event => {
       post.classList.remove('hidden');
     });
   }
-});
-const clearButton = document.getElementById('clear-filters');
+}); // reset search on clear
+
 clearButton.addEventListener('click', event => {
   filter.reset();
-  htmlPosts.map(post => {
-    post.classList.remove('hidden');
+  loadButton.classList.remove('hidden');
+  counter = 10;
+  htmlPosts.map((post, index) => {
+    if (index < counter) {
+      post.classList.remove('hidden');
+    }
   });
+}); // load up to 10 posts on page load
+
+if (htmlPosts.length) {
+  htmlPosts.map((post, index) => {
+    if (index >= 10) {
+      post.classList.add('hidden');
+      loadButton.classList.remove('hidden');
+    } else {
+      post.classList.remove('hidden');
+      loadButton.classList.add('hidden');
+    }
+  });
+} // load up to 10 posts more on load more click
+
+
+loadButton.addEventListener('click', event => {
+  if (counter < htmlPosts.length) {
+    counter += 10;
+    htmlPosts.map((post, index) => {
+      if (counter <= index <= htmlPosts.length) {
+        post.classList.remove('hidden');
+      } else {
+        post.classList.add('hidden');
+      }
+    });
+  } else {
+    loadButton.classList.add('hidden');
+  }
 });
 },{"lunr":"fef930669f3532b92210b40c03a2b585"}],"fef930669f3532b92210b40c03a2b585":[function(require,module,exports) {
 var define;

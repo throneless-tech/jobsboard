@@ -1,12 +1,17 @@
 import lunr from 'lunr';
 
+// set variables
 const htmlCollection = document.getElementsByClassName('excerpt');
 const htmlPosts = [...htmlCollection];
 const searchbar = document.getElementById('search');
 const filter = document.getElementById('filter');
 const postsContainer = document.getElementById('posts');
 const noResults = document.getElementById('no-results');
+const clearButton = document.getElementById('clear-filters');
+const loadButton = document.getElementById('load-more');
+let counter = 10;
 
+// create array of objects containing posts texts
 const posts = htmlPosts.map(post => (
   {
     id: post.id,
@@ -16,7 +21,7 @@ const posts = htmlPosts.map(post => (
   }
 ));
 
-
+// initiate lunr
 let idx = lunr(function () {
   this.ref('id');
   this.field('content', {boost: 10});
@@ -36,6 +41,7 @@ let idx = lunr(function () {
   }, this);
 })
 
+// automatic text search by typing in text input field
 const checkEnter = (e) => {
  e = e || event;
  var txtArea = /textarea/i.test((e.target || e.srcElement).tagName);
@@ -46,6 +52,7 @@ searchbar.onkeypress = checkEnter;
 
 searchbar.addEventListener('input', event => {
   event.preventDefault();
+  loadButton.classList.add('hidden');
 
   idx.query(function (q) {
     // look for an exact match and apply a large positive boost
@@ -83,8 +90,10 @@ searchbar.addEventListener('input', event => {
   }
 })
 
+// search by submitting form of dropdown/checkboxes
 filter.addEventListener('submit', event => {
   event.preventDefault();
+  loadButton.classList.add('hidden');
   let formData = new FormData(filter);
   let options = [];
   for (var pair of formData.entries()) {
@@ -126,11 +135,43 @@ filter.addEventListener('submit', event => {
   }
 })
 
-const clearButton = document.getElementById('clear-filters');
-
+// reset search on clear
 clearButton.addEventListener('click', event => {
   filter.reset();
-  htmlPosts.map(post => {
-    post.classList.remove('hidden');
+  loadButton.classList.remove('hidden');
+  counter = 10;
+  htmlPosts.map((post, index) => {
+    if (index < counter) {
+      post.classList.remove('hidden');      
+    }
   })
 });
+
+// load up to 10 posts on page load
+if (htmlPosts.length) {
+  htmlPosts.map((post, index) => {
+    if (index >= 10) {
+      post.classList.add('hidden');
+      loadButton.classList.remove('hidden');
+    } else {
+      post.classList.remove('hidden');
+      loadButton.classList.add('hidden');
+    }
+  })
+}
+
+// load up to 10 posts more on load more click
+loadButton.addEventListener('click', event => {
+  if (counter < htmlPosts.length) {
+    counter += 10;
+    htmlPosts.map((post, index) => {
+      if (counter <= index <= htmlPosts.length) {
+        post.classList.remove('hidden');
+      } else {
+        post.classList.add('hidden');
+      }
+    })
+  } else {
+    loadButton.classList.add('hidden');
+  }
+})

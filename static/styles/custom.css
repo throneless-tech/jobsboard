@@ -21,6 +21,8 @@ p {
   font-family: "Poppins", sans-serif; }
 
 /* Buttons */
+.button_more {
+  cursor: pointer; }
 .button_translucent {
   background: #D3E0E1;
   color: #0B203C; }
