@@ -4,10 +4,10 @@ title = "Communications Manager"
 organization = "Our Justice"
 location = "Minnesota"
 link = "https://www.ourjustice.net/new-blog/2020/12/9/now-hiring-communications-manager"
-created_at = "February 16, 2021"
+created_at = "February 1, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]
-b_benefits = ["Health Insurance"]
+b_benefits = ["Health Insurance","Dental","Vision"]
 c_feedback = ""
 thumbnail = "../../images/OurJusticeLogo31219_4b045bf0.png"
 +++
