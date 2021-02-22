@@ -462,6 +462,8 @@ p {
         color: #0B203C; }
         .excerpt .meta .date .post_tag:active, .excerpt .meta .date .post_tag:focus, .excerpt .meta .date .post_tag:hover {
           border: 1px solid #D3E0E1; }
+    .excerpt .meta .salary {
+      font-size: 18px; }
   .excerpt_footer {
     display: block;
     padding: 0; }

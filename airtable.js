@@ -60,7 +60,7 @@ const createPost = async (job) => {
     types.push(`"${jobType}"`);
   });
 
-  const content = `+++\nauthor = "None"\ntitle = "${job.title}"\norganization = "${job.organization}"\nlocation = "${locations}"\nlink = "${job.link}"\ncreated_at = "${postingDate}"\nclosing_date = "${closingDate}"\na_job_type = [${types}]\nb_benefits = [${benefits}]\nc_feedback = "${job.rating}"\nthumbnail = "${job.logo ? `../../${job.logo}` : ""}"\n+++\n${job.description}`
+  const content = `+++\nauthor = "None"\ntitle = "${job.title}"\norganization = "${job.organization}"\nlocation = "${locations}"\nsalary = "${job.salary}"\nlink = "${job.link}"\ncreated_at = "${postingDate}"\nclosing_date = "${closingDate}"\na_job_type = [${types}]\nb_benefits = [${benefits}]\nc_feedback = "${job.rating}"\nthumbnail = "${job.logo ? `../../${job.logo}` : ""}"\n+++\n${job.description}`
 
   const basename = path.basename(`${job.organization.replace(/\s/g, '-')}_${job.title.replace(/\s/g, '-')}.md`);
   const contentPath = path.join('content/post', basename);
@@ -130,6 +130,7 @@ const extractJob = async (record) => {
   link = (!link || isValidURL(link)) ? link : `https://${link}`;
   const location = record.get('Location') || '';
   const type = record.get('Job Type') || [];
+  const salary = record.get('Salary') || '';
   const benefits = record.get('Benefits') || [];
   const rating = record.get('Rating') || '';
   const postingDate = record.get('Posting Date');
@@ -144,6 +145,7 @@ const extractJob = async (record) => {
     link,
     location,
     type,
+    salary,
     benefits,
     rating,
     postingDate,
