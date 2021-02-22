@@ -478,9 +478,6 @@ p {
       height: 120px;
       margin-top: 20px;
       width: 120px; }
-    @media screen and (min-width: 769px) {
-      .excerpt_footer {
-        display: grid; } }
     .excerpt_footer .excerpt_more {
       color: #D04400;
       font-weight: bold; }
