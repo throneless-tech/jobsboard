@@ -569,6 +569,7 @@ p
       min-height: 0
       padding: 0
       margin: 0
+      max-width: 120px
 
     & .excerpt_thumbnail_placeholder
       background-color: #0b203c
@@ -583,6 +584,9 @@ p
 
     &.partition
       grid-template-columns: 1.5fr 7.5fr
+
+      @media screen and (max-width: 769px)
+        display: block
 
 /* Dark mode */
 
