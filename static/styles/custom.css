@@ -481,7 +481,9 @@ p {
       width: 120px; }
     .excerpt_footer .excerpt_more {
       color: #D04400;
-      font-weight: bold; }
+      font-weight: bold;
+      word-break: break-word;
+      word-wrap: break-word; }
     .excerpt_footer.partition {
       grid-template-columns: 1.5fr 7.5fr; }
       @media screen and (max-width: 769px) {
