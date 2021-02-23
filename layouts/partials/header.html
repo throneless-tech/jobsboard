@@ -3,7 +3,7 @@
 {{ $logo := $params.logo }}
 <header class="nav_header" >
   <nav class="nav">
-    <a href='{{ absLangURL "" }}' class="nav_brand nav_brand_mobile nav_item{{ if eq $centerLogo true }} nav_hide{{ end }}">
+    <a href='https://www.reprojobs.org/' class="nav_brand nav_brand_mobile nav_item{{ if eq $centerLogo true }} nav_hide{{ end }}">
       {{- with $logo }}
       <img src="{{ absURL . }}" class="logo">
       {{- else }}
@@ -61,14 +61,14 @@
       {{ end }}
 
       {{- if eq $centerLogo true }}
-      <a href='{{ absLangURL "" }}' class="nav_brand nav_center nav_item">
+      <a href='https://www.reprojobs.org/' class="nav_brand nav_center nav_item">
         <img src="{{ absURL $logo }}" class="logo">
       </a>
       {{- end }}
     </div>
 
     <div class="nav_body __bottom nav_body_{{ .Site.Params.mobileNavigation }}">
-      <a href='{{ absLangURL "" }}' class="nav_brand nav_item nav_hide">
+      <a href='https://www.reprojobs.org/' class="nav_brand nav_item nav_hide">
         {{- with $logo }}
         <img src="{{ absURL . }}" class="logo">
         {{- else }}
