@@ -235,7 +235,7 @@ p
 
   &_close
     svg
-      fill: var(--dark)
+      fill: var(--dark) !important
 
   &_hide
     @media screen and (max-width: 770px)
@@ -531,6 +531,9 @@ p
       border: 1px solid #0B203C
       margin-right: 8px
 
+      @media (prefers-color-scheme: dark)
+        border: 1px solid #fff
+
   & input:checked + label:before
     background-color: #D04400
     background-image: url('../icons/checkbox.svg')
@@ -549,12 +552,18 @@ p
     font-weight: bold
     line-height: 1.2em
 
+    @media (prefers-color-scheme: dark)
+      color: #fff
+
     @media screen and (min-width: 769px)
     font-size: 30px
 
 
   .meta
     color: #000
+
+    @media (prefers-color-scheme: dark)
+      color: #fff
 
     & .organization
       font-size: 1em
@@ -608,6 +617,11 @@ html[data-mode="dim"]
   & .excerpt
     & .post_link, & .meta
       color: #fff
+
+  & .checkbox
+    label
+      &::before
+        border: 1px solid #fff
 
 /* Hidden */
 .hidden
