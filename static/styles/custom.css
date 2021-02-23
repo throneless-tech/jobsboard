@@ -58,7 +58,8 @@ p {
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 15px;
-    padding: 0.75em 1.5em; }
+    padding: 0.75em 1.5em;
+    width: 100%; }
   .footer_form_submit {
     background-color: #d69a00;
     border: 1px solid #d69a00;
