@@ -20,8 +20,8 @@
             {{ $filtered = trim (delimit $locations ", ") "-" }}
             {{ $filteredLocations = split $filtered ", "  | uniq}}
           {{ end }}
-          {{- range $lKey, $lValue := $filteredLocations}}
-            <option value="{{ $lValue }}">{{ $lValue }}</option>
+          {{- range sort $filteredLocations}}
+            <option value="{{ . }}">{{ . }}</option>
           {{ end }}
         </select>
       </fieldset>
