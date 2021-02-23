@@ -579,6 +579,7 @@ html[data-mode="dim"] .checkbox label::before {
         font-size: 1.5rem;
         margin-bottom: 18px; }
       .Modal:not([aria-hidden]):target .Modal-content-body, .Modal[aria-hidden="false"] .Modal-content-body {
+        color: #444;
         font-weight: 500; }
         .Modal:not([aria-hidden]):target .Modal-content-body-email, .Modal[aria-hidden="false"] .Modal-content-body-email {
           text-decoration: underline; }
