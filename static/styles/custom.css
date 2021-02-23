@@ -156,13 +156,25 @@ p {
 
 /* Navigation */
 .nav_brand_mobile {
+  height: 70px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  width: 135px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: 100%;
   z-index: 0; }
+@media screen and (max-width: 769px) {
+  .nav_brand .logo {
+    display: block;
+    left: 50%;
+    position: absolute;
+    top: 10%;
+    transform: translateX(-50%);
+    width: 135px; } }
 .nav_close {
-  right: -6rem; }
+  right: 0;
+  top: -5%; }
 .nav_header {
   background-color: #f2f2f2; }
 .nav_item {
@@ -192,10 +204,9 @@ p {
 
 .jsopen .nav_close {
   background-color: #D04400;
-  padding: 30px;
-  padding-right: 40px;
-  right: -31vw;
-  top: -2vh; }
+  left: 81%;
+  padding: 30px 50px;
+  top: -10px; }
   .jsopen .nav_close:before {
     background-color: #d2dfe0;
     bottom: 0;
