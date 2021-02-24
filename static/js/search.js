@@ -29,8 +29,8 @@ let idx = lunr(function () {
   this.field('type', {boost: 5});
 
   // similarity tuning
-  this.k1(0.5);
-  this.b(0);
+  this.k1(0.2);
+  this.b(1);
 
   // remove buzz words that are causing random word eliminiation
   this.pipeline.reset();
@@ -102,8 +102,11 @@ filter.addEventListener('submit', event => {
 
   options = options
     .filter(option => (option !== "on" && option != "location" && option.length))
-    .map(option => option.replace(/\-/g, ' +'))
-    .join(" +");
+    .map(option => {
+      const thisOption = `${option}*`
+      return thisOption.replace(/\-/g, ' +')
+    })
+    .join("* +");
 
   idx.query(function (q) {
     // look for an exact match and apply a large positive boost
@@ -142,7 +145,7 @@ clearButton.addEventListener('click', event => {
   counter = 10;
   htmlPosts.map((post, index) => {
     if (index < counter) {
-      post.classList.remove('hidden');      
+      post.classList.remove('hidden');
     }
   })
 });
