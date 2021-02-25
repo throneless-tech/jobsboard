@@ -603,8 +603,24 @@ p
     .excerpt_more
       color: #D04400
       font-weight: bold
+      position: relative
       word-break: break-word
       word-wrap: break-word
+
+      &_svg
+        fill: #D04400
+        height: 15px
+        position: absolute
+        right: -15px
+        top: 50%
+        transform: translateY(-50%)
+        width: 15px
+
+      &:active, &:focus, &:hover
+        text-decoration: underline
+
+        .exceprt_more_svg
+          right: -20px
 
     &.partition
       grid-template-columns: 1.5fr 7.5fr

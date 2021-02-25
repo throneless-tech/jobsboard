@@ -503,8 +503,21 @@ p {
     .excerpt_footer .excerpt_more {
       color: #D04400;
       font-weight: bold;
+      position: relative;
       word-break: break-word;
       word-wrap: break-word; }
+      .excerpt_footer .excerpt_more_svg {
+        fill: #D04400;
+        height: 15px;
+        position: absolute;
+        right: -15px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 15px; }
+      .excerpt_footer .excerpt_more:active, .excerpt_footer .excerpt_more:focus, .excerpt_footer .excerpt_more:hover {
+        text-decoration: underline; }
+        .excerpt_footer .excerpt_more:active .exceprt_more_svg, .excerpt_footer .excerpt_more:focus .exceprt_more_svg, .excerpt_footer .excerpt_more:hover .exceprt_more_svg {
+          right: -20px; }
     .excerpt_footer.partition {
       grid-template-columns: 1.5fr 7.5fr; }
       @media screen and (max-width: 769px) {
