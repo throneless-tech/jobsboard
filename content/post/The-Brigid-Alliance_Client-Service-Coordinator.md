@@ -13,5 +13,3 @@ c_feedback = "Red Flag"
 thumbnail = "../../images/7UY2v2JmTzSEEPl0hwwW_7a7630f2.png"
 +++
 The Brigid Alliance seeks to add a passionate, diligent, and collaborative Client Services Coordinator to its remote team to help the organization enter its next phase of growth, beckoned by an increasing need for travel support among abortion seekers in the US. 
-
-RED FLAG: We've received complaints about racism at this organization.
