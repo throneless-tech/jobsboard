@@ -558,20 +558,12 @@ p
     font-weight: bold
     line-height: 1.2em
 
-    @media (prefers-color-scheme: dark)
-      html[data-mode="dim"]
-        color: #fff
-
     @media screen and (min-width: 769px)
     font-size: 30px
 
 
   .meta
     color: #000
-
-    @media (prefers-color-scheme: dark)
-      html[data-mode="dim"]
-        color: #fff
 
     & .organization
       font-size: 1em
@@ -636,6 +628,16 @@ p
         display: block
 
 /* Dark mode */
+@media (prefers-color-scheme: dark)
+  html:not([data-mode="lit"])
+    & .excerpt
+      & .post_link, & .meta
+        color: #fff
+
+    & .checkbox
+      label
+        &::before
+          border: 1px solid #fff
 
 html[data-mode="dim"]
   & .excerpt
