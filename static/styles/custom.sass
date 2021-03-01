@@ -559,7 +559,8 @@ p
     line-height: 1.2em
 
     @media (prefers-color-scheme: dark)
-      color: #fff
+      html[data-mode="dim"]
+        color: #fff
 
     @media screen and (min-width: 769px)
     font-size: 30px
@@ -569,7 +570,8 @@ p
     color: #000
 
     @media (prefers-color-scheme: dark)
-      color: #fff
+      html[data-mode="dim"]
+        color: #fff
 
     & .organization
       font-size: 1em

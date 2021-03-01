@@ -471,12 +471,12 @@ p {
     line-height: 1.2em;
     font-size: 30px; }
     @media (prefers-color-scheme: dark) {
-      .excerpt .post_link {
+      .excerpt .post_link html[data-mode="dim"] {
         color: #fff; } }
   .excerpt .meta {
     color: #000; }
     @media (prefers-color-scheme: dark) {
-      .excerpt .meta {
+      .excerpt .meta html[data-mode="dim"] {
         color: #fff; } }
     .excerpt .meta .organization {
       font-size: 1em; }
