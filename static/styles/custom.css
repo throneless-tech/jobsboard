@@ -475,8 +475,9 @@ p {
         color: #fff; } }
   .excerpt .meta {
     color: #000; }
-    .excerpt .meta html[data-mode="dim"] {
-      color: #fff; }
+    @media (prefers-color-scheme: dark) {
+      .excerpt .meta {
+        color: #fff; } }
     .excerpt .meta .organization {
       font-size: 1em; }
     .excerpt .meta .date {
