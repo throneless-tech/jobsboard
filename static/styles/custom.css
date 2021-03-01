@@ -470,14 +470,8 @@ p {
     font-weight: bold;
     line-height: 1.2em;
     font-size: 30px; }
-    @media (prefers-color-scheme: dark) {
-      .excerpt .post_link {
-        color: #fff; } }
   .excerpt .meta {
     color: #000; }
-    @media (prefers-color-scheme: dark) {
-      .excerpt .meta {
-        color: #fff; } }
     .excerpt .meta .organization {
       font-size: 1em; }
     .excerpt .meta .date {
@@ -529,11 +523,11 @@ p {
           display: block; } }
 
 /* Dark mode */
-html[data-mode="dim"] .excerpt .post_link, html[data-mode="dim"] .excerpt .meta {
-  color: #fff; }
-html[data-mode="dim"] .checkbox label::before {
-  border: 1px solid #fff; }
-
+@media (prefers-color-scheme: dark) {
+  html[data-mode="dim"] .excerpt .post_link, html[data-mode="dim"] .excerpt .meta {
+    color: #fff; }
+  html[data-mode="dim"] .checkbox label::before {
+    border: 1px solid #fff; } }
 /* Hidden */
 .hidden {
   display: none; }
