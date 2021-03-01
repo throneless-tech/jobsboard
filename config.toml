@@ -51,7 +51,7 @@ author = "ReproJobs"
 twitter = "@ReproJobs"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
 introDescription = "A jobs board to search for jobs in reproductive justice by ReproJobs."
-description = "A jobs board to search for jobs in reproductive justice by ReproJobs." # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
+description = "A jobs board to search for jobs in reproductive health by ReproJobs." # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
 
 # Google analytics Id
 ga_analytics = "XXXXXXXXXX"
