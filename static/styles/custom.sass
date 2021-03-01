@@ -558,12 +558,18 @@ p
     font-weight: bold
     line-height: 1.2em
 
+    @media (prefers-color-scheme: dark)
+      color: #fff
+
     @media screen and (min-width: 769px)
     font-size: 30px
 
 
   .meta
     color: #000
+
+    @media (prefers-color-scheme: dark)
+      color: #fff
 
     & .organization
       font-size: 1em
@@ -629,16 +635,15 @@ p
 
 /* Dark mode */
 
-@media (prefers-color-scheme: dark)
-  html[data-mode="dim"]
-    & .excerpt
-      & .post_link, & .meta
-        color: #fff
+html[data-mode="dim"]
+  & .excerpt
+    & .post_link, & .meta
+      color: #fff
 
-    & .checkbox
-      label
-        &::before
-          border: 1px solid #fff
+  & .checkbox
+    label
+      &::before
+        border: 1px solid #fff
 
 /* Hidden */
 .hidden
