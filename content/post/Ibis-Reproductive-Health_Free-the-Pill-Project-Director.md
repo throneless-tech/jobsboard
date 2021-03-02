@@ -10,7 +10,7 @@ closing_date = "March 19, 2021"
 a_job_type = ["Full Time"]
 b_benefits = ["Dental","Disability insurance","Life insurance","FSA","Sabbatical ","Paid Leave","Retirement","Paid Vacation","Sick time","Professional development","Transit benefits","Health Insurance","Remote During COVID"]
 c_feedback = ""
-thumbnail = ""
+thumbnail = "../../images/png-version-of-Ibis-logo_6f48bad9.png"
 +++
 We seek a Project Director with campaign management experience who is committed to work on reproductive health, rights, and justice to oversee the implementation of an ambitious program of work to move oral contraceptive pills (OCs) over the counter (OTC) in the United States. The OCs OTC Working Group and our outward-facing campaign, Free the Pill, form an innovative and exciting coalition effort between researchers, providers, pharmacists, advocates, and communities who currently face the most barriers to contraceptive access, including Black people, people of color, and Indigenous peoples, people struggling to make ends meet, and young people. We believe broad contraceptive access cannot be achieved without racial justice, and are committed to applying a reproductive justice lens across our work and advancing racial justice. Confronting the reality that contraceptive inequities are felt deeply by young people and that their access is most controversial, the Free the Pill campaign embraces a youth-adult partnership model in its work.
 
