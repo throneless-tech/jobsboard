@@ -18,4 +18,4 @@ economic, and immigrant justice. They advance the strategic direction of the pro
 both the (c)(3) and (c)(4); identify new opportunities; and manage programmatic staff. The Chief of
 Strategies and Campaigns is part of the Executive Team working together to set the organizational
 direction, establish priorities, and facilitate cross-organization collaboration and innovation of All*
-Above All and All* Above All Action Fund.
+Above All and All* Above All Action Fund.ities, and facilitate cross-organization collaboration and innovation of All* Above All and All* Above All Action Fund.
