@@ -9,7 +9,7 @@
   {{- partial "sidebar" . }}
   <div>
     <ul class="posts" id="posts">
-      {{- range sort $pages "Params.created_at" "desc" }}
+      {{- range sort $pages "Params.sort_date" "desc" }}
         {{ partial "excerpt" . }}
       {{- end }}
     </ul>

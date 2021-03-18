@@ -24,11 +24,12 @@ const createPost = async (job) => {
   const timeOptions = { year: 'numeric', month: 'long', day: 'numeric' };
   const today = new Date();
 
-  let postingDate, closingDate;
+  let postingDate, closingDate, sortDate;
 
   if (job.postingDate) {
     const date = Date.parse(job.postingDate);
     postingDate = new Date(date).toLocaleDateString("en-US", timeOptions);
+    sortDate = new Date(date).toLocaleDateString("en-US");
   } else {
     postingDate = today.toLocaleDateString("en-US", timeOptions);
   }
@@ -60,7 +61,7 @@ const createPost = async (job) => {
     types.push(`"${jobType}"`);
   });
 
-  const content = `+++\nauthor = "None"\ntitle = "${job.title}"\norganization = "${job.organization}"\nlocation = "${locations}"\nsalary = "${job.salary}"\nlink = "${job.link}"\ncreated_at = "${postingDate}"\nclosing_date = "${closingDate}"\na_job_type = [${types}]\nb_benefits = [${benefits}]\nc_feedback = "${job.rating}"\nthumbnail = "${job.logo ? `../../${job.logo}` : ""}"\n+++\n${job.description}`
+  const content = `+++\nauthor = "None"\ntitle = "${job.title}"\norganization = "${job.organization}"\nlocation = "${locations}"\nsalary = "${job.salary}"\nlink = "${job.link}"\nsort_date = "${sortDate}"\ncreated_at = "${postingDate}"\nclosing_date = "${closingDate}"\na_job_type = [${types}]\nb_benefits = [${benefits}]\nc_feedback = "${job.rating}"\nthumbnail = "${job.logo ? `../../${job.logo}` : ""}"\n+++\n${job.description}`
 
   const basename = path.basename(`${job.organization.replace(/\s/g, '-')}_${job.title.replace(/\s/g, '-')}.md`);
   const contentPath = path.join('content/post', basename);
