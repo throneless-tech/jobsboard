@@ -5,6 +5,7 @@ organization = "Groundswell Fund "
 location = "District of Columbia"
 salary = "$60,000 annually"
 link = "https://groundswellfund.org/wp-content/uploads/2020/12/Foundation-Relations-Assistant-Job-Description-final.pdf"
+sort_date = "2/1/2021"
 created_at = "February 1, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

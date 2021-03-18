@@ -5,6 +5,7 @@ organization = "NARAL Pro-Choice Ohio"
 location = "Ohio"
 salary = "$54,000-$61,000"
 link = "https://prochoiceohio.org/about/jobs-internships/operations-manager/"
+sort_date = "3/12/2021"
 created_at = "March 12, 2021"
 closing_date = "April 9, 2021"
 a_job_type = ["Full Time"]

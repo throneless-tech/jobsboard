@@ -5,6 +5,7 @@ organization = "Planned Parenthood Advocates of Ohio "
 location = "Ohio"
 salary = "$43,000"
 link = "https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=6633&clientkey=BF1F3E248BBC4F9D9CB7A6483242BD94"
+sort_date = "3/16/2021"
 created_at = "March 16, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

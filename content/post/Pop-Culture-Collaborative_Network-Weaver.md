@@ -5,6 +5,7 @@ organization = "Pop Culture Collaborative"
 location = "Remote, New York"
 salary = ""
 link = "https://popcollab.org/about-us/team/job-posting-network-weaver/"
+sort_date = "3/3/2021"
 created_at = "March 3, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

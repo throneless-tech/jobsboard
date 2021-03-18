@@ -5,6 +5,7 @@ organization = "Women's Foundation of Oregon"
 location = "Oregon"
 salary = "$100,000-120,000"
 link = "https://womensfoundationoforegon.org/?view=article&id=120:job-ed-2021"
+sort_date = "2/25/2021"
 created_at = "February 25, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

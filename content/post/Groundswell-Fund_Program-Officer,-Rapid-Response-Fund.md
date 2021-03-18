@@ -5,6 +5,7 @@ organization = "Groundswell Fund"
 location = "Remote"
 salary = "$85,000 - $95,000"
 link = "https://groundswellfund.org/wp-content/uploads/2021/02/Rapid-Response-Program-Officer-2021-final.pdf"
+sort_date = "2/25/2021"
 created_at = "February 25, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

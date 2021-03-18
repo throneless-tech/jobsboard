@@ -5,6 +5,7 @@ organization = "Planned Parenthood Texas Votes"
 location = "Texas"
 salary = "$55,000"
 link = "https://www.idealist.org/en/nonprofit-job/5a16fb46a62a4bf9a0c49937d47ff58a-communications-manager-planned-parenthood-texas-votes-austin"
+sort_date = "3/17/2021"
 created_at = "March 17, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

@@ -5,6 +5,7 @@ organization = "Family Independence Initiative"
 location = "Oregon, California"
 salary = "$100K - $120K"
 link = "https://www.fii.org/wp-content/uploads/2020/12/CA_OR-Partnership-Director-JD_FII.pdf"
+sort_date = "2/12/2021"
 created_at = "February 12, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

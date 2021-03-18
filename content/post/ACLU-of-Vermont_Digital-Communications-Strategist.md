@@ -5,6 +5,7 @@ organization = "ACLU of Vermont"
 location = "Vermont"
 salary = "$40,000 - $50,000"
 link = "https://www.idealist.org/en/nonprofit-job/1e57ae8928eb411a93c8e0bf3001b9d1-digital-communications-strategist-aclu-of-vermont-montpelier?utm_content=regular&email_id=71726609a45347348acb318a5b21dfbd&utm_source=transactional&utm_medium=email&utm_campaign=email-alerts"
+sort_date = "3/10/2021"
 created_at = "March 10, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

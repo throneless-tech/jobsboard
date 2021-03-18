@@ -5,6 +5,7 @@ organization = "PL+US: Paid Leave for the United States"
 location = "California, Remote"
 salary = "$70,125-$82,500 "
 link = "https://paidleave.recruiterbox.com/jobs/fk0u2ej/"
+sort_date = "2/28/2021"
 created_at = "February 28, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

@@ -5,6 +5,7 @@ organization = "Planned Parenthood Advocates in Missouri "
 location = "Missouri"
 salary = "$50,000"
 link = "https://jobs.lever.co/ppslrswmo/93c9eff3-2dbb-47b0-92fe-023b4eb7edf9"
+sort_date = "2/27/2021"
 created_at = "February 27, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

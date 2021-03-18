@@ -5,6 +5,7 @@ organization = "UPMC Western Psychiatric Hospital"
 location = "Pennsylvania"
 salary = "$16.37 to $25.78 / hour"
 link = "https://careers.upmc.com/jobs/6417515-research-specialist"
+sort_date = "3/10/2021"
 created_at = "March 10, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

@@ -5,6 +5,7 @@ organization = "National Latina Institute for Reproductive Justice"
 location = "Florida"
 salary = "$60,000 - $65,000"
 link = "https://www.idealist.org/en/nonprofit-job/aa6a004ecfaa4955806ebc4c68119441-florida-state-policy-advocate-national-latina-institute-for-reproductive-justice-miami-dade-county?email_id=0539358df29d4318930ff6d6f5b022fd&utm_source=idealist-org&utm_medium=email&utm_campaign=email-alerts"
+sort_date = "3/4/2021"
 created_at = "March 4, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

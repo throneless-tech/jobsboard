@@ -5,6 +5,7 @@ organization = "National Association of County and City Health Officials (NACCHO
 location = "District of Columbia"
 salary = "$62,057 - $69,505"
 link = "https://careers.naccho.org/jobs/14507668/communication-specialist-hiv-sti-hepatitis?fbclid=IwAR3sJXJTU2Or7bky_MWWujJGCz7lLEpAawVtHRKKP0eap5Ti9I314vh-Rs0"
+sort_date = "3/3/2021"
 created_at = "March 3, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

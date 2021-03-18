@@ -5,6 +5,7 @@ organization = "Conway Strategic"
 location = "District of Columbia"
 salary = "$65,000 - $85,000"
 link = "https://www.idealist.org/en/consultant-job/c2cbcface4e441888a93deb8bd61377d-communications-manager-conwaystrategic-washington"
+sort_date = "3/5/2021"
 created_at = "March 5, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

@@ -5,6 +5,7 @@ organization = "The Generative Learning Community"
 location = "Remote"
 salary = "$1,200-$1,500/month for up to 15 hours of work"
 link = "https://drive.google.com/file/d/1EnsYWMDGGexpePtj14xlGtMGVk2y-JnZ/view"
+sort_date = "2/1/2021"
 created_at = "February 1, 2021"
 closing_date = "-"
 a_job_type = ["Part Time","Consultant"]

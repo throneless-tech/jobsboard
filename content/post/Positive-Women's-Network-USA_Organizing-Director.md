@@ -5,6 +5,7 @@ organization = "Positive Women's Network-USA"
 location = "Remote"
 salary = "$55,000 - $70,000"
 link = "https://ttps://www.idealist.org/en/nonprofit-job/a8dd9f377d034d5ea1418c42a97b18cf-positive-womens-network-usa-organizing-director-positive-womens-network-usa-oakland"
+sort_date = "3/9/2021"
 created_at = "March 9, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

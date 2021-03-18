@@ -5,6 +5,7 @@ organization = "National Women's Law Center"
 location = "District of Columbia"
 salary = "$75,618"
 link = "https://www.idealist.org/en/nonprofit-job/4ac3e25e32e542189be525ed0b6663b8-sr-manager-of-campaigns-national-womens-law-center-washington"
+sort_date = "3/5/2021"
 created_at = "March 5, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

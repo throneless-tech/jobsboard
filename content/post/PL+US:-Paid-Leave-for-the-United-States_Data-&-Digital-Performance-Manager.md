@@ -5,6 +5,7 @@ organization = "PL+US: Paid Leave for the United States"
 location = "Remote"
 salary = "$70,125-$82,500"
 link = "https://paidleave.recruiterbox.com/jobs/fk0urjb/"
+sort_date = "3/16/2021"
 created_at = "March 16, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]
