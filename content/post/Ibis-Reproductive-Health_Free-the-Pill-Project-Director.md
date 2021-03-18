@@ -5,7 +5,7 @@ organization = "Ibis Reproductive Health"
 location = "Massachusetts, California"
 salary = "$90,000-$115,000 USD"
 link = "https://ibis.bamboohr.com/jobs/view.php?id=24"
-sort_date = "3/1/2021"
+sort_date = "2021-03-01"
 created_at = "March 1, 2021"
 closing_date = "March 19, 2021"
 a_job_type = ["Full Time"]

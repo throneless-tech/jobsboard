@@ -5,7 +5,7 @@ organization = "Our Bodies, Ourselves"
 location = "Massachusetts, Remote"
 salary = "$65,000-$70,000"
 link = "https://www.higheredjobs.com/faculty/details.cfm?JobCode=177401527&Title=Program%20Director%20%2D%20Our%20Bodies%20Ourselves%20Today%20%28Sociology%29"
-sort_date = "2/12/2021"
+sort_date = "2021-02-12"
 created_at = "February 12, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

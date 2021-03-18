@@ -5,7 +5,7 @@ organization = "Public Health Solutions"
 location = "Remote, New York"
 salary = ""
 link = "https://phg.tbe.taleo.net/phg03/ats/careers/v2/viewRequisition?org=PUBLHEAL2&cws=37&rid=582"
-sort_date = "3/4/2021"
+sort_date = "2021-03-04"
 created_at = "March 4, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

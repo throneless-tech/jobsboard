@@ -5,7 +5,7 @@ organization = "Freedom for Immigrants"
 location = "Remote, California, New York, District of Columbia"
 salary = ""
 link = "https://freedomforimmigrants.zohorecruit.com/recruit/Portal.na?iframe=false&digest=y3s5T930nqOyVFckb5vwFXGAUnkE7bVo.a85bxdBEmQ"
-sort_date = "2/12/2021"
+sort_date = "2021-02-12"
 created_at = "February 12, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

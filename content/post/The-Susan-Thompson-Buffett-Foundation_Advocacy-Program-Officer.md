@@ -5,7 +5,7 @@ organization = "The Susan Thompson Buffett Foundation"
 location = "International, Nebraska"
 salary = ""
 link = "https://www.idealist.org/en/nonprofit-job/fd2bc366e15e4e8e9e30784b70b43946-program-officer-advocacy-the-susan-thompson-buffett-foundation-kigali?email_id=7a011b292a4d4cd9a8a5cdbf13856f05&utm_source=idealist-org&utm_medium=email&utm_campaign=email-alerts"
-sort_date = "3/3/2021"
+sort_date = "2021-03-03"
 created_at = "March 3, 2021"
 closing_date = "April 2, 2021"
 a_job_type = ["Full Time"]

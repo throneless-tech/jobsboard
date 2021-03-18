@@ -5,7 +5,7 @@ organization = "ACLU of Montana"
 location = "Montana"
 salary = "$73,000 - $78,000"
 link = "https://www.idealist.org/en/nonprofit-job/89bc666e49b54835894317d4844d1113-policy-director-aclu-of-montana-missoula?email_id=4e67b5c4e46b4aed875cab4ada775243"
-sort_date = "2/24/2021"
+sort_date = "2021-02-24"
 created_at = "February 24, 2021"
 closing_date = "March 22, 2021"
 a_job_type = ["Full Time"]

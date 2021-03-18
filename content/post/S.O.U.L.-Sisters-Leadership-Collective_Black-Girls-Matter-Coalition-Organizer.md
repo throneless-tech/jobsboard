@@ -5,7 +5,7 @@ organization = "S.O.U.L. Sisters Leadership Collective"
 location = "Florida"
 salary = "$15-$20/hour"
 link = "https://www.idealist.org/en/nonprofit-job/1754d387d00a4f22b12df7eb1f021aa8-black-girls-matter-coalition-organizer-soul-sisters-leadership-collective-miami?utm_content=regular&email_id=5cc937541c72462e95ee3cadf06d26bb&utm_source=transactional&utm_medium=email&utm_campaign=email-alerts"
-sort_date = "3/9/2021"
+sort_date = "2021-03-09"
 created_at = "March 9, 2021"
 closing_date = "-"
 a_job_type = ["Part Time"]
