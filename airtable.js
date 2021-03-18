@@ -29,9 +29,10 @@ const createPost = async (job) => {
   if (job.postingDate) {
     const date = Date.parse(job.postingDate);
     postingDate = new Date(date).toLocaleDateString("en-US", timeOptions);
-    sortDate = new Date(date).toLocaleDateString("en-US");
+    sortDate = job.postingDate;
   } else {
     postingDate = today.toLocaleDateString("en-US", timeOptions);
+    sortDate = `${today.getFullYear()}-0${today.getMonth() + 1}-0${today.getDate()}`;
   }
 
   if (job.closingDate) {
