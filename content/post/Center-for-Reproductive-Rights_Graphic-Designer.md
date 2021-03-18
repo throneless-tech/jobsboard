@@ -5,7 +5,7 @@ organization = "Center for Reproductive Rights"
 location = "New York"
 salary = "$60,000"
 link = "https://reproductiverights.org/careers?gh_jid=4953675002?gh_jid=4953675002"
-sort_date = "3/3/2021"
+sort_date = "2021-03-03"
 created_at = "March 3, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

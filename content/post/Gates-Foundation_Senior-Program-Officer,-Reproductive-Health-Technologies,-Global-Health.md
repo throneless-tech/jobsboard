@@ -5,7 +5,7 @@ organization = "Gates Foundation"
 location = "Washington"
 salary = ""
 link = "https://bill-melinda-gates-foundation.talentify.io/job/senior-program-officer-reproductive-health-technologies-global-health-seattle-washington-bill-melinda-gates-foundation-b015498?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-sort_date = "2/24/2021"
+sort_date = "2021-02-24"
 created_at = "February 24, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

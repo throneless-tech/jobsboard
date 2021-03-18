@@ -5,7 +5,7 @@ organization = "Augustana College, Office of Diversity, Equity, and Inclusion"
 location = "Illinois"
 salary = ""
 link = "https://augustana.interviewexchange.com/jobofferdetails.jsp?JOBID=128873"
-sort_date = "3/10/2021"
+sort_date = "2021-03-10"
 created_at = "March 10, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

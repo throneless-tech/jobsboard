@@ -5,7 +5,7 @@ organization = "National Latina Institute for Reproductive Justice"
 location = "New York"
 salary = "$90,000 - $110,000"
 link = "https://www.idealist.org/en/nonprofit-job/ad21a2c97a3d4a7d84a75c9f719e75dd-prospect-management-director-national-latina-institute-for-reproductive-justice-new-york?email_id=0539358df29d4318930ff6d6f5b022fd&utm_source=idealist-org&utm_medium=email&utm_campaign=email-alerts"
-sort_date = "3/4/2021"
+sort_date = "2021-03-04"
 created_at = "March 4, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]
