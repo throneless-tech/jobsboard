@@ -5,6 +5,7 @@ organization = "Catholics for Choice"
 location = "Remote, District of Columbia"
 salary = "$48,000-$55,000"
 link = "https://www.catholicsforchoice.org/who-we-are/career-opportunities/administrative-associate/"
+sort_date = "3/1/2021"
 created_at = "March 1, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

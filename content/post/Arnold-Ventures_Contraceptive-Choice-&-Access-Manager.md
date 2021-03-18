@@ -5,6 +5,7 @@ organization = "Arnold Ventures"
 location = "Texas"
 salary = ""
 link = "https://www.arnoldventures.org/careers/contraceptive-choice-access-manager"
+sort_date = "3/10/2021"
 created_at = "March 10, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

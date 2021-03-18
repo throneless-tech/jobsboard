@@ -5,6 +5,7 @@ organization = "League of Conservation Voters"
 location = "Arizona"
 salary = "$79,000-$96,000"
 link = "https://www.lcv.org/careers/lcv-job-openings/chispa-arizona-development-director/"
+sort_date = "3/17/2021"
 created_at = "March 17, 2021"
 closing_date = "April 1, 2021"
 a_job_type = ["Full Time"]

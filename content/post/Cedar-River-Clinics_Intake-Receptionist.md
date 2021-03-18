@@ -5,6 +5,7 @@ organization = "Cedar River Clinics"
 location = "Washington"
 salary = "$15 - $16 hourly"
 link = "https://www.cedarriverclinics.org/pdfs/Intake9-2020.pdf"
+sort_date = "2/27/2021"
 created_at = "February 27, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

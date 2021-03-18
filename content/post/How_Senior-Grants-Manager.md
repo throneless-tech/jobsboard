@@ -5,6 +5,7 @@ organization = "If/When/How"
 location = "Remote"
 salary = "$80,000-$90,000"
 link = "https://www.ifwhenhow.org/were-hiring-a-senior-grants-manager/"
+sort_date = "2/24/2021"
 created_at = "February 24, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

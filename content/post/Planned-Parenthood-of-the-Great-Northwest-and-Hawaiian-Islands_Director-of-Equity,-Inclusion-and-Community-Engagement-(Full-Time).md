@@ -5,6 +5,7 @@ organization = "Planned Parenthood of the Great Northwest and Hawaiian Islands"
 location = "Remote, Alaska, Indiana, Kentucky, Washington, Idaho, Hawaii"
 salary = "$84,000  - $126,000"
 link = "https://us59.dayforcehcm.com/CandidatePortal/en-US/ppgnhi/Posting/View/4378"
+sort_date = "3/15/2021"
 created_at = "March 15, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

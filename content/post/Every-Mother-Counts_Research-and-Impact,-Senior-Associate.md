@@ -5,6 +5,7 @@ organization = "Every Mother Counts"
 location = "New York"
 salary = ""
 link = "https://www.idealist.org/en/nonprofit-job/d2d98cd328a243da96f61c63f90be1e1-research-and-impact-senior-associate-every-mother-counts-new-york"
+sort_date = "2/25/2021"
 created_at = "February 25, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

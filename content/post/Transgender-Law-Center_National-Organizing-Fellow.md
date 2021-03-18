@@ -5,6 +5,7 @@ organization = "Transgender Law Center"
 location = "California"
 salary = "  $48,000"
 link = "https://tlcenter.bamboohr.com/jobs/view.php?id=36&source=other"
+sort_date = "2/27/2021"
 created_at = "February 27, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

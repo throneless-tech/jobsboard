@@ -5,6 +5,7 @@ organization = "Planned Parenthood of Southern New England"
 location = "Connecticut"
 salary = "$72,900 - $92,400"
 link = "https://www.idealist.org/en/nonprofit-job/e72131c0b18540fe8a2f5de9b09e7e66-director-of-equity-organizational-culture-planned-parenthood-of-southern-new-england-new-haven?email_id=0539358df29d4318930ff6d6f5b022fd&utm_source=idealist-org&utm_medium=email&utm_campaign=email-alerts"
+sort_date = "3/4/2021"
 created_at = "March 4, 2021"
 closing_date = "May 4, 2021"
 a_job_type = ["Full Time"]

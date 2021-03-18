@@ -5,6 +5,7 @@ organization = "All* Above All"
 location = "District of Columbia"
 salary = "$130k-150k"
 link = "https://allaboveall.org/wp-content/uploads/2021/02/All-Above-All-Chief-of-Strategies-and-Campaigns.pdf"
+sort_date = "2/1/2021"
 created_at = "February 1, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

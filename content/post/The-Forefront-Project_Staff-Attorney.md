@@ -5,6 +5,7 @@ organization = "The Forefront Project"
 location = "Remote"
 salary = "$100,000"
 link = "https://www.idealist.org/en/nonprofit-job/297126b46e724441ba875982007f45a4-staff-attorney-the-forefront-project-washington"
+sort_date = "3/4/2021"
 created_at = "March 4, 2021"
 closing_date = "April 30, 2021"
 a_job_type = ["Full Time"]

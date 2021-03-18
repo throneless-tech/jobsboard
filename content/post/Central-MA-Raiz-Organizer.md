@@ -5,6 +5,7 @@ organization = "Planned Parenthood League of Massachusetts and Planned Parenthoo
 location = "Massachusetts"
 salary = "$20.50-24.25/hour"
 link = "https://jobs.lever.co/pplm/f0774440-3db4-4f70-bfb3-50ff55ff09fb"
+sort_date = "3/4/2021"
 created_at = "March 4, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

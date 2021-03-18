@@ -5,6 +5,7 @@ organization = "Georgetown University Institute for Reproductive Health (IRH)"
 location = "District of Columbia, Remote"
 salary = "$40,000- $70,000"
 link = "https://georgetown.wd1.myworkdayjobs.com/Georgetown_Admin_Careers/job/Medical-Center/Program-Officer-2--Institute-for-Reproductive-Health--IRH----Georgetown-University_JR09888"
+sort_date = "3/4/2021"
 created_at = "March 4, 2021"
 closing_date = "March 26, 2021"
 a_job_type = ["Full Time"]

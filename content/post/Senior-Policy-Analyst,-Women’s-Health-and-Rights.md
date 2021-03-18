@@ -5,6 +5,7 @@ organization = "Center for American Progress"
 location = "District of Columbia"
 salary = "$56,000 - $62,000"
 link = "https://www.idealist.org/en/nonprofit-job/7b61d1f925734e3389b160b613b7b7f0-policy-analystsenior-policy-analyst-womens-health-and-rights-center-for-american-progress-washington?utm_content=regular&email_id=71726609a45347348acb318a5b21dfbd&utm_source=transactional&utm_medium=email&utm_campaign=email-alerts"
+sort_date = "3/10/2021"
 created_at = "March 10, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

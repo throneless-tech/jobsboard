@@ -5,6 +5,7 @@ organization = "In Our Own Voice: National Black Women’s Reproductive Justice 
 location = "District of Columbia"
 salary = "$78,000 - $85,000"
 link = "https://www.idealist.org/en/nonprofit-job/338b68c879664f699bd67cf5d51f9d8a-director-of-content-and-digital-strategies-in-our-own-voice-national-black-womens-reproductive-justice-agenda-washington"
+sort_date = "3/6/2021"
 created_at = "March 6, 2021"
 closing_date = "March 31, 2021"
 a_job_type = ["Full Time"]

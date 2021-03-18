@@ -5,6 +5,7 @@ organization = "Integrity First for America"
 location = "Remote"
 salary = "$70,000 - $85,000"
 link = "https://www.integrityfirstforamerica.org/digital-director"
+sort_date = "3/8/2021"
 created_at = "March 8, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

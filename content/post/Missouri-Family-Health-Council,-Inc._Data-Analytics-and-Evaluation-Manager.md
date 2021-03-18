@@ -5,6 +5,7 @@ organization = "Missouri Family Health Council, Inc."
 location = "Missouri"
 salary = " $55,000-$70,000"
 link = "https://www.idealist.org/en/nonprofit-job/29946c960f1b402ab3971f3f22cd17d8-data-analytics-and-evaluation-manager-missouri-family-health-council-inc-jefferson-city"
+sort_date = "3/4/2021"
 created_at = "March 4, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

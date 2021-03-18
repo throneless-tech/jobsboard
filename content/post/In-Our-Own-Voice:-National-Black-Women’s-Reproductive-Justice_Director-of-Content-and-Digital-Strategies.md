@@ -5,6 +5,7 @@ organization = "In Our Own Voice: National Black Women’s Reproductive Justice"
 location = "District of Columbia"
 salary = ""
 link = "https://blackrj.org/about-us/job-opportunities/director-of-content-and-digital-strategies/"
+sort_date = "2/24/2021"
 created_at = "February 24, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

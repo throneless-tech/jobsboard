@@ -5,6 +5,7 @@ organization = "National Latina Institute for Reproductive Justice "
 location = "New York, District of Columbia"
 salary = "65K-75K and will commensurate based on experience"
 link = "https://www.latinainstitute.org/en/get-involved/employment-internships/hrbenefits-manager"
+sort_date = "2/12/2021"
 created_at = "February 12, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

@@ -5,6 +5,7 @@ organization = "Ibis Reproductive Health"
 location = "California, Massachusetts, International"
 salary = "Estimated starting salary is $100,000-130,000 USD if based in the US, or 800,0000-1,000,000 South African Rands if based in South Africa"
 link = "https://ibis.bamboohr.com/jobs/view.php?id=21"
+sort_date = "3/1/2021"
 created_at = "March 1, 2021"
 closing_date = "March 31, 2021"
 a_job_type = ["Full Time"]

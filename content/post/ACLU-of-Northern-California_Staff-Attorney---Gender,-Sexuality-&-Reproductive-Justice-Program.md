@@ -5,6 +5,7 @@ organization = "ACLU of Northern California"
 location = "California"
 salary = "$86,026 - $193,558"
 link = "https://www.idealist.org/en/nonprofit-job/3d206d808b9a4fd19068a5b1a72c87d8-staff-attorney-gender-sexuality-reproductive-justice-program-san-francisco-sacramento-or-fresno-aclu-of-northern-ca-san-francisco?email_id=c5596f4b0d8a4915afda6b4142390510&utm_source=idealist-org&utm_medium=email&utm_campaign=email-alerts"
+sort_date = "3/6/2021"
 created_at = "March 6, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

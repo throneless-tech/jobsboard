@@ -5,6 +5,7 @@ organization = "CAI (Cicatelli Associates Inc.)"
 location = "Remote, Colorado"
 salary = "$65,000 - $70,000"
 link = "https://caiglobal.org/index.php?option=com_content&view=article&id=1267:trainer-community-stakeholder-engagement&catid=44&Itemid=283"
+sort_date = "3/14/2021"
 created_at = "March 14, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

@@ -5,6 +5,7 @@ organization = "SIECUS"
 location = "District of Columbia"
 salary = ""
 link = "https://www.idealist.org/en/nonprofit-job/6a28df6fdbd1447fa804ea1b436f0402-policy-analyst-siecus-sex-ed-for-social-change-washington"
+sort_date = "3/5/2021"
 created_at = "March 5, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]

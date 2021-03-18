@@ -5,6 +5,7 @@ organization = "League of Conservation Voters"
 location = "District of Columbia"
 salary = "$47,000 - $55,000"
 link = "https://www.lcv.org/careers/lcv-job-openings/legal-grants-associate/"
+sort_date = "3/11/2021"
 created_at = "March 11, 2021"
 closing_date = "March 24, 2021"
 a_job_type = ["Full Time"]

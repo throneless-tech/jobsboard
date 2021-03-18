@@ -5,6 +5,7 @@ organization = "National Birth Equity Collaborative"
 location = "Remote"
 salary = "$58,000-$68,000"
 link = "https://drive.google.com/file/d/1053fpD2QQlXVIp46WPq2QcWc2BRg-2r6/view"
+sort_date = "2/27/2021"
 created_at = "February 27, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]
