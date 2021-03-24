@@ -5,7 +5,7 @@
 
 [[main]]
   name = "Jobs"
-  url = "https://jobs.reprojobs.org"
+  url = "https://www.reprojobs.org/jobs"
   weight = -109
 
 [[main]]
