@@ -1,6 +1,6 @@
 +++
 author = "None"
-title = "FOUNDATION RELATIONS ASSISTANT"
+title = "Foundation Relations Assistant"
 organization = "Groundswell Fund "
 location = "District of Columbia"
 salary = "$60,000 annually"
