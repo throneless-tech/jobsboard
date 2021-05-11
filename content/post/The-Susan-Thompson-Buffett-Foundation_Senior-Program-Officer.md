@@ -2,14 +2,14 @@
 author = "None"
 title = "Senior Program Officer"
 organization = "The Susan Thompson Buffett Foundation"
-location = "Remote"
-salary = ""
-link = "https://www.idealist.org/en/nonprofit-job/ff44e7a9e2834fd58094c24e0de98d11-program-officer-the-susan-thompson-buffett-foundation-omaha?utm_campaign=visitorshare&utm_medium=social&utm_source=email"
-sort_date = "2021-03-31"
-created_at = "March 31, 2021"
-closing_date = "May 15, 2021"
+location = "Remote, International"
+salary = "not listed"
+link = "https://www.idealist.org/en/nonprofit-job/edbff4aa22384429bb79e333ea866003-senior-program-officer-the-susan-thompson-buffett-foundation-omaha"
+sort_date = "2021-05-11"
+created_at = "May 11, 2021"
+closing_date = "June 30, 2021"
 a_job_type = ["Full Time"]
-b_benefits = ["General Benefits","Retirement","Paid Leave","Health Insurance","Paid Vacation","Permanently Remote","Dental","Vision","Sick time","Disability insurance","Life insurance","FSA"]
+b_benefits = ["General Benefits","Retirement","Paid Leave","Health Insurance","Paid Vacation","Permanently Remote","Dental","Vision","Sick time","Disability insurance","Relocation expenses","Life insurance","FSA"]
 c_feedback = ""
 thumbnail = ""
 +++
