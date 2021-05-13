@@ -1,6 +1,6 @@
 +++
 author = "None"
-title = "Research coordinator"
+title = "Research Coordinator"
 organization = "University of California, Berkeley"
 location = "California"
 salary = "$72,000 - $82,000"
@@ -9,7 +9,7 @@ sort_date = "2021-05-12"
 created_at = "May 12, 2021"
 closing_date = "May 25, 2021"
 a_job_type = ["Full Time"]
-b_benefits = ["General Benefits","Retirement","Paid Leave","Paid Vacation","Remote During COVID","Health Insurance","Dental","Vision","Sick time","Disability insurance"]
+b_benefits = ["General Benefits","Paid Leave","Paid Vacation","Remote During COVID","Health Insurance","Dental","Vision","Sick time","Disability insurance"]
 c_feedback = ""
 thumbnail = ""
 +++
