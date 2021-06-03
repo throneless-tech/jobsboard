@@ -10,7 +10,7 @@ created_at = "May 24, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = []
-c_feedback = ""
+c_feedback = "Red Flag"
 thumbnail = ""
 +++
 NARAL just had its most successful major gifts fundraising year ever. We are seeking a major gifts officer to help the organization continue to grow this program. NARAL’s next major gifts officer should be a passionate and experienced fundraiser eager to help us continue to grow this critical program.
