@@ -20,3 +20,4 @@ coordinator roles, with proficiency in all NWAAF volunteer roles. This serves as
 opportunity to support the development of someone who might be newer to
 movement work and is committed to strengthening reproductive justice, racial
 justice, and economic justice across our communities.
+*If accommodations are needed to participate in the job application process, please contact jobs@nwaafund.org to communicate your needs with us and we will gladly work with you!*
