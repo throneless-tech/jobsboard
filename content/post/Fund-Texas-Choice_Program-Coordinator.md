@@ -1,6 +1,6 @@
 +++
 author = "None"
-title = "Program Cooridnator"
+title = "Program Coordinator"
 organization = "Fund Texas Choice"
 location = "Remote, Texas"
 salary = "$50,000-$60,000"
