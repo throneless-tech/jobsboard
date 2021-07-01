@@ -5,8 +5,8 @@ organization = "Lovering Health Center"
 location = "New Hampshire"
 salary = "$16-$18/hr"
 link = "https://www.nhnonprofits.org/?q=view/job-listing/222365"
-sort_date = "2021-06-30"
-created_at = "June 30, 2021"
+sort_date = "2021-07-01"
+created_at = "July 1, 2021"
 closing_date = "July 10, 2021"
 a_job_type = ["Full Time"]
 b_benefits = ["Health Insurance","Paid Vacation","Dental","Vision","Sick time","Retirement"]
