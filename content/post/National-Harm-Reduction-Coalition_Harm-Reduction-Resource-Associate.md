@@ -1,6 +1,6 @@
 +++
 author = "None"
-title = "Harm Reduction Resource Manager"
+title = "Harm Reduction Resource Associate"
 organization = "National Harm Reduction Coalition"
 location = "Remote, Tennessee, West Virginia, North Carolina, Kentucky, Indiana"
 salary = "$46,000 - $61,000"
