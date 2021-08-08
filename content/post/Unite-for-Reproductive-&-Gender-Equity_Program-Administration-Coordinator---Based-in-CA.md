@@ -10,7 +10,7 @@ created_at = "August 2, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["Retirement","Paid Leave","Health Insurance","Paid Vacation","Permanently Remote"]
-c_feedback = ""
+c_feedback = "Red Flag"
 thumbnail = "../../images/161429891816396589831093511609435960912281n759x500_bae5d7ab.jpg"
 +++
 URGE seeks a committed, experienced individual who is passionate about reproductive/social justice to assist in the implementation of various mission-oriented programs. This person will be responsible for the administrative duties related to programmatic operations.
