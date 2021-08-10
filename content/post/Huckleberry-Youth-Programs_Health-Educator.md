@@ -5,8 +5,8 @@ organization = "Huckleberry Youth Programs"
 location = "California"
 salary = "$17.50 - 20.16/hour, with bilingual stipend of $.96 per hour"
 link = "https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=34239&clientkey=0DA1D23F5A484B9939C4EDBF64E4C4F0"
-sort_date = "2021-08-09"
-created_at = "August 9, 2021"
+sort_date = "2021-08-10"
+created_at = "August 10, 2021"
 closing_date = "August 20, 2021"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Union-Eligible","Paid Leave","Health Insurance","Tuition Reimbursement","Paid Vacation","Remote During COVID","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance","FSA"]
