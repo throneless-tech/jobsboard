@@ -10,7 +10,7 @@ created_at = "August 5, 2021"
 closing_date = "August 26, 2021"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Paid Leave","Health Insurance","Paid Vacation","Remote During COVID","Retirement","Dental","Vision","Sick time","Disability insurance","Transit benefits","FSA"]
-c_feedback = ""
+c_feedback = "Red Flag"
 thumbnail = "../../images/Picture1_0b601b52.png"
 +++
 Reports to: Deputy Director for Communications
