@@ -5,8 +5,8 @@ organization = "M+A Hotline"
 location = "Remote"
 salary = "$40-$50 per hour"
 link = "https://docs.google.com/document/d/18oDJ13EBNhYKBbftNICVUvUQ52HmJYCi6xYl6W5S-N0/edit?usp=sharing"
-sort_date = "2021-08-13"
-created_at = "August 13, 2021"
+sort_date = "2021-08-14"
+created_at = "August 14, 2021"
 closing_date = "September 1, 2021"
 a_job_type = ["Consultant","Part Time"]
 b_benefits = []
