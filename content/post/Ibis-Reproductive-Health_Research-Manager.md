@@ -5,8 +5,8 @@ organization = "Ibis Reproductive Health"
 location = "California, Massachusetts, Remote"
 salary = " $67,000 (Cambridge)/$70,000 (Oakland)"
 link = "https://ibis.bamboohr.com/jobs/view.php?id=26&source=aWQ9MjI%3D"
-sort_date = "2021-08-24"
-created_at = "August 24, 2021"
+sort_date = "2021-08-25"
+created_at = "August 25, 2021"
 closing_date = "August 25, 2021"
 a_job_type = ["Full Time"]
 b_benefits = ["Retirement","Health Insurance","Paid Vacation","Remote During COVID","Professional development","Sick time","Dental","Transit benefits"]
