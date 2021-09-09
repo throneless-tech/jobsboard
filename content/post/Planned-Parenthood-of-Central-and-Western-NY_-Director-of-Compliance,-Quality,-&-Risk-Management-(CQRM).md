@@ -1,6 +1,6 @@
 +++
 author = "None"
-title = "Director of Compliance, Quality & Risk Management"
+title = " Director of Compliance, Quality, & Risk Management (CQRM)"
 organization = "Planned Parenthood of Central and Western NY"
 location = "New York"
 salary = "$75,000-$90,000"
