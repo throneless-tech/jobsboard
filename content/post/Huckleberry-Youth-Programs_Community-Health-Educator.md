@@ -5,8 +5,8 @@ organization = "Huckleberry Youth Programs"
 location = "California"
 salary = "Starting salary is $36,400 to $41,933 plus bilingual stipend of $1,996.80 per year, if applicable. The salary is subjected to increase post union contract negotiations"
 link = "https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=35853&clientkey=0DA1D23F5A484B9939C4EDBF64E4C4F0"
-sort_date = "2021-09-19"
-created_at = "September 19, 2021"
+sort_date = "2021-09-20"
+created_at = "September 20, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["Union-Eligible","Retirement","Paid Leave","Tuition Reimbursement","Paid Vacation","Health Insurance","Remote During COVID","Dental","Vision","Sick time","Transit benefits","Professional development","Life insurance","FSA","Disability insurance","Trans health","Adoption and surrogacy benefits","Intersex health benefits"]
