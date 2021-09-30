@@ -5,8 +5,8 @@ organization = "Color Of Change"
 location = "Remote, California, New York, District of Columbia"
 salary = "$90,000"
 link = "https://colorofchange.recruiterbox.com/jobs/fk0sqkl?source=Repro%20Jobs"
-sort_date = "2021-09-29"
-created_at = "September 29, 2021"
+sort_date = "2021-09-30"
+created_at = "September 30, 2021"
 closing_date = "November 1, 2021"
 a_job_type = ["Full Time"]
 b_benefits = ["Health Insurance","Paid Vacation","Remote During COVID","Dental","Vision","Sick time","Sabbatical ","Professional development","Transit benefits","General Benefits"]
