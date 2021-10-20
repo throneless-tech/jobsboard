@@ -10,7 +10,7 @@ created_at = "October 18, 2021"
 closing_date = "November 30, 2021"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Health Insurance","Remote During COVID","Professional development","Paid Vacation"]
-c_feedback = ""
+c_feedback = "Red Flag"
 thumbnail = "../../images/PPSEnotaglineaffillockupblue_233b426c.jpg"
 +++
 The Field Organizer will work closely with other organizers,the State Director, and the entire Public Policy team to effectively run a grassroots organizing program. The mission is to mobilize individuals in support of reproductive freedom and full access to reproductive health services.  The Field Organizer will work with the State Director to formalize and streamline grassroots organizing activities while building capacity and infrastructure. The Organizer will conduct ongoing outreach activities, particularly around volunteer activities and issue-based campaigns. The Field Organizer coordinates and manages volunteers and interns to implement the agency's grassroots organizing activities in Savannah, GA and surrounding areas.     
