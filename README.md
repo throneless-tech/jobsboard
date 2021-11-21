@@ -10,7 +10,8 @@ This repository is a jobs board for ReproJobs using [Hugo](https://gohugo.io/).
 git clone https://github.com/throneless-tech/jobsboard.git
 cd jobsboard
 ```
-3. Run Hugo and select the theme we're using for this site
+3. Run ```npm install```
+4. Run Hugo and select the theme we're using for this site
 ```bash
 hugo server -t hugo-clarity
 ```
