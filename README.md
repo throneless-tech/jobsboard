@@ -10,10 +10,9 @@ This repository is a jobs board for ReproJobs using [Hugo](https://gohugo.io/).
 git clone https://github.com/throneless-tech/jobsboard.git
 cd jobsboard
 ```
-3. Clone the repository you want to test. If you want to test all Hugo Themes then follow the instructions provided [here](https://github.com/gohugoio/hugoThemes#installing-all-themes)
-4. Run Hugo and select the theme of your choosing
+3. Run Hugo and select the theme we're using for this site
 ```bash
-hugo server -t jobsboard
+hugo server -t hugo-clarity
 ```
 5. Under `/content/` this repository contains the following:
 - A section called `/post/` with sample markdown content
