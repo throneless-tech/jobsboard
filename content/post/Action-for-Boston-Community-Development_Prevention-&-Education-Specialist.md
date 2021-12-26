@@ -5,8 +5,8 @@ organization = "Action for Boston Community Development"
 location = "Massachusetts"
 salary = "$35,471"
 link = "https://careers.bostonabcd.org/Careers.aspx?req=2021-HLTH-005&type=JOBDESCR"
-sort_date = "2021-12-25"
-created_at = "December 25, 2021"
+sort_date = "2021-12-26"
+created_at = "December 26, 2021"
 closing_date = "February 4, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Paid Vacation","Dental","Health Insurance","Disability insurance","Transit benefits","Life insurance","Professional development","Paid Leave"]
