@@ -4,7 +4,7 @@ title = "Digital Communications Manager"
 organization = "National Institute for Reproductive Health"
 location = "New York, Remote"
 salary = "$65,000-$75,000"
-link = "http://www.nirhealth.org"
+link = "https://www.idealist.org/en/nonprofit-job/92d6e0a6e8a04d01a5b5406c30c7d307-digital-communications-manager-national-institute-for-reproductive-health-new-york"
 sort_date = "2021-12-30"
 created_at = "December 30, 2021"
 closing_date = "January 24, 2022"
@@ -15,10 +15,6 @@ thumbnail = "../../images/Picture1_0b601b52.png"
 +++
 NIRH Seeks: Digital Communications Manager
 Reports to: Deputy Director for Communications
-
-About National Institute for Reproductive Health & NIRH Action Fund:
-The National Institute for Reproductive Health (NIRH) and the National Institute for Reproductive Health Action Fund (NIRH Action Fund) are advocacy groups that fight for just and equitable access to reproductive health care and build political power for reproductive freedom. We launch campaigns, change policy, and elect candidates, all by working hand-in- hand with reproductive health, rights, and justice organizations in states and cities across the country. We work in communities where the need is great and we can make a difference, so the fabric of reproductive freedom is harder to tear apart.
-At the national level, we go where others don’t, engaging in groundbreaking public opinion research, proactive policy initiatives, and innovative advocacy campaigns to shape a new national conversation about reproductive freedom. Our political arm, the NIRH Action Fund, works in parallel to change state and local electoral and policy landscapes.
 
 Position Summary:
 The Digital Communications Manager position is an integral part of the communications department, and will create and execute digital strategies to identify and engage supporters, advocates, and media through campaigns including social media platforms, email alerts, and the organizational website. The Digital Manager will work interdepartmentally across the organization, translate the organization’s vision and goals to its digital properties, and develop and execute outreach strategies to various constituencies. This is an opportunity for someone who is enthusiastic about fighting for just and equitable access to reproductive health care, excited about building engagement with activists and supporters, and has the technical expertise to leverage our websites, database, and email program to build power for reproductive freedom. 
@@ -50,10 +46,3 @@ Salary will be in the range of $65,000 – $75,000, depending on experience. Ben
 
 Application Procedure: 
 Send resume, cover letter and a writing sample (preferably of an advocacy email) to humanresources@nirhealth.org by January 21st, 2021. Applications will be reviewed on a rolling basis. NIRH hopes to have the position filled by mid-February. 
-
-EEO statement: 
-The National Institute for Reproductive Health and NIRH Action Fund is an equal opportunity employer. NIRH and NIRH Action Fund strives to build and support an equitable work community that attracts, develops, and retains exceptional people. As a member of the reproductive freedom movement, NIRH aims to foster leadership and raise the voices of historically marginalized people, including but not limited to Black people and people of color, indigenous/native peoples, LGBTQ and gender non-conforming people, disabled/differently abled people, immigrants, and low-income people. We strongly encourage candidates of these and other diverse backgrounds to apply.
-
-Equity Statement: 
-NIRH and NIRH Action Fund staff and board have committed to racial equity, and as such have been engaged in a multi-year process to adopt a racial equity lens across the organizations. We are a reproductive health and rights organization that incorporates reproductive justice values into our work. We recognize the interconnectivity of identities, such as race, socio-economic status, immigration status, ability, and sex, including sexual orientation, and gender identity, and how they interact with systems of oppressions to shape and impact a person’s freedom and ability to control their reproductive and sexual lives. As a result, this person will join an organization that’s currently engaged in shifting its institutional framework.
-
