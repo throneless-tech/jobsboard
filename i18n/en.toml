@@ -37,6 +37,9 @@ other = "Benefits Listed"
 [c_feedback]
 other = "Community Feedback"
 
+[aa_degrees_required]
+other = "Degree Requirements"
+
 [all_a_job_type]
 other = "All Job Types"
 
@@ -45,3 +48,6 @@ other = "All Benefits"
 
 [all_c_feedback]
 other = "All Feedback"
+
+[all_aa_degrees_required]
+other = "All Degree Requirements"

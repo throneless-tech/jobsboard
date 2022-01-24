@@ -30,6 +30,15 @@
     {{- end }}
     {{- end }}
 
+    {{- with .Params.aa_degrees_required -}}
+    {{- range . }}
+    {{- $tag := . | urlize }}
+    <span class="post_tag button button_translucent">
+      {{- . }}
+    </span>
+    {{- end }}
+    {{- end }}
+
     {{ if eq .Params.c_feedback "High Five"}}
       <span class="post_tag button button_translucent button_high_five">High Five</span>
     {{ end }}

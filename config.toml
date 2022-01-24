@@ -24,8 +24,8 @@ DefaultContentLanguage = "en"
 category = "a_job_type"
 tag = "b_benefits"
 series = "c_feedback"
+degrees = "aa_degrees_required"
 search = "search"
-
 
 [markup]
   [markup.goldmark]

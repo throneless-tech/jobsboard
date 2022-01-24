@@ -18,6 +18,7 @@ const posts = htmlPosts.map(post => (
     content: post.innerText.replace(/\n/g, ' '),
     feedback: post.dataset.feedback,
     type: post.dataset.type,
+    degrees: post.dataset.degrees,
   }
 ));
 
@@ -27,6 +28,7 @@ let idx = lunr(function () {
   this.field('content', {boost: 10});
   this.field('feedback', {boost: 5});
   this.field('type', {boost: 5});
+  this.field('degrees', {boost: 5})
 
   // similarity tuning
   this.k1(0.2);
