@@ -70,7 +70,7 @@ const createPost = async (job) => {
   let degrees = [];
 
   if (job.degrees && job.degrees.length)
-    job.degrees.map((degree) => {
+    job.degrees.forEach((degree) => {
       degrees.push(`"${degree}"`);
     });
 
