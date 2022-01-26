@@ -30,13 +30,11 @@
     {{- end }}
     {{- end }}
 
-    {{- with .Params.aa_degrees_required -}}
-    {{- range . }}
+    {{- if .Params.aa_degrees_required -}}
     {{- $tag := . | urlize }}
     <span class="post_tag button button_translucent">
-      {{- . }}
+      {{- .Params.aa_degrees_required }}
     </span>
-    {{- end }}
     {{- end }}
 
     {{ if eq .Params.c_feedback "High Five"}}
