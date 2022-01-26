@@ -67,13 +67,6 @@ const createPost = async (job) => {
     types.push(`"${jobType}"`);
   });
 
-  let degrees = [];
-
-  if (job.degrees && job.degrees.length)
-    job.degrees.forEach((degree) => {
-      degrees.push(`"${degree}"`);
-    });
-
   const content = `+++\nauthor = "None"\ntitle = "${
     job.title
   }"\norganization = "${
@@ -82,7 +75,7 @@ const createPost = async (job) => {
     job.link
   }"\nsort_date = "${sortDate}"\ncreated_at = "${postingDate}"\nclosing_date = "${closingDate}"\na_job_type = [${types}]\nb_benefits = [${benefits}]\nc_feedback = "${
     job.rating
-  }"\naa_degrees_required = [${degrees}]\nthumbnail = "${
+  }"\naa_degrees_required = "${job.degrees}"\nthumbnail = "${
     job.logo ? `../../${job.logo}` : ""
   }"\n+++\n${job.description}`;
 
