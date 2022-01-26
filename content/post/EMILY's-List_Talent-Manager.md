@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Union-Eligible","Paid Leave","Health Insurance","Retirement","Paid Vacation","Remote During COVID","Dental","Vision","Sick time","Disability insurance","Transit benefits","Life insurance","FSA"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = ""
 +++
 EMILY’s List, the nation’s largest resource for women in politics, is searching for a Talent  Manager to join our Admin- HR/Operations team. The Talent Manager will serve as a key role  for the recruiting efforts across the organization as well as lead staff internal training sessions  across departments. 

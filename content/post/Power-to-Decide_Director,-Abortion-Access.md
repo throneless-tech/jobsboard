@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["Health Insurance","Dental","Vision","Retirement","FSA","Life insurance","Paid Vacation"]
 c_feedback = ""
+aa_degrees_required = "Bachelor's degree required"
 thumbnail = ""
 +++
 Power to Decide is seeking a Director, Abortion Access who will work to expand access to information about abortion services. The Director will lead the ongoing development of a platform for patient navigators and others who support abortion seekers. They will also be responsible for maintaining and building a database of abortion providers, abortion funds, and practical support organizations that is used within the platform and on AbortionFinder.org. The Director will be part of the team that supports AbortionFinder.org, in addition to the patient navigator platform.

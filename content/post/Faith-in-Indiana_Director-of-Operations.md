@@ -11,6 +11,7 @@ closing_date = "March 2, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["Health Insurance","General Benefits","Retirement","Paid Vacation","Dental","Vision"]
 c_feedback = ""
+aa_degrees_required = "Bachelor's degree required"
 thumbnail = "../../images/logofaithincolor900px_1b745eb1.png"
 +++
 Faith in Indiana seeks a Director of Operations to be mission control for Indiana’s social movement infrastructure. In this role, you will build new systems, research and execute new models of shared infrastructure, and ensure tight internal controls across our family of organizations in the areas of finance, compliance, human resources, information technology, and event management.

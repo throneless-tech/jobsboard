@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["Remote During COVID","Retirement","Health Insurance","Dental","Vision","Paid Vacation","Sick time","Paid Leave"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = "../../images/NAPAWFNAPAWFTwitter_cabae788.jpeg"
 +++
 The National Asian Pacific American Women's Forum (NAPAWF) seeks a Communications Director to direct, manage, and implement the organization’s strategic communications plan. 

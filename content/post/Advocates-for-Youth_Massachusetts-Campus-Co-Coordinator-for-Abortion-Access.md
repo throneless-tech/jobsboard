@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Consultant"]
 b_benefits = []
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = "../../images/Screen-Shot-20211123-at-121319-PM_6e360acf.png"
 +++
 Advocates for Youth will engage two consultants as Campus Coordinators who will manage efforts to organize Massachusetts students, support storytellers, and work with state-based partners to expand access to on-campus medication abortion in Massachusetts. 

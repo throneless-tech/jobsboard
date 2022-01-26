@@ -11,6 +11,7 @@ closing_date = "February 6, 2022"
 a_job_type = ["Part Time"]
 b_benefits = ["Permanently Remote","Health Insurance","Paid Vacation","Retirement"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = "../../images/LilithFundlilithfundTwitter_b48eeda2.jpeg"
 +++
 The Hotline Program Assistant is a part-time position supporting Lilith Fund’s English- and Spanish-language hotline and direct assistance program. Key responsibilities include: Assisting with daily program operations, including listening to client voicemails, returning client calls and performing intake, and tracking and managing confidential client information; Performing administrative tasks and completing reporting and data entry and analysis; Assist with volunteer management and communications, and provide support to volunteers during hotline shifts.

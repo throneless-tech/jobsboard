@@ -11,6 +11,7 @@ closing_date = "February 28, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["Paid Vacation","Vision","Dental","Health Insurance","Paid Leave","Remote During COVID","Sick time"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = ""
 +++
 Californians for Justice (CFJ) seeks a bold and collaborative leader or co-leadership team to steward and grow our statewide, youth-powered organization that is striving to create racially just and relationship centered schools. Our next leader(s) will share CFJ’s radical vision for youth-led school transformation and will be adept at actualizing our vision into powerful strategies.

@@ -11,6 +11,7 @@ closing_date = "January 31, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = ""
 +++
 Collaborates with content writers, editors, and other departments such as marketing, sales, product management, etc. to create, edit and update online content across ETR’s digital properties. Remote employment; open to all states.

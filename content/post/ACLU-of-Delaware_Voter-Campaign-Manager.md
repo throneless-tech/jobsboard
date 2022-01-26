@@ -11,6 +11,7 @@ closing_date = "February 28, 2022"
 a_job_type = ["Temporary","Full Time"]
 b_benefits = ["Retirement","Paid Leave","Health Insurance","Paid Vacation","Remote During COVID","Dental","Vision","Sick time","Professional development"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = "../../images/ACLU-DE_2721f7e4.png"
 +++
 The ACLU of Delaware seeks a dynamic and experienced organizer to lead the organization’s new ACLU Voter campaign focused on educating voters about critical civil liberties issues on the ballot in 2022.

@@ -11,6 +11,7 @@ closing_date = "January 31, 2022"
 a_job_type = ["Consultant"]
 b_benefits = []
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = "../../images/ICM001LogoRGBVerticalPink_48537a3b.svg"
 +++
 The PUSH campaign will accelerate progress on reducing maternal and neonatal mortality, advance sexual and reproductive healthcare and rights (SRHR), address key barriers to women’s leadership in the global health workforce, and shift underlying gender norms that undervalue women’s rights, lives and work.

@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["Health Insurance","Dental","Vision","Retirement"]
 c_feedback = ""
+aa_degrees_required = "High school degree required"
 thumbnail = ""
 +++
 The DGG’s role is to develop, implement, and manage an integrated program of governmental grants across VT, NH and ME to further PPNNE’s goals of increasing access to reproductive health care for women and families.  Limited travel within VT, NH & ME is expected and the range of pay for this position starts at $48,750/yr.

@@ -11,6 +11,7 @@ closing_date = "March 31, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Paid Leave","Health Insurance","Dental","Vision"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = ""
 +++
 Down Home North Carolina is seeking a full-time Fellowship and Training Manager to lead our organizing fellowship program, and to support  the development and delivery of training with staff, fellows, and members. This is a permanent role, and it will serve as our resident training specialist, working with other Down Home departments to develop and deliver excellent trainings for our members and staff.

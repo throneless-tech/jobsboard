@@ -11,6 +11,7 @@ closing_date = "February 4, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["Remote During COVID","Dental","Disability insurance","Life insurance","Paid Leave","Retirement","Paid Vacation","Transit benefits","Professional development"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = "../../images/IbisReproductiveHealthLinkedIn_ae422a12.jpeg"
 +++
 We seek an individual with a commitment to sexual and reproductive health, rights, and justice to join the team as an Associate Communications Director. This person will play a key leadership role in developing and executing Ibis Reproductive Health’s communication strategies across all media and in the countries we work in. This position is a member of the Free the Pill campaign team, a multi-year effort to bring an oral contraceptive over the counter in the United States. Approximately 50% of the individual’s time will be spent on this project, and 50% will be spent on overall Ibis communications. A competitive candidate for this position will have experience communicating research and leading values-driven, evidence-based advocacy communications to a wide range of audiences.

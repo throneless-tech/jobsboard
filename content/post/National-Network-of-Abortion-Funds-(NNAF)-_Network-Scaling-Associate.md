@@ -11,6 +11,7 @@ closing_date = "February 6, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["Retirement","Paid Leave","Health Insurance","Paid Vacation","Permanently Remote","Dental","Vision","Sick time","Professional development","Life insurance","FSA","Sabbatical "]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = "../../images/NNAF-Logo_a2dfa71c.png"
 +++
 You pride yourself in your organizational abilities and are skilled in supporting workflows and communication to multiple projects. You enjoy planning and coordinating virtual and in person events, with particular care to ensuring an accessible and equitable experience for participants. You are detail oriented, comfortable with meeting deadlines, a good communicator, and a skilled problem solver. Working in remote regional and national teams comes easy to you. You are excited to work toward abortion access and reproductive justice alongside our members. 

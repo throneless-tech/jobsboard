@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Paid Vacation","Health Insurance","Dental","Sick time","Professional development"]
 c_feedback = ""
+aa_degrees_required = "Bachelor's degree required"
 thumbnail = ""
 +++
 The Accountant reports directly to the Assistant Controller and works closely with the other members of the Finance and Accounting team. The Accountant is responsible for performing and managing various daily transactions, with a focus on the Center’s U.S. revenue related transactions.

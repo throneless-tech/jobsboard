@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["Health Insurance","Dental","Vision","Paid Vacation","Sick time","Retirement"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = ""
 +++
 The Assistant Director of State Policy is part of the Public Policy and Community Support (PPCS) Team. They provide leadership for PRH’s state advocacy activities. The Assistant Director of State Policy works with PRH’s national network of physician advocates to bring the medical perspective to policy makers, and allied state and local organizations in their own communities in order to shape and influence policy to expand access to reproductive health care. They will work closely with all staff and, in particular, the Vice President of Public Policy and Assistant Director of Public Policy, to design, implement, and support advocacy activities to advance access to comprehensive sexual and reproductive health care. This is a full-time overtime exempt position. This position will be fully remote; open to candidates in the United States.

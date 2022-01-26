@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Health Insurance"]
 c_feedback = ""
+aa_degrees_required = "High school degree required"
 thumbnail = "../../images/NationalCouncilofJewishWomenNCJWlogocolorNational_241061e7."
 +++
 The Manager, State Policy Advocacy Network (SPA) is a member of the Government Relations and Advocacy Department and reports to the Chief Policy Officer. This individual will support NCJW's State Policy Advocates, a network of volunteers in more than twenty states across the country, to engage in NCJW's key federal priority issues and campaigns. Additional responsibilities include assisting in creating and implementing NCJW's outreach and engagement strategy on priority policy issues: reproductive health, rights, and justice; federal courts; and voting rights. This position is based in Washington, DC. Staff are in a hybrid office/remote model and are expected to be in the office at least 3 days a week.

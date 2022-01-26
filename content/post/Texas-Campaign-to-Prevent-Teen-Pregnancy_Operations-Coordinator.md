@@ -11,6 +11,7 @@ closing_date = "January 31, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Remote During COVID","Dental","Vision","Sick time","Disability insurance","Life insurance","Health Insurance"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = "../../images/TxCampaignLogoFinalColor-1_16a7e9f6.png"
 +++
 Roles and Responsibilities 

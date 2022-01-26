@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["Union-Eligible","Remote During COVID","Sick time","Health Insurance","General Benefits"]
 c_feedback = "Red Flag"
+aa_degrees_required = "Bachelor's degree required"
 thumbnail = "../../images/NARAL-Logo_2fb207c0.png"
 +++
 In this role, you will:

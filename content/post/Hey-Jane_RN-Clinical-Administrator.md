@@ -11,6 +11,7 @@ closing_date = "March 31, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["Health Insurance"]
 c_feedback = ""
+aa_degrees_required = "Nursing degree required"
 thumbnail = ""
 +++
 Hey Jane is a digital clinic serving womxn’s most impactful health needs. We’re starting by tackling one of the most common, yet most stigmatized, treatments: abortion. One in four womxn will get an abortion in their lives, but the treatment today is inaccessible, needlessly expensive and incomparably stigmatized. With Hey Jane, patients consult with licensed providers online to have the same FDA-approved abortion pills they'd get in a clinic shipped to their doorstep -- conveniently, discreetly and at half the price of traditional care. We are currently expanding our clinical team and looking for experienced abortion providers open to telehealth work. 

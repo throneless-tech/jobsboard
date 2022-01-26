@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Union-Eligible","Retirement","Paid Leave","Health Insurance","Paid Vacation","Remote During COVID","Dental","Vision","Sick time","Transit benefits","Life insurance","FSA"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = ""
 +++
 EMILY’s List, the nation’s largest resource for women in politics, is searching for a Campaign Communications Manager to join our Communications team. As Campaign Communications Manager, you will promote the mission of EMILY's List and work directly with our pro-choice Democratic women candidates and elected officials throughout the country. The Campaign Communications Manager supports the arm of EMILY's List that works to identify and create opportunities for our endorsed candidates and advise on their communications strategies. 

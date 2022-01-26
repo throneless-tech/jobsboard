@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Part Time"]
 b_benefits = ["Health Insurance","Dental","Vision","Paid Vacation","Sick time"]
 c_feedback = "High Five"
+aa_degrees_required = "No degree required"
 thumbnail = ""
 +++
 Access Reproductive Care - Southeast (ARC-Southeast) seeks a Healthline Associate with a deep commitment to reproductive justice coupled with a proven record of reproductive health related phone advocacy and leadership. Our Part-Time Healthline Associate will partner with the staff, interns and volunteers ensure our mission, vision, and values are upheld. ​The Healthline Associate’s primary role is to support our direct service abortion funding and Practical Support Volunteer programs. 

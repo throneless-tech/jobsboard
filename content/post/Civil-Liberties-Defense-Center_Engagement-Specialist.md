@@ -11,6 +11,7 @@ closing_date = "January 31, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["Paid Vacation","Professional development","General Benefits"]
 c_feedback = ""
+aa_degrees_required = "Bachelor's degree required"
 thumbnail = ""
 +++
 CLDC is seeking a full-time Engagement Specialist to increase the visibility and capacity of the organization. The Engagement Specialist will split their time between communications leadership and fundraising support. Time allocations will vary seasonally.

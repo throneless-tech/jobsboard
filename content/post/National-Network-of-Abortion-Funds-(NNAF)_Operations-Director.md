@@ -11,6 +11,7 @@ closing_date = "February 6, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["Permanently Remote","Health Insurance","Paid Leave","Sick time","Professional development","Retirement","Sabbatical ","FSA","Paid Vacation","Dental","Vision","Life insurance"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = "../../images/NNAF-Logo_a2dfa71c.png"
 +++
 Are you systems minded, detail oriented, and looking to make a difference in the reproductive justice movement? NNAF and its network are growing quickly, and the Operations Director will play a crucial role in creating and implementing the systems to sustain the strength of these organizations for years to come. Our vision is big, and you will join our strong leadership team to play an instrumental role in implementing it. 

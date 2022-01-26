@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = []
 c_feedback = ""
+aa_degrees_required = "Bachelor's degree required"
 thumbnail = ""
 +++
 We are seeking a Communications Manager to join our team and support the company’s marketing and communications goals. An exceptional writer with excellent project management skills, the manager will support the development of internal and external communications, assist in managing media relations and strategic partnerships, as well as provide event production support and oversee the day-to-day organization and coordination of the department’s administrative operations.

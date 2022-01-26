@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["Retirement","Health Insurance","Dental","Paid Vacation","Sick time","Life insurance","Disability insurance"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = "../../images/RewireNewsGroupOwnyourrelationshiptosexabortion_3623b7a2."
 +++
 Rewire News Group is seeking an enthusiastic fundraiser with expertise in foundation and major donor fundraising and exposure to individual online fundraising, who can bring creativity and resourcefulness to the fundraising operations of a mission-driven nonprofit. The ideal candidate has impeccable attention to detail; can manage multiple projects at once; and is an excellent communicator, collaborator, and coordinator, approaching relationship-building with patience, flexibility, and humor.

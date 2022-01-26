@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Union-Eligible","Retirement","Health Insurance","Paid Vacation","Remote During COVID","Dental","Vision","Transit benefits","Professional development","Life insurance","FSA"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = ""
 +++
 EMILY’s List, the nation’s largest resource for women in politics, is searching for a political desk – program manager to join our WOMEN VOTE! independent expenditures team. The WOMEN VOTE! political desk – program manager runs the day-to-day implementation and tracking of EMILY’s List independent expenditures in an assigned set of races. 

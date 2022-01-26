@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Union-Eligible","Retirement","Paid Leave","Paid Vacation","Health Insurance","Remote During COVID","Dental","Vision","Sick time","Disability insurance","Transit benefits","Life insurance","FSA"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = ""
 +++
 EMILY’s List, the nation’s largest resource for women in politics, is searching for a Research Manager to join our WOMEN VOTE! Independent Expenditure team.  The Research Manager is responsible for assisting in the research and voter communication components of the independent expenditure program.

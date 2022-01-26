@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Paid Leave","Paid Vacation","Health Insurance","Permanently Remote","Sick time"]
 c_feedback = ""
+aa_degrees_required = "undefined"
 thumbnail = ""
 +++
 What You’ll Do:

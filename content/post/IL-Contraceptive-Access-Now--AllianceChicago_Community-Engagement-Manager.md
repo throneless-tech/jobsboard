@@ -11,6 +11,7 @@ closing_date = "February 28, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Health Insurance","Paid Vacation","Remote During COVID"]
 c_feedback = ""
+aa_degrees_required = "Bachelor's degree required"
 thumbnail = "../../images/ICANlogocolorwhite-back_4a26872f.jpg"
 +++
 The ICAN! Community Engagement Manager (CEM) position is responsible for mobilizing people and organizations to actively participate in ICAN!’s programs and advances ICAN!’s goals through advocacy, volunteer engagement, and partnership development. The CEM is a leader in volunteer and stakeholder 

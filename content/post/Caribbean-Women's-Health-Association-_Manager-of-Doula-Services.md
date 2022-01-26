@@ -11,6 +11,7 @@ closing_date = "January 31, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits"]
 c_feedback = ""
+aa_degrees_required = "High school degree required"
 thumbnail = ""
 +++
 CWHA is a community-based organization located in the heart of the Caribbean community in Brooklyn for almost 40 years. Our mission is to provide high quality, comprehensive, culturally appropriate health education, immigration, and social support services to our diverse community. We are seeking a passionate, motivated individual to join our Women’s Health Department as Manager of Doula Services. The Manager of Doula Services will have the opportunity to foster their creativity and innovate in a growing agency and lead our efforts to offer free doula services across New York City. The Manager of Doula Services will lead the development, implementation,  monitoring & evaluation, and reporting on a range of programs that provide Birth and Postpartum doula support to the community.  

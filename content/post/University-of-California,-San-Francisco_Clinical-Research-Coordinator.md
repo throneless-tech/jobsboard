@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["Union-Eligible","Health Insurance","Paid Vacation","Remote During COVID","Dental","Vision","Sick time","General Benefits"]
 c_feedback = ""
+aa_degrees_required = "High school degree required"
 thumbnail = "../../images/PCRHPLogo-Combohigh-res_89255f79.png"
 +++
 The Person-Centered Reproductive Health Program at the University of California, San Francisco is recruiting for a Clinical Research Coordinator (CRC). The CRC will work on projects in our reproductive health portfolio including a randomized control trial testing a web-based decision aid. We’re looking for someone who is bilingual in English and Spanish, highly organized, and has strong attention to detail. 

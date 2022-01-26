@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Temporary"]
 b_benefits = []
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = ""
 +++
 Reporting to the MHQIN Program Manager, the Doula Advisor will work with governmental and health care partners, subcontracted programs, and MHQIN to advocate for system-level change to overcome the barriers and challenges to providing doula support in hospitals, as well as developing a doula-friendly accreditation system. The Doula Advisor will also support development of a doula-friendly-hospital toolkit and educational materials, for hospitals unable to receive hands-on technical assistance as part of MHQIN.

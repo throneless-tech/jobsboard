@@ -11,6 +11,7 @@ closing_date = "February 18, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["Retirement","Paid Leave","Paid Vacation","General Benefits"]
 c_feedback = ""
+aa_degrees_required = "Bachelor's degree required"
 thumbnail = "../../images/OHA-Logo_8f88393d.png"
 +++
 As the ScreenWise Program Manager, you will provide leadership and perform overall management of the ScreenWise program and staff. 

@@ -11,6 +11,7 @@ closing_date = "February 28, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["Retirement","Dental","Vision","Permanently Remote","Professional development","Health Insurance"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = "../../images/MDFMainLogo_648199c6.png"
 +++
 We are looking for a senior associate of knowledge systems who will ensure our data, business intelligence, and technology systems are set up for success. You will be responsible for managing how our internal systems talk to each other and designing ways to improve our data management, business intelligence/reporting, and technology tools and processes. 

@@ -11,6 +11,7 @@ closing_date = "February 28, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["Retirement","Paid Leave","Health Insurance","Paid Vacation","Remote During COVID","Dental","Vision","Sick time","Professional development","Sabbatical "]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = "../../images/ACLU-DE_2721f7e4.png"
 +++
 ACLU of Delaware seeks a full-time Paralegal to support its Legal Department. The ACLU of Delaware’s Legal Department litigates in trial and appellate courts at the state and federal levels to protect civil rights and liberties. The Legal Department maintains an active litigation docket with particular focus on police accountability, prison reform, increasing equity in education and improving protections for immigrants within Delaware.

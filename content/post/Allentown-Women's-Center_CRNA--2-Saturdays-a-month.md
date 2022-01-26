@@ -11,6 +11,7 @@ closing_date = "February 28, 2022"
 a_job_type = ["Part Time"]
 b_benefits = []
 c_feedback = ""
+aa_degrees_required = "Certification required"
 thumbnail = ""
 +++
 The Allentown Women's Center is an abortion care facility that has been operating since 1978. We are certified as an Ambulatory Care Facility in PA and provide procedures under  sedation every other Saturday.

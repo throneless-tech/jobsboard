@@ -11,6 +11,7 @@ closing_date = "March 1, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = ""
 +++
 The Women’s Foundation of Oregon (WFO) was founded in 2014 on the idea that everyone regardless of their gender identity should be able to thrive. Our statewide focus on transformative redistribution of wealth is driven by our core belief that individuals and communities are entitled to self-determination. We create change through our three areas of focus: grantmaking, convening community/organizations, and research. 

@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Union-Eligible","Retirement","Paid Leave","Health Insurance","Paid Vacation","Remote During COVID","Dental","Vision","Sick time","Transit benefits","Life insurance","FSA"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = ""
 +++
 The National Press Secretary promotes the mission of EMILY’s List and is an advocate for strong, Democratic pro-choice women candidates and elected officials throughout the country. The National Press Secretary serves as the organization’s key contact between the organization and media in Washington, DC and throughout the country.  

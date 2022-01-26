@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Transit benefits","Life insurance","FSA"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = ""
 +++
 EMILY’s List, the nation’s largest resource for women in politics, is searching for a Special Assistant to the President.  As Special Assistant, you will provide administrative support and work with the President to ensure organizational alignment at the senior most levels of the organization.

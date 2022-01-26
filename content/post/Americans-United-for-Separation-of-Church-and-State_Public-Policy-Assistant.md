@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["Remote During COVID","Health Insurance","Dental","Vision","Sick time","Paid Vacation","Life insurance","Transit benefits","Retirement","Disability insurance","Paid Leave"]
 c_feedback = ""
+aa_degrees_required = "Bachelor's degree required"
 thumbnail = "../../images/AULogoCompact_8208c91b.gif"
 +++
 Americans United for Separation of Church and State seeks a Public Policy Assistant who coordinates the work of the entire Public Policy team and conveys AU’s position to various audiences, including allies, AU supporters, and the public. The Public Policy Assistant will be managed directly by the Vice President of Public Policy.

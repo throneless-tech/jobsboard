@@ -11,6 +11,7 @@ closing_date = "February 28, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Paid Leave","Health Insurance","Paid Vacation","Permanently Remote","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance"]
 c_feedback = ""
+aa_degrees_required = "No degree required"
 thumbnail = "../../images/ACNlogoverticaltransparentbackground_de3a53fb.png"
 +++
 Abortion Care Network (ACN) is looking for a full time Director of People and Culture. This position will lead the organization in Human Resources and Operations practices and provide expertise and support to employee relations and retention, diversity and inclusion, policy and procedure development, HR and financial compliance. This position can be fully remote or hybrid remote/in person in Minneapolis, Minnesota. This job will be a full time exempt position

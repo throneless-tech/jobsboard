@@ -11,6 +11,7 @@ closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = []
 c_feedback = ""
+aa_degrees_required = "Bachelor's degree required"
 thumbnail = ""
 +++
 The Manager is a member of the Title X family planning team and serves as a primary point of contact and technical assistance resource to Title X-funded health centers in their region. The program manager will provide guidance and support, identify opportunities for improvement and address challenges, and assist with quality improvement activities. In partnership with the team and CA's Title X network, safeguard the availability of equitable, client-centered, high-quality sexual + reproductive health care for all.
