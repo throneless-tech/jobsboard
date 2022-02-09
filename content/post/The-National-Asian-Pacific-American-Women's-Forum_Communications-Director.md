@@ -10,7 +10,7 @@ created_at = "December 23, 2021"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["Remote During COVID","Retirement","Health Insurance","Dental","Vision","Paid Vacation","Sick time","Paid Leave"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "No degree required"
 thumbnail = "../../images/NAPAWFNAPAWFTwitter_cabae788.jpeg"
 +++
