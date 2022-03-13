@@ -12,7 +12,7 @@ a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Dental","Sick time","Paid Vacation","Health Insurance","Trans health"]
 c_feedback = ""
 aa_degrees_required = "Certification required"
-thumbnail = "../../images/Lovering-logo-stacked-final01-1_53b691d7.jpg"
+thumbnail = "../../images/Lovering-logo-stacked-final01-1_4ab4517d.jpg"
 +++
 We are looking for a pro-choice, enthusiastic addition to our team who will assist the clinical staff with carrying out daily tasks to provide excellent care to our community! 
 
