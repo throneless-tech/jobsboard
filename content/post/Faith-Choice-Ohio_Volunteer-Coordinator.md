@@ -10,7 +10,7 @@ created_at = "May 10, 2022"
 closing_date = "May 31, 2022"
 a_job_type = ["Part Time"]
 b_benefits = ["Transit benefits","Professional development","Permanently Remote"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "No degree required"
 thumbnail = "../../images/FCO-Icon-White_90e65d9d.PNG"
 +++
