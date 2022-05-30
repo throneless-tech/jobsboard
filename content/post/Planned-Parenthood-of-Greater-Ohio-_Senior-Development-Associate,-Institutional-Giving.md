@@ -5,8 +5,8 @@ organization = "Planned Parenthood of Greater Ohio "
 location = "Ohio, Remote"
 salary = "$40,000.00 - $47,444.00 Salary/year"
 link = "https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=20304&clientkey=BF1F3E248BBC4F9D9CB7A6483242BD94"
-sort_date = "2022-05-29"
-created_at = "May 29, 2022"
+sort_date = "2022-05-30"
+created_at = "May 30, 2022"
 closing_date = "July 25, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Health Insurance","Paid Vacation","Permanently Remote","Dental","Vision","Paid Leave","Disability insurance","Life insurance","FSA","Trans health","Intersex health benefits"]
