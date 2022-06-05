@@ -5,8 +5,8 @@ organization = "National Network of Abortion Funds"
 location = "Remote"
 salary = "$76,295 - $80,110, commensurate with experience, with competitive benefits package"
 link = "https://abortionfunds.bamboohr.com/jobs/view.php?id=63"
-sort_date = "2022-06-04"
-created_at = "June 4, 2022"
+sort_date = "2022-06-05"
+created_at = "June 5, 2022"
 closing_date = "June 12, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["Retirement","Paid Leave","Health Insurance","Paid Vacation","Permanently Remote","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance","FSA","Sabbatical "]
