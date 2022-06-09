@@ -11,6 +11,7 @@ const clearButton = document.getElementById('clear-filters');
 const loadButton = document.getElementById('load-more');
 let counter = 10;
 
+
 // create array of objects containing posts texts
 const posts = htmlPosts.map(post => (
   {
@@ -22,6 +23,49 @@ const posts = htmlPosts.map(post => (
   }
 ));
 
+var bigram = function (builder) {
+  // Define a pipeline function that stores two adjacent tokens together
+  var pipelineFunction = function (token, index, tokens) {
+    token.update(function(str, metadata) {
+      console.log('metadata: ', metadata)
+      return str + " " + metadata.nextTokenStr;
+    })
+  }
+
+  // Register the pipeline function so the index can be serialised
+  lunr.Pipeline.registerFunction(pipelineFunction, 'bigram')
+
+  // Add the pipeline function to both the indexing pipeline and the
+  // searching pipeline
+  builder.pipeline.before(lunr.stemmer, pipelineFunction)
+  builder.searchPipeline.before(lunr.stemmer, pipelineFunction)
+}
+
+
+var metadataUpdate = function (builder) {
+  // Define a pipeline function that stores two adjacent tokens together
+  var pipelineFunction = function (token, index, tokens) {
+    if (tokens[index + 1]) {
+      token.metadata['nextTokenStr'] = tokens[index + 1].str
+    } else {
+      token.metadata['nextTokenStr'] = ""
+    }
+    return token.update(function(str, metadata) {
+      // console.log('metadata: ', metadata)
+      return str + " " + metadata.nextTokenStr;
+    })
+  }
+
+  // Register the pipeline function so the index can be serialised
+  lunr.Pipeline.registerFunction(pipelineFunction, 'metadataUpdate')
+
+  // Add the pipeline function to the indexing pipeline
+  builder.pipeline.before(lunr.stemmer, pipelineFunction)
+
+  // Whitelist the tokenLength metadata key
+  builder.metadataWhitelist.push('nextTokenStr')
+}
+
 // initiate lunr
 let idx = lunr(function () {
   this.ref('id');
@@ -30,13 +74,16 @@ let idx = lunr(function () {
   this.field('type', {boost: 5});
   this.field('degrees', {boost: 5})
 
+  // remove buzz words that are causing random word eliminiation
+  this.pipeline.reset();
+  // this.searchPipeline.reset();
+
   // similarity tuning
   this.k1(0.2);
   this.b(1);
 
-  // remove buzz words that are causing random word eliminiation
-  this.pipeline.reset();
-  this.searchPipeline.reset();
+  this.use(metadataUpdate);
+  // this.use(bigram);
 
   posts.forEach(function (doc) {
     this.add(doc);
@@ -58,10 +105,10 @@ searchbar.addEventListener('input', event => {
 
   idx.query(function (q) {
     // look for an exact match and apply a large positive boost
-    q.term(event.target.value, { usePipeline: true, boost: 100 })
+    q.term(`+${event.target.value}`, { usePipeline: true, boost: 100 })
 
     // look for terms that match the beginning of this query term and apply a medium boost
-    q.term(`${event.target.value}*`, { usePipeline: false, boost: 10 })
+    q.term(`${event.target.value}*`, { usePipeline: false, boost: 1 })
 
     // look for terms that match with an edit distance of 2 and apply a small boost
     q.term(event.target.value, { usePipeline: false, editDistance: 2, boost: 1 })
@@ -105,17 +152,21 @@ filter.addEventListener('submit', event => {
   options = options
     .filter(option => (option !== "on" && option != "location" && option.length))
     .map(option => {
-      const thisOption = `${option}*`
-      return thisOption.replace(/\-/g, ' +')
+      const thisOption = `${option}`
+      return thisOption.replace(/\-/g, ' ')
     })
-    .join("* +");
+    .join(" ");
+  
+  console.log('options: ', options);
 
   idx.query(function (q) {
     // look for an exact match and apply a large positive boost
     q.term(options, { usePipeline: true, boost: 100 })
   })
 
-  let results = idx.search(`+${options}`);
+  let results = idx.search(options);
+
+  console.log('results: ', results)
 
   if (options.length && results.length) {
     noResults.classList.add('hidden');
