@@ -4,6 +4,10 @@ name: CI
 
 # Controls when the action will run.
 on:
+  # Triggers the workflow on a new push to main
+  push:
+    branches:
+      - "main"
   # Triggers the workflow on regular cron intervals. Schedule is approximate.
   schedule:
   - cron:  '0 22 * * *'
