@@ -18,8 +18,9 @@ const posts = htmlPosts.map(post => (
     id: post.id,
     content: post.innerText.replace(/\n/g, ' '),
     feedback: post.dataset.feedback,
-    type: post.dataset.type,
+    type: post.dataset.type.slice(1,-1),
     degrees: post.dataset.degrees,
+    benefits: post.dataset.benefits,
   }
 ));
 
@@ -73,16 +74,17 @@ let idx = lunr(function () {
   this.field('feedback', {boost: 5});
   this.field('type', {boost: 5});
   this.field('degrees', {boost: 5})
+  this.field('benefits', {boost: 5})
 
   // remove buzz words that are causing random word eliminiation
   this.pipeline.reset();
-  // this.searchPipeline.reset();
+  this.searchPipeline.reset();
 
   // similarity tuning
   this.k1(0.2);
   this.b(1);
 
-  this.use(metadataUpdate);
+  // this.use(metadataUpdate);
   // this.use(bigram);
 
   posts.forEach(function (doc) {
@@ -153,20 +155,20 @@ filter.addEventListener('submit', event => {
     .filter(option => (option !== "on" && option != "location" && option.length))
     .map(option => {
       const thisOption = `${option}`
-      return thisOption.replace(/\-/g, ' ')
+      return thisOption.replace(/\-/g, ' ').replace("time", '')
     })
     .join(" ");
-  
-  console.log('options: ', options);
+
+  console.log("options: ", options);
 
   idx.query(function (q) {
     // look for an exact match and apply a large positive boost
     q.term(options, { usePipeline: true, boost: 100 })
   })
 
-  let results = idx.search(options);
+  let results = idx.search(`feedback:${options} type:${options} degrees:${options} benefits:${options}`);
 
-  console.log('results: ', results)
+  console.log(results);
 
   if (options.length && results.length) {
     noResults.classList.add('hidden');
