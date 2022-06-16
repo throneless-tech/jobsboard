@@ -6,6 +6,7 @@
     "generate:jobs": "node ./airtable.js",
     "sass": "node-sass static/styles/custom.sass static/styles/custom.css",
     "build": "run-s deploy:assets build:hugo",
+    "build:github": "run-s build:hugo",
     "start": "run-s build:assets start:dev",
     "start:dev": "run-p dev:parcel dev:hugo",
     "dev:hugo": "cross-env NODE_ENV=development hugo server --gc --disableFastRender --navigateToChanged",
