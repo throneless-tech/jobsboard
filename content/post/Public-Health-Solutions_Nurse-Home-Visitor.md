@@ -5,8 +5,8 @@ organization = "Public Health Solutions"
 location = "New York"
 salary = "$80,000 - $85,000"
 link = " https://phg.tbe.taleo.net/phg03/ats/careers/v2/viewRequisition?org=PUBLHEAL2&cws=37&rid=751"
-sort_date = "2022-06-07"
-created_at = "June 7, 2022"
+sort_date = "2022-06-16"
+created_at = "June 16, 2022"
 closing_date = "July 1, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Paid Leave","Paid Vacation","Health Insurance","Dental","Vision","Transit benefits","Life insurance"]
