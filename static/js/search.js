@@ -28,7 +28,6 @@ var bigram = function (builder) {
   // Define a pipeline function that stores two adjacent tokens together
   var pipelineFunction = function (token, index, tokens) {
     token.update(function(str, metadata) {
-      console.log('metadata: ', metadata)
       return str + " " + metadata.nextTokenStr;
     })
   }
@@ -52,7 +51,6 @@ var metadataUpdate = function (builder) {
       token.metadata['nextTokenStr'] = ""
     }
     return token.update(function(str, metadata) {
-      // console.log('metadata: ', metadata)
       return str + " " + metadata.nextTokenStr;
     })
   }
@@ -159,16 +157,12 @@ filter.addEventListener('submit', event => {
     })
     .join(" ");
 
-  console.log("options: ", options);
-
   idx.query(function (q) {
     // look for an exact match and apply a large positive boost
     q.term(options, { usePipeline: true, boost: 100 })
   })
 
   let results = idx.search(`feedback:${options} type:${options} degrees:${options} benefits:${options}`);
-
-  console.log(results);
 
   if (options.length && results.length) {
     noResults.classList.add('hidden');
