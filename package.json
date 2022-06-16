@@ -24,7 +24,7 @@
     }
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=17.6.0"
   },
   "repository": {
     "type": "git",
