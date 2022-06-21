@@ -12,7 +12,7 @@ a_job_type = ["Full Time"]
 b_benefits = ["Health Insurance","Vision","Dental","Paid Vacation"]
 c_feedback = ""
 aa_degrees_required = "No degree required"
-thumbnail = "../../images/wavelogorgb21_a116a6f7.jpg"
+thumbnail = "../../images/wavelogorgb21_efe4fe44.jpg"
 +++
 Wave Fundraising specializes in face-to-face canvassing. We believe that societal transformation demands on-the-ground action. We partner with organizations working to solve some of the biggest problems facing our society - from protecting human rights to fighting climate change - and help them build the resources they need to make an impact. By taking to the streets and neighborhoods to engage in meaningful interactions we help these partners do more good in the world.
 
