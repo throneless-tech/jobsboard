@@ -3,13 +3,13 @@ author = "None"
 title = "Community Health Manager"
 organization = "Huckleberry Youth Programs"
 location = "California"
-salary = "$70-75K/annually"
+salary = "$75,000"
 link = "https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=53211&clientkey=0DA1D23F5A484B9939C4EDBF64E4C4F0"
-sort_date = "2022-05-08"
-created_at = "May 8, 2022"
+sort_date = "2022-06-27"
+created_at = "June 27, 2022"
 closing_date = "-"
 a_job_type = ["Full Time"]
-b_benefits = ["General Benefits","Paid Leave","Paid Vacation","Health Insurance","Dental","Vision","Sick time","Disability insurance","Transit benefits","Professional development","Life insurance","FSA"]
+b_benefits = ["General Benefits","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Life insurance","Professional development","FSA","Retirement"]
 c_feedback = ""
 aa_degrees_required = "Bachelor's degree required"
 thumbnail = ""
