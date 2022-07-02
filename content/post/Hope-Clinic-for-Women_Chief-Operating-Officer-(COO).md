@@ -1,6 +1,6 @@
 +++
 author = "None"
-title = "Chief Operatin Officer (COO)"
+title = "Chief Operating Officer (COO)"
 organization = "Hope Clinic for Women"
 location = "Illinois"
 salary = "$100,000-$115,000"
