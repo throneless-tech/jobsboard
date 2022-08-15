@@ -10,7 +10,7 @@ created_at = "August 4, 2022"
 closing_date = "September 19, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance","FSA","Short-term disability insurance","Long-term disability insurance"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "No degree required"
 thumbnail = "../../images/logocolor-PNG-2_00ef61a3.png"
 +++

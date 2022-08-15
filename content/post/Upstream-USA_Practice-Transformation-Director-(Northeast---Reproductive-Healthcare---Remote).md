@@ -10,7 +10,7 @@ created_at = "July 25, 2022"
 closing_date = "September 19, 2022"
 a_job_type = ["Full Time"]
 b_benefits = ["Retirement","Paid Leave","Permanently Remote","Paid Vacation","Health Insurance","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "No degree required"
 thumbnail = "../../images/logocolor-PNG-2_00ef61a3.png"
 +++
