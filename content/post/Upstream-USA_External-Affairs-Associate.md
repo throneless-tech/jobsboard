@@ -1,6 +1,6 @@
 +++
 author = "None"
-title = "Recruiter"
+title = "External Affairs Associate"
 organization = "Upstream USA"
 location = "Massachusetts"
 salary = "$48,991.59 - $69,300"
