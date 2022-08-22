@@ -10,7 +10,7 @@ created_at = "August 16, 2022"
 closing_date = "-"
 a_job_type = ["Part Time"]
 b_benefits = ["Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Relocation expenses","Professional development"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "High school degree required"
 thumbnail = "../../images/3192459318388064528180203012148886392274944n_efb8c1b8.png"
 +++
