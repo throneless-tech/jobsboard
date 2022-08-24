@@ -21,6 +21,7 @@ const posts = htmlPosts.map(post => (
     type: post.dataset.type.slice(1,-1),
     degrees: post.dataset.degrees,
     benefits: post.dataset.benefits,
+    location: post.dataset.location,
   }
 ));
 
@@ -71,8 +72,9 @@ let idx = lunr(function () {
   this.field('content', {boost: 10});
   this.field('feedback', {boost: 5});
   this.field('type', {boost: 5});
-  this.field('degrees', {boost: 5})
-  this.field('benefits', {boost: 5})
+  this.field('degrees', {boost: 5});
+  this.field('benefits', { boost: 5 });
+  this.field('location', { boost: 5 });
 
   // remove buzz words that are causing random word eliminiation
   this.pipeline.reset();
@@ -162,7 +164,7 @@ filter.addEventListener('submit', event => {
     q.term(options, { usePipeline: true, boost: 100 })
   })
 
-  let results = idx.search(`feedback:${options} type:${options} degrees:${options} benefits:${options}`);
+  let results = idx.search(`feedback:${options} type:${options} degrees:${options} benefits:${options} location:${options}`);
 
   if (options.length && results.length) {
     noResults.classList.add('hidden');
