@@ -154,17 +154,18 @@ filter.addEventListener('submit', event => {
   options = options
     .filter(option => (option !== "on" && option != "location" && option.length))
     .map(option => {
-      const thisOption = `${option}`
-      return thisOption.replace(/\-/g, ' ').replace("time", '')
+      const thisOption = `+${option}`
+      return thisOption.replace(/\-/g, ' +')//.replace("time", '')
     })
     .join(" ");
+
 
   idx.query(function (q) {
     // look for an exact match and apply a large positive boost
     q.term(options, { usePipeline: true, boost: 100 })
   })
 
-  let results = idx.search(`feedback:${options} type:${options} degrees:${options} benefits:${options} location:${options}`);
+  let results = idx.search(options);
 
   if (options.length && results.length) {
     noResults.classList.add('hidden');
@@ -199,6 +200,7 @@ clearButton.addEventListener('click', event => {
       post.classList.remove('hidden');
     }
   })
+  postsContainer.classList.remove('hidden');
 });
 
 // load up to 10 posts on page load
