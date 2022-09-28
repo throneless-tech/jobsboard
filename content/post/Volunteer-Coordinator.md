@@ -1,13 +1,13 @@
 +++
 author = "None"
-title = "Practical Support Navigator/ Volunteer Coordinator"
+title = "Case Manager/Volunteer Coordinator"
 organization = "NM Religious Coalition for Reproductive Choice"
 location = "New Mexico"
 salary = "$24-$28 per hour"
 link = "https://nmrcrc.org/job-openings"
 sort_date = "2022-08-16"
 created_at = "August 16, 2022"
-closing_date = "-"
+closing_date = "October 15, 2022"
 a_job_type = ["Part Time"]
 b_benefits = ["Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Relocation expenses","Professional development"]
 c_feedback = "Red Flag"
