@@ -5,8 +5,8 @@ organization = "Radical Monarchs"
 location = "California"
 salary = "$30/hr Part Time 5-10 hrs a week"
 link = "https://docs.google.com/document/d/1q864Y2M330qmfRatYDhyViHeZ4KoasZ9KETWQtGAou8/edit?usp=sharing"
-sort_date = "2022-010-01"
-created_at = "October 1, 2022"
+sort_date = "2022-010-02"
+created_at = "October 2, 2022"
 closing_date = "October 20, 2022"
 a_job_type = ["Part Time","Temporary"]
 b_benefits = []
