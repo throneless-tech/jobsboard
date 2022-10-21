@@ -10,7 +10,7 @@ created_at = "July 27, 2022"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["Health Insurance","Dental","Vision","Retirement","Paid Leave","Paid Vacation"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "No degree required"
 thumbnail = ""
 +++

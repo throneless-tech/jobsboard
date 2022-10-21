@@ -10,7 +10,7 @@ created_at = "September 20, 2022"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["Retirement","Paid Leave","Dental","Vision","Remote During COVID","Paid Vacation","Health Insurance","Sick time","FSA","Professional development","General Benefits","Transit benefits","Disability insurance","Life insurance"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "No degree required"
 thumbnail = "../../images/Catholics-For-ChoiceLOGO-1_f0ae9ab9.png"
 +++

@@ -10,7 +10,7 @@ created_at = "August 16, 2022"
 closing_date = "-"
 a_job_type = ["Paid Internship","Temporary"]
 b_benefits = ["Remote During COVID","Sick time"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "No degree required"
 thumbnail = "../../images/logo_57fe4ff4.png"
 +++

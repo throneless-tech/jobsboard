@@ -10,7 +10,7 @@ created_at = "October 13, 2022"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Life insurance","Short-term disability insurance","Abortion procedure funding","Intersex health benefits"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "Master's degree required"
 thumbnail = ""
 +++
