@@ -4,7 +4,7 @@ title = "Policy Analyst/Senior Policy Analyst"
 organization = "RHITES (Reproductive Health Initiative for Telehealth Equity & Solutions)"
 location = "Remote"
 salary = "$110,000 - $135,000"
-link = "https://Website and logo are in progress. I have attached the JD. I would be happy to answer any questions about this."
+link = ""
 sort_date = "2022-10-28"
 created_at = "October 28, 2022"
 closing_date = "November 18, 2022"
@@ -15,3 +15,5 @@ aa_degrees_required = "No degree required"
 thumbnail = ""
 +++
 RHITES (Reproductive Telehealth Initiative for Telehealth Equity & Support) is focused on the integration of telehealth for sexual and reproductive healthcare (SRH), with a particular emphasis on abortion care, into both the SRH, rights, and justice spaces and telehealth/innovation industry landscape. The Senior Policy Analyst/Policy Analyst (SPA/PA)will play a critical role in tracking and analyzing federal and state policy and regulations (with an emphasis on state) relevant to the provision or accessibility of medication abortion care via telehealth. The SPA/PA will also take a leading role in developing written and oral analysis with top advisers and peers in the reproductive health, rights, and justice communities as well as the telehealth and innovation spaces. Specifically, the SPA/PA will review state analysis performed with an eye to service provision of telehealth for medication abortion care, ensuring the work is up to date related to any legislation, regulations, or policy guidance that may change these analyses.
+
+Please note: Our website and logo are still in progress, at this time we do not have a link to the job description. Interested candidates should email a resume and cover letter to d.northcraft@hopewellfund.org. You can also email d.northcraft@hopewellfund.org for a full job description.
