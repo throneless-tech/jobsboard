@@ -1,6 +1,6 @@
 +++
 author = "None"
-title = "Senior Digital Manager "
+title = "Senior Digital Manager"
 organization = "Color Of Change "
 location = "Remote, District of Columbia, New York, California"
 salary = "$85,000"
