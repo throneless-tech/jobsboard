@@ -5,8 +5,8 @@ organization = "UCSF Person-Centered Reproductive Health Program"
 location = "California"
 salary = "$65,000-$80,000"
 link = "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=6495&siteid=5861&PageType=JobDetails&jobid=3361013#jobDetails=3361013_5861"
-sort_date = "2022-11-11"
-created_at = "November 11, 2022"
+sort_date = "2022-11-12"
+created_at = "November 12, 2022"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance","FSA","Pet insurance","Short-term disability insurance","Long-term disability insurance","Abortion procedure funding","Remote During COVID","Trans health","Legal benefits","Adoption and surrogacy benefits"]
