@@ -5,8 +5,8 @@ organization = "Center on Reproductive Health, Law, and Policy at UCLA Law"
 location = "California"
 salary = "$60,000-$70,000"
 link = "https://hr.mycareer.ucla.edu/applicants/Central?quickFind=86205 "
-sort_date = "2022-12-21"
-created_at = "December 21, 2022"
+sort_date = "2022-12-22"
+created_at = "December 22, 2022"
 closing_date = "March 1, 2023"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Paid Vacation","Dental","Vision","Sick time","Professional development"]
