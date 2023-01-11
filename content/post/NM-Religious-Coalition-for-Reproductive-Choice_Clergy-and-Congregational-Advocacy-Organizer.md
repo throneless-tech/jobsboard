@@ -5,12 +5,12 @@ organization = "NM Religious Coalition for Reproductive Choice"
 location = "New Mexico"
 salary = "$26 - $36 per hour"
 link = "https://nmrcrc.org/job-openings"
-sort_date = "2023-01-10"
-created_at = "January 10, 2023"
+sort_date = "2023-01-11"
+created_at = "January 11, 2023"
 closing_date = "January 15, 2023"
 a_job_type = ["Part Time"]
 b_benefits = ["Paid Leave","Health Insurance","Dental","Vision","Relocation expenses","Professional development","Life insurance"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "Master's degree required"
 thumbnail = ""
 +++
