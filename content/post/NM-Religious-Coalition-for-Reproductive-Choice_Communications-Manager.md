@@ -5,8 +5,8 @@ organization = "NM Religious Coalition for Reproductive Choice"
 location = "New Mexico"
 salary = "$24 - $28 per hour"
 link = "https://acrobat.adobe.com/link/review?uri=urn%3Aaaid%3Ascds%3AUS%3Aa502ffe7-ea8c-3c0c-927b-18fe73dfa275"
-sort_date = "2023-01-12"
-created_at = "January 12, 2023"
+sort_date = "2023-01-13"
+created_at = "January 13, 2023"
 closing_date = "January 15, 2023"
 a_job_type = ["Part Time"]
 b_benefits = ["Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Professional development","Life insurance"]
