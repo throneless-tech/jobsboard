@@ -10,7 +10,7 @@ created_at = "January 19, 2023"
 closing_date = "February 17, 2023"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "No degree required"
 thumbnail = ""
 +++
