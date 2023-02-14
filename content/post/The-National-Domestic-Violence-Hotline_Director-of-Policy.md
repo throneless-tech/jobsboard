@@ -3,13 +3,13 @@ author = "None"
 title = "Director of Policy"
 organization = "The National Domestic Violence Hotline"
 location = "District of Columbia"
-salary = "105,000-115,000"
+salary = "$105,000-$115,000"
 link = "https://recruiting2.ultipro.com/NAT1062NDVH/JobBoard/194701bc-1705-48ae-b059-86724f2d8f17/OpportunityDetail?opportunityId=ceab366d-f430-43a5-a911-4ca2847c0f2d"
 sort_date = "2023-02-07"
 created_at = "February 7, 2023"
 closing_date = "-"
 a_job_type = ["Full Time"]
-b_benefits = ["General Benefits","Retirement","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","FSA"]
+b_benefits = ["no benefits listed"]
 c_feedback = ""
 aa_degrees_required = "Bachelor's degree required"
 thumbnail = ""
