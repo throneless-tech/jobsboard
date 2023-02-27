@@ -10,7 +10,7 @@ created_at = "February 24, 2023"
 closing_date = "-"
 a_job_type = ["Part Time"]
 b_benefits = ["Permanently Remote","no benefits listed"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "Nursing degree required"
 thumbnail = ""
 +++
