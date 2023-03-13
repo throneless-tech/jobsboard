@@ -10,7 +10,7 @@ created_at = "March 2, 2023"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Health Insurance","Paid Vacation","Paid Leave","Retirement","Professional development"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "Master's degree required"
 thumbnail = "../../images/IWPR-white-logo_3bf6e6e0.png"
 +++
