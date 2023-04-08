@@ -5,8 +5,8 @@ organization = "DuPont Clinic"
 location = "District of Columbia"
 salary = "$24 per hour"
 link = "https://dupontclinic.bamboohr.com/careers/12?source=aWQ9Nw%3D%3D"
-sort_date = "2023-04-07"
-created_at = "April 7, 2023"
+sort_date = "2023-04-08"
+created_at = "April 8, 2023"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["Retirement","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Life insurance","Long-term disability insurance"]
