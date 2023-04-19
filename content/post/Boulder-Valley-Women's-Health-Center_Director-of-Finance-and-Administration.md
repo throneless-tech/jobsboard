@@ -1,6 +1,6 @@
 +++
 author = "None"
-title = "DIrector of Finance and Administration"
+title = "Director of Finance and Administration"
 organization = "Boulder Valley Women's Health Center"
 location = "Colorado"
 salary = "$110,000 - $118,000"
