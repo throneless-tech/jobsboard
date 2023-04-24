@@ -1,6 +1,6 @@
 +++
 author = "None"
-title = "Patient Care Coordinator"
+title = "Bilingual (English/Spanish) Patient Care Coordinator"
 organization = "Boulder Abortion Clinic"
 location = "Colorado"
 salary = "$25+"
@@ -9,7 +9,7 @@ sort_date = "2023-04-19"
 created_at = "April 19, 2023"
 closing_date = "-"
 a_job_type = ["Full Time"]
-b_benefits = ["Relocation expenses","Union-Eligible","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Life insurance","Retirement","General Benefits"]
+b_benefits = ["Relocation expenses","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Life insurance","Retirement","General Benefits"]
 c_feedback = ""
 aa_degrees_required = "No degree required"
 thumbnail = ""

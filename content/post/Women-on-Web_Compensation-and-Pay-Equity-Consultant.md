@@ -1,9 +1,9 @@
 +++
 author = "None"
-title = "COMPENSATION AND PAY EQUITY CONSULTANT"
+title = "Compensation and Pay Equity Consultant"
 organization = "Women on Web"
 location = "International, Remote"
-salary = "20,000-25,000 CAD"
+salary = "$20,000-$25,000 CAD"
 link = "https://www.womenonweb.org/en/page/21909/compensation-and-pay-equity-consultant"
 sort_date = "2023-04-19"
 created_at = "April 19, 2023"
