@@ -1,6 +1,6 @@
 +++
 author = "None"
-title = "Policy Council"
+title = "Policy Counsel"
 organization = "Reproductive Equity Now "
 location = "Massachusetts"
 salary = "$70,000 - $75,000"
