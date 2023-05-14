@@ -1,6 +1,6 @@
 +++
 author = "None"
-title = "DEPUTY RESEARCH DIRECTOR"
+title = "Deputy Research Director"
 organization = "EMILYs List"
 location = "District of Columbia"
 salary = "$83,000 - $96,700"

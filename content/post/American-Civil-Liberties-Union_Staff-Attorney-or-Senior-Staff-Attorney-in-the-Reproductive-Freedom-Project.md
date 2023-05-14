@@ -1,6 +1,6 @@
 +++
 author = "None"
-title = "STAFF ATTORNEY OR SENIOR STAFF ATTORNEY, REPRODUCTIVE FREEDOM PROJECT"
+title = "Staff Attorney or Senior Staff Attorney in the Reproductive Freedom Project"
 organization = "American Civil Liberties Union"
 location = "New York"
 salary = "The ACLU has a litigator scale that determines pay for attorneys in our Legal Department. The range of salaries is visible in the linked job description."
@@ -9,7 +9,7 @@ sort_date = "2023-05-10"
 created_at = "May 10, 2023"
 closing_date = "-"
 a_job_type = ["Full Time"]
-b_benefits = []
+b_benefits = ["no benefits listed"]
 c_feedback = ""
 aa_degrees_required = "Law degree required"
 thumbnail = ""
