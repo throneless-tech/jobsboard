@@ -14,9 +14,4 @@ c_feedback = ""
 aa_degrees_required = "No degree required"
 thumbnail = "../../images/ARCLogo1_93bc922b.png"
 +++
-Access Reproductive Care - Southeast (ARC-Southeast) seeks an Executive Director
-(ED) with a strong commitment to reproductive justice, experience as an ambitious
-yet practical senior leader, and connection to and knowledge of the Southeast region.
-This is an exciting opportunity for seasoned and first-time executive directors alike,
-and for leaders from closely allied movements looking to join the movement for
-abortion and reproductive justice.
+Access Reproductive Care - Southeast (ARC-Southeast) seeks an Executive Director (ED) with a strong commitment to reproductive justice, experience as an ambitious yet practical senior leader, and connection to and knowledge of the Southeast region. This is an exciting opportunity for seasoned and first-time executive directors alike, and for leaders from closely allied movements looking to join the movement for abortion and reproductive justice.
