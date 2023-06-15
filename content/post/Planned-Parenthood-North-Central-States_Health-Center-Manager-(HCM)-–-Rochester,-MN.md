@@ -5,8 +5,8 @@ organization = "Planned Parenthood North Central States"
 location = "Minnesota"
 salary = "58,000"
 link = "https://recruiting.ultipro.com/PLA1010PLANN/JobBoard/87959a5b-c910-41ff-90b8-da23644409c6/Opportunity/OpportunityDetail?opportunityId=7886a8bb-f5a3-40b4-8530-6f7109ff5dc2"
-sort_date = "2023-06-14"
-created_at = "June 14, 2023"
+sort_date = "2023-06-15"
+created_at = "June 15, 2023"
 closing_date = "July 24, 2023"
 a_job_type = ["Full Time"]
 b_benefits = ["Paid Leave","General Benefits","Health Insurance","Dental","Vision","Disability insurance","Life insurance","Professional development","FSA","Trans health","Transit benefits","Pet insurance","Short-term disability insurance","Long-term disability insurance"]
