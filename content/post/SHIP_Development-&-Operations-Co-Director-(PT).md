@@ -5,8 +5,8 @@ organization = "SHIP"
 location = "Remote, Rhode Island, Massachusetts"
 salary = "$30,435 - $32,892"
 link = "https://docs.google.com/document/d/1G0EN9z2fYaiktZFaU-s1Zg3lT5ypYqTEKdmYBDEFRXk/edit?usp=sharing"
-sort_date = "2023-06-17"
-created_at = "June 17, 2023"
+sort_date = "2023-06-18"
+created_at = "June 18, 2023"
 closing_date = "June 30, 2023"
 a_job_type = ["Part Time"]
 b_benefits = ["Health Insurance","Permanently Remote","Professional development","Unlimited vacation"]
