@@ -10,7 +10,7 @@ created_at = "July 7, 2023"
 closing_date = "July 26, 2023"
 a_job_type = ["Full Time"]
 b_benefits = ["Retirement","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance","FSA","Short-term disability insurance","Long-term disability insurance"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "Bachelor's degree required"
 thumbnail = ""
 +++

@@ -10,7 +10,7 @@ created_at = "July 7, 2023"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Paid Leave","Health Insurance","Paid Vacation","Permanently Remote","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance","FSA","Sabbatical ","Transit benefits","Short-term disability insurance","Long-term disability insurance","Legal benefits"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "No degree required"
 thumbnail = "../../images/All-Above-All-Rebranded-Logotransparent_b7804848.jpg"
 +++
