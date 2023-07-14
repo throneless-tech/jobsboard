@@ -10,7 +10,7 @@ created_at = "July 11, 2023"
 closing_date = "July 30, 2023"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Health Insurance","Paid Vacation","Permanently Remote","Dental","Vision","Sick time","Professional development","Life insurance","Sabbatical "]
-c_feedback = "Red Flag"
+c_feedback = ""
 aa_degrees_required = "No degree required"
 thumbnail = "../../images/NNAFlogopurpletransparent_f3eb6b7a.png"
 +++
