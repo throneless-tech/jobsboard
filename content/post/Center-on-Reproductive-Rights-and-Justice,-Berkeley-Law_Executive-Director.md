@@ -1,7 +1,7 @@
 +++
 author = "None"
 title = "Executive Director"
-organization = "Center on Reproductive Rights and Justice,  Berkeley Law"
+organization = "Center on Reproductive Rights and Justice, Berkeley Law"
 location = "California"
 salary = "Estimated salary range: $164,715-$217,748 (based on experience)"
 link = "https://aprecruit.berkeley.edu/JPF03925"
