@@ -6,8 +6,8 @@ location = "Pennsylvania"
 salary = "$4,541.66/month"
 link = "https://nextgenamerica.bamboohr.com/careers/259?source=aWQ9NTE%3D"
 sort_date = "2023-06-27"
-created_at = "June 26, 2023"
-closing_date = "August 31, 2023"
+created_at = "June 27, 2023"
+closing_date = "September 1, 2023"
 a_job_type = ["Full Time","Temporary"]
 b_benefits = ["General Benefits","Union-Eligible","Tuition Reimbursement","Health Insurance","Dental","Vision","Disability insurance","Life insurance","Short-term disability insurance","Long-term disability insurance"]
 c_feedback = ""

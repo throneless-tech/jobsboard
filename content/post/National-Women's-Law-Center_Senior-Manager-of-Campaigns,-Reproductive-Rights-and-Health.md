@@ -6,8 +6,8 @@ location = "District of Columbia"
 salary = "$93,730 -$124,012"
 link = "https://nwlc.org/jobs-at-nwlc/staff-positions/?gh_jid=4038872007"
 sort_date = "2023-07-24"
-created_at = "July 23, 2023"
-closing_date = "August 30, 2023"
+created_at = "July 24, 2023"
+closing_date = "August 31, 2023"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Union-Eligible","Retirement","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Relocation expenses","Professional development","Life insurance","FSA","Long-term disability insurance"]
 c_feedback = ""

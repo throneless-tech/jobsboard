@@ -6,7 +6,7 @@ location = "New York"
 salary = "$85000"
 link = "https://reproductiverights.org/apply/?gh_jid=6756550002?gh_jid=6756550002"
 sort_date = "2023-05-09"
-created_at = "May 8, 2023"
+created_at = "May 9, 2023"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["Vision","Dental","Sick time","Paid Vacation","Health Insurance","Tuition Reimbursement","Paid Leave","Retirement","Professional development","General Benefits","Life insurance"]

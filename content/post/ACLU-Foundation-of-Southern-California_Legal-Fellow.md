@@ -6,8 +6,8 @@ location = "California"
 salary = "$78,000 to $82,400 depending on bar passage & experience"
 link = "https://secure.onehcm.com/ta/ACLUSC.careers?ShowJob=537018433"
 sort_date = "2023-05-05"
-created_at = "May 4, 2023"
-closing_date = "November 30, 2023"
+created_at = "May 5, 2023"
+closing_date = "December 1, 2023"
 a_job_type = ["Paid Fellowship","Temporary","Full Time"]
 b_benefits = ["Union-Eligible","Retirement","Health Insurance","Paid Vacation","Sick time","Professional development","Dental","Vision","Short-term disability insurance","Long-term disability insurance","Disability insurance"]
 c_feedback = ""

@@ -6,8 +6,8 @@ location = "Remote, District of Columbia, Illinois"
 salary = "Level E - $87,870 - $121,200, salary commensurate with experience"
 link = "https://peoplesaction.bamboohr.com/careers/71?source=aWQ9MTk%3D"
 sort_date = "2023-07-29"
-created_at = "July 28, 2023"
-closing_date = "August 19, 2023"
+created_at = "July 29, 2023"
+closing_date = "August 20, 2023"
 a_job_type = ["Full Time"]
 b_benefits = ["Union-Eligible","Retirement","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Professional development","Life insurance","FSA","Sabbatical "]
 c_feedback = ""

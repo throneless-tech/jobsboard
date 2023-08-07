@@ -6,8 +6,8 @@ location = "District of Columbia"
 salary = "$44,000 - $48,000"
 link = "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?lang=en_US&cid=fff9c875-5d25-41c5-a8cb-20515cf5120b&jobId=887295"
 sort_date = "2023-07-07"
-created_at = "July 6, 2023"
-closing_date = "August 30, 2023"
+created_at = "July 7, 2023"
+closing_date = "August 31, 2023"
 a_job_type = ["Full Time"]
 b_benefits = ["Retirement","Health Insurance","Paid Vacation","General Benefits","Dental","Vision","Sick time","Disability insurance","FSA","Life insurance","Trans health","Short-term disability insurance","Long-term disability insurance"]
 c_feedback = ""

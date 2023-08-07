@@ -6,8 +6,8 @@ location = "Pennsylvania"
 salary = "$22.00/hour"
 link = "https://nextgenamerica.bamboohr.com/careers/279?source=aWQ9NTE%3D"
 sort_date = "2023-08-02"
-created_at = "August 1, 2023"
-closing_date = "October 30, 2023"
+created_at = "August 2, 2023"
+closing_date = "October 31, 2023"
 a_job_type = ["Part Time","Temporary"]
 b_benefits = ["General Benefits","Union-Eligible","Sick time","Professional development","Short-term disability insurance","Long-term disability insurance","Life insurance"]
 c_feedback = ""

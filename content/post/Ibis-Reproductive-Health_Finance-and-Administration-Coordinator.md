@@ -6,7 +6,7 @@ location = "Massachusetts"
 salary = "$55,876"
 link = "https://ibis.bamboohr.com/careers/45?source=aWQ9MjY%3D"
 sort_date = "2023-08-05"
-created_at = "August 4, 2023"
+created_at = "August 5, 2023"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance","FSA","Sabbatical ","Transit benefits"]

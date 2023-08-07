@@ -6,8 +6,8 @@ location = "Remote, Pennsylvania"
 salary = "$59,000 to $99,000"
 link = "https://cfopitt.taleo.net/careersection/pitt_staff_external/jobdetail.ftl?job=23005464&tz=GMT-04%3A00&tzname=America%2FNew_York"
 sort_date = "2023-08-05"
-created_at = "August 4, 2023"
-closing_date = "September 29, 2023"
+created_at = "August 5, 2023"
+closing_date = "September 30, 2023"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Tuition Reimbursement","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance","FSA","Transit benefits","Pet insurance","Short-term disability insurance","Long-term disability insurance"]
 c_feedback = ""
