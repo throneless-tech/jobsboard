@@ -10,13 +10,8 @@ on:
       - "main"
   # Triggers the workflow on regular cron intervals. Schedule is approximate.
   schedule:
-  - cron:  '0 22 * * *'
+  - cron:  '0 22 * * *' # runs once a day around 10 pm UTC
   workflow_dispatch:
-
-# Upgrade to run on Node 16, as 12 will be deprecated soon
-runs:
-  using: 'node16'
-  main: 'main.js'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
