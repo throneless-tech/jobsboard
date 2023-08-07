@@ -6,7 +6,7 @@ location = "Illinois"
 salary = "$71,129-$121,326 based on experience"
 link = "https://rush.igreentree.com/CSS_External/CSSPage_JobDetail.ASP?T=20230530091343&"
 sort_date = "2023-05-23"
-created_at = "May 23, 2023"
+created_at = "May 22, 2023"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Paid Leave","Tuition Reimbursement","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance","FSA","Trans health","Transit benefits","Pet insurance","Short-term disability insurance","Long-term disability insurance","Abortion procedure funding"]

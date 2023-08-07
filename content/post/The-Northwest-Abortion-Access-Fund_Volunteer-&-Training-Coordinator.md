@@ -6,8 +6,8 @@ location = "Remote, Alaska, Idaho, Oregon, Washington"
 salary = "$80,000 - $96,000"
 link = "https://docs.google.com/document/d/1Mol4IWRR6FhteIke3FcUh34VRz04lZK7MrbZKJ3PRJc/edit?usp=sharing"
 sort_date = "2023-08-01"
-created_at = "August 1, 2023"
-closing_date = "August 21, 2023"
+created_at = "July 31, 2023"
+closing_date = "August 20, 2023"
 a_job_type = ["Full Time"]
 b_benefits = ["Retirement","Paid Leave","Paid Vacation","Permanently Remote","Sabbatical ","Sick time","Health Insurance"]
 c_feedback = ""

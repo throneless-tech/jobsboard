@@ -6,7 +6,7 @@ location = "Virginia, West Virginia, Maryland, District of Columbia"
 salary = "$8,000/month"
 link = "https://drive.google.com/file/d/12SHUssx3S2Gi7l5tEq9OA2uL2MX4GG-k/view?usp=sharing"
 sort_date = "2023-07-11"
-created_at = "July 11, 2023"
+created_at = "July 10, 2023"
 closing_date = "-"
 a_job_type = ["Temporary"]
 b_benefits = []

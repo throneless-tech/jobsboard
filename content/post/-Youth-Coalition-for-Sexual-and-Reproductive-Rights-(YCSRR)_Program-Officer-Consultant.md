@@ -6,8 +6,8 @@ location = "International"
 salary = "31,000 CAD / year, plus benefits"
 link = "https://docs.google.com/document/d/1XelnCdVSQRQiKrPgdHPj2ZtaAzGSQSZJVxOVbIYrWa8/edit?usp=sharing"
 sort_date = "2023-07-28"
-created_at = "July 28, 2023"
-closing_date = "August 13, 2023"
+created_at = "July 27, 2023"
+closing_date = "August 12, 2023"
 a_job_type = ["Full Time","Consultant"]
 b_benefits = ["General Benefits","Retirement","Paid Leave","Health Insurance","Paid Vacation","Permanently Remote","Professional development"]
 c_feedback = ""

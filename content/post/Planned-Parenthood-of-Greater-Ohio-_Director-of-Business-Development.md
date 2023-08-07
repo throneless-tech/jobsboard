@@ -6,8 +6,8 @@ location = "Ohio"
 salary = "$85,000.00 - $100,000.00 Salary/year"
 link = "https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=54892&clientkey=BF1F3E248BBC4F9D9CB7A6483242BD94"
 sort_date = "2023-08-01"
-created_at = "August 1, 2023"
-closing_date = "November 30, 2023"
+created_at = "July 31, 2023"
+closing_date = "November 29, 2023"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Health Insurance","Paid Vacation","Dental","Vision","FSA","Life insurance","Trans health","Intersex health benefits","Short-term disability insurance","Long-term disability insurance"]
 c_feedback = ""

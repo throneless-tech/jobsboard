@@ -6,7 +6,7 @@ location = "New York"
 salary = "The ACLU has a litigator scale that determines pay for attorneys in our Legal Department. The range of salaries is visible in the linked job description."
 link = "https://www.aclu.org/careers/apply/?job=6728528002&type=national"
 sort_date = "2023-05-10"
-created_at = "May 10, 2023"
+created_at = "May 9, 2023"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["no benefits listed"]

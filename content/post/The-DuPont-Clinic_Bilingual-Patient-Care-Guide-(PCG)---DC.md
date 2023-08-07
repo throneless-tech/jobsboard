@@ -6,7 +6,7 @@ location = "District of Columbia"
 salary = "$25 per hour"
 link = "https://secure.entertimeonline.com/ta/dupontclinic.careers?ShowJob=335890946"
 sort_date = "2023-05-09"
-created_at = "May 9, 2023"
+created_at = "May 8, 2023"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Professional development","Legal benefits"]
