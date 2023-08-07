@@ -13,6 +13,11 @@ on:
   - cron:  '0 22 * * *'
   workflow_dispatch:
 
+# Upgrade to run on Node 16, as 12 will be deprecated soon
+runs:
+  using: 'node16'
+  main: 'main.js'
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
