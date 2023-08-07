@@ -3,6 +3,6 @@ publish = "public"
 command = "parcel build ./static/js/custom.js && hugo --gc --minify"
 
 [context.production.environment]
-  HUGO_VERSION = "0.75.1"
+  HUGO_VERSION = "v0.105.0"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
