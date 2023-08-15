@@ -129,6 +129,8 @@ const sanitizeForFilename = (str) => {
       .normalize("NFD") // Normalize to normalized functional decomposition, ensuring each diacritic is a separate character code.
       .replace(/[\u0300-\u036f]/g, "") // Then replace any combining diacritical marks with nothing. https://en.wikipedia.org/wiki/Combining_Diacritical_Marks
       .replace(/\p{P}/gu, "") // Remove any punctuation
+      .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "") // Failsafe for removing punctuation
+      .replace(/\s{2,}/g, " ") // Remove extra spaces from weird punctuation
       .replace(/\s+/g, "-") // Replace any whitespace with dashes.
   );
 };
