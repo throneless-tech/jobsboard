@@ -1,6 +1,6 @@
 +++
 author = "None"
-title = "New York Abortion Doula"
+title = "Volunteer / Unpaid New York Abortion Doula Collective"
 organization = "New York Abortion Doulas - Reproductive Justice Collective NY, Advocates for Youth's Youth Abortion Support Collective"
 location = "New York"
 salary = "$0 (Currently volunteer only)"

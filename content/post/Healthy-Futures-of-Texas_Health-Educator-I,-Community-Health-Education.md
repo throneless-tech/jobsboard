@@ -14,5 +14,4 @@ c_feedback = ""
 aa_degrees_required = "Bachelor's degree required"
 thumbnail = ""
 +++
-This full-time position is responsible for implementing sex education and parent 
-education to support program efforts within Health Education at Healthy Futures of Texas. The position supports parent education, youth education, and other grant efforts as needed. Please see full posting, including application instructions, at https://hftx.org/careers/
+This full-time position is responsible for implementing sex education and parent education to support program efforts within Health Education at Healthy Futures of Texas. The position supports parent education, youth education, and other grant efforts as needed. Please see full posting, including application instructions, at https://hftx.org/careers/

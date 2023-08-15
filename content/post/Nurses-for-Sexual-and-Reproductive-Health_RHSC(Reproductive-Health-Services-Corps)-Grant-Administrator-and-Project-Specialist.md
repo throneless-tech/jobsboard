@@ -1,6 +1,6 @@
 +++
 author = "None"
-title = "RHSC.(Reproductive Health Services Corps) Grant Administrator and Project Specialist"
+title = "RHSC(Reproductive Health Services Corps) Grant Administrator and Project Specialist"
 organization = "Nurses for Sexual and Reproductive Health"
 location = "California"
 salary = "$65,000- $75,000"
