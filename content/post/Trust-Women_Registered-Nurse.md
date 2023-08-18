@@ -10,7 +10,7 @@ created_at = "August 15, 2023"
 closing_date = "August 31, 2023"
 a_job_type = ["Full Time"]
 b_benefits = ["Short-term disability insurance","FSA","Life insurance","Disability insurance","Sick time","Vision","Dental","Paid Vacation","Health Insurance"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "Nursing degree required"
 thumbnail = ""
 +++
