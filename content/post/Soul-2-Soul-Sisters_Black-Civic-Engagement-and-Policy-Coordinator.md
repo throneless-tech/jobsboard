@@ -1,6 +1,6 @@
 +++
 author = "None"
-title = "Black Civic Engagement and Policy Manager"
+title = "Black Civic Engagement and Policy Coordinator"
 organization = "Soul 2 Soul Sisters"
 location = "Colorado"
 salary = "$63,271 - $78,031"
