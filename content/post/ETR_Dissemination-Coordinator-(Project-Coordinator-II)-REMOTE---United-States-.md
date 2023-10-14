@@ -1,7 +1,7 @@
 +++
 author = "None"
 title = "Dissemination Coordinator (Project Coordinator II) REMOTE - United States "
-organization = "ETR "
+organization = "ETR"
 location = "Remote"
 salary = "$76,200 to $84,700 "
 link = "https://www.etr.org/about-us/careers/dissemination-coordinator-remote-united-states/"
