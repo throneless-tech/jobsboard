@@ -10,7 +10,7 @@ created_at = "July 24, 2023"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["Health Insurance","Dental","Vision","Life insurance","FSA","Transit benefits","Retirement","Sabbatical ","Paid Leave","Paid Vacation","Sick time","Professional development"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "Law degree required"
 thumbnail = ""
 +++
