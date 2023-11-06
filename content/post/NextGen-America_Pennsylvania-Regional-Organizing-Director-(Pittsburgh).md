@@ -5,8 +5,8 @@ organization = "NextGen America"
 location = "Pennsylvania"
 salary = "$5,583.33/month"
 link = "https://nextgenamerica.bamboohr.com/careers/254?source=aWQ9NTE%3D"
-sort_date = "2023-11-05"
-created_at = "November 5, 2023"
+sort_date = "2023-11-06"
+created_at = "November 6, 2023"
 closing_date = "November 15, 2023"
 a_job_type = ["Full Time","Temporary"]
 b_benefits = ["General Benefits","Union-Eligible","Dental","Vision","Sick time","Health Insurance","Disability insurance","Professional development","Life insurance","Short-term disability insurance","Long-term disability insurance","FSA","Retirement"]
