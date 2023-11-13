@@ -5,8 +5,8 @@ organization = "New York State Office for the Prevention of Domestic Violence"
 location = "New York"
 salary = "$120,187 - $151,674"
 link = "https://statejobs.ny.gov/public/vacancyDetailsView.cfm?id=143499"
-sort_date = "2023-11-12"
-created_at = "November 12, 2023"
+sort_date = "2023-11-11"
+created_at = "November 11, 2023"
 closing_date = "November 24, 2023"
 a_job_type = ["Full Time"]
 b_benefits = ["Paid Leave","Retirement","General Benefits","Health Insurance","Paid Vacation","Dental","Vision","Sick time"]
