@@ -10,7 +10,7 @@ created_at = "November 30, 2023"
 closing_date = "February 1, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Paid Leave","Health Insurance","Paid Vacation","Permanently Remote","Dental","Vision","Sick time","Professional development","Disability insurance","FSA","Life insurance","Sabbatical ","Transit benefits","Short-term disability insurance","Long-term disability insurance","Abortion procedure funding","Legal benefits"]
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "Law degree required"
 thumbnail = "../../images/PJ_18f2bfbd.png"
 +++

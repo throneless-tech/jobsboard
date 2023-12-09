@@ -10,7 +10,7 @@ created_at = "November 30, 2023"
 closing_date = "February 1, 2024"
 a_job_type = ["Paid Internship","Temporary"]
 b_benefits = []
-c_feedback = ""
+c_feedback = "Red Flag"
 aa_degrees_required = "Associate's degree required"
 thumbnail = "../../images/PJ_18f2bfbd.png"
 +++
