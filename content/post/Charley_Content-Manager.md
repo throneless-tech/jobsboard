@@ -7,7 +7,7 @@ salary = "$100/hour"
 link = "https://docs.google.com/document/d/1ZL-m0HRQjhnMGgjAVpbDY-THjPhyr-ddbNr7Urzor60/edit?usp=sharing"
 sort_date = "2023-11-08"
 created_at = "November 8, 2023"
-closing_date = "-"
+closing_date = "January 31, 2023"
 a_job_type = ["Consultant"]
 b_benefits = ["no benefits listed"]
 c_feedback = ""

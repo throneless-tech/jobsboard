@@ -7,7 +7,7 @@ salary = "$80-90K"
 link = "https://voterunlead.hire.trakstar.com/jobs/fk0xco3?source=NRG"
 sort_date = "2023-10-03"
 created_at = "October 3, 2023"
-closing_date = "-"
+closing_date = "December 31, 2023"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits"]
 c_feedback = ""

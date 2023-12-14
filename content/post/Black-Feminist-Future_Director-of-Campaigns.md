@@ -7,7 +7,7 @@ salary = "$90,000 - $110,000"
 link = "https://blackfeministfuture.bamboohr.com/careers/53?source=aWQ9MTg%3D"
 sort_date = "2023-10-03"
 created_at = "October 3, 2023"
-closing_date = "-"
+closing_date = "December 31, 2023"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Paid Leave","Paid Vacation","Permanently Remote","Vision","Dental"]
 c_feedback = ""

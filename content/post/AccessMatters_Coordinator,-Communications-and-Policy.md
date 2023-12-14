@@ -7,7 +7,7 @@ salary = "$50,000"
 link = "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0eca885d-53f4-415e-bafb-defdbcb303b5&ccId=19000101_000001&jobId=500735&lang=en_US"
 sort_date = "2023-10-16"
 created_at = "October 16, 2023"
-closing_date = "-"
+closing_date = "December 31, 2023"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Union-Eligible","Retirement","Paid Leave","Tuition Reimbursement","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Professional development","Sabbatical ","FSA","Disability insurance","Life insurance","Remote During COVID","Transit benefits","Long-term disability insurance","Short-term disability insurance"]
 c_feedback = ""

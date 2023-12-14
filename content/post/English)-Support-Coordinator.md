@@ -7,7 +7,7 @@ salary = "$71,200"
 link = "https://chicagoabortionfund.bamboohr.com/careers/24?source=aWQ9MTg%3D"
 sort_date = "2023-09-28"
 created_at = "September 28, 2023"
-closing_date = "-"
+closing_date = "December 31, 2023"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Paid Leave","Health Insurance","Dental","Vision","Sick time","Professional development","Abortion procedure funding"]
 c_feedback = ""
