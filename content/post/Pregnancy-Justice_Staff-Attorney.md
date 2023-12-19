@@ -5,8 +5,8 @@ organization = "Pregnancy Justice"
 location = "Remote, New York"
 salary = "$129,789 - $153,116"
 link = "https://pregnancyjustice.bamboohr.com/careers/32?source=aWQ9MjE%3D"
-sort_date = "2023-12-18"
-created_at = "December 18, 2023"
+sort_date = "2023-12-19"
+created_at = "December 19, 2023"
 closing_date = "January 15, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance","FSA","Sabbatical ","Short-term disability insurance","Long-term disability insurance"]
