@@ -5,8 +5,8 @@ organization = "Converge: Partners in Access"
 location = "Remote, Mississippi, Tennessee"
 salary = "72,000"
 link = "https://recruitcrm.io/apply/17024923064210048134FjE?source=Jobspage"
-sort_date = "2023-12-23"
-created_at = "December 23, 2023"
+sort_date = "2023-12-24"
+created_at = "December 24, 2023"
 closing_date = "February 29, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Health Insurance","Paid Vacation","Permanently Remote","Dental","Vision","Paid Leave","Life insurance"]
