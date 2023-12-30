@@ -5,8 +5,8 @@ organization = "Center for Reproductive Rights"
 location = "New York"
 salary = "$101,000"
 link = "https://reproductiverights.org/apply/?gh_jid=7003295002&gh_jid=7003295002"
-sort_date = "2023-12-29"
-created_at = "December 29, 2023"
+sort_date = "2023-12-30"
+created_at = "December 30, 2023"
 closing_date = "February 1, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Union-Eligible","Paid Vacation","Health Insurance","Dental","Vision","Disability insurance","Professional development"]
