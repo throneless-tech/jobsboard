@@ -5,8 +5,8 @@ organization = "Black Feminist Future"
 location = "Remote, Georgia, District of Columbia"
 salary = "72000 -90000"
 link = "https://blackfeministfuture.bamboohr.com/careers/56?source=aWQ9MjE%3D"
-sort_date = "2023-12-31"
-created_at = "December 31, 2023"
+sort_date = "2024-01-01"
+created_at = "January 1, 2024"
 closing_date = "January 1, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Health Insurance","Permanently Remote","Dental","Vision","Sick time"]
