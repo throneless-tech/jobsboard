@@ -5,8 +5,8 @@ organization = "University of California, San Francisco"
 location = "Remote, California"
 salary = "$90,000 - $95,000 DOE"
 link = "https://jobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=6495&siteid=5861&Areq=75184BR"
-sort_date = "2024-01-02"
-created_at = "January 2, 2024"
+sort_date = "2024-01-03"
+created_at = "January 3, 2024"
 closing_date = "January 4, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["Legal benefits","Short-term disability insurance","Long-term disability insurance","Pet insurance","Adoption and surrogacy benefits","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance","Paid Vacation","Health Insurance","General Benefits","Retirement"]
