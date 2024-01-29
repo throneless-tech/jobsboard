@@ -5,8 +5,8 @@ organization = "Pregnancy Justice"
 location = "New York"
 salary = "$69,487.50 - $74,830.00;  Annual salary is based on experience pursuant to organizational pay scale. Candidates with specialized degrees, skills, or experience may qualify for higher pay grades. (Full payscale available upon request)"
 link = "https://pregnancyjustice.bamboohr.com/careers/35?source=aWQ9MjI%3D"
-sort_date = "2024-01-28"
-created_at = "January 28, 2024"
+sort_date = "2024-01-29"
+created_at = "January 29, 2024"
 closing_date = "February 23, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance","FSA","Short-term disability insurance","Long-term disability insurance","Transit benefits"]
