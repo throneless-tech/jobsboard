@@ -5,8 +5,8 @@ organization = "Converge: Partners in Health"
 location = "Mississippi"
 salary = "$83,648 "
 link = "https://recruitcrm.io/apply/17062839256360048134XEA?source=Jobspage"
-sort_date = "2024-01-30"
-created_at = "January 30, 2024"
+sort_date = "2024-01-31"
+created_at = "January 31, 2024"
 closing_date = "March 31, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Paid Leave","Retirement","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance","Short-term disability insurance","Long-term disability insurance","Health Insurance","Paid Vacation"]
