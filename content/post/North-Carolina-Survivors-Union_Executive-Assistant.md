@@ -5,8 +5,8 @@ organization = "North Carolina Survivors Union"
 location = "Remote, North Carolina"
 salary = "15-25/hour"
 link = "https://drive.google.com/file/d/107ErN3KT344uuJbagvNbZPmq4EmTtugD/view?usp=sharing"
-sort_date = "2024-02-03"
-created_at = "February 3, 2024"
+sort_date = "2024-02-04"
+created_at = "February 4, 2024"
 closing_date = "March 22, 2024"
 a_job_type = ["Part Time"]
 b_benefits = ["Professional development","no benefits listed"]

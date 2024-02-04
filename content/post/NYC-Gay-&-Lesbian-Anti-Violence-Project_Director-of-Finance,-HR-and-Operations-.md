@@ -5,8 +5,8 @@ organization = "NYC Gay & Lesbian Anti-Violence Project"
 location = "New York"
 salary = "$95,000-$110,000"
 link = "https://nycavp.bamboohr.com/careers/48?source=aWQ9MTA%3D"
-sort_date = "2024-02-03"
-created_at = "February 3, 2024"
+sort_date = "2024-02-04"
+created_at = "February 4, 2024"
 closing_date = "February 29, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance"]
