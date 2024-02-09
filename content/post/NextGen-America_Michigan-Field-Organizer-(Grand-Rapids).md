@@ -5,8 +5,8 @@ organization = "NextGen America"
 location = "Michigan"
 salary = "$4,632.50/month"
 link = "https://nextgenamerica.bamboohr.com/careers/361?source=aWQ9NTE%3D"
-sort_date = "2024-02-08"
-created_at = "February 8, 2024"
+sort_date = "2024-02-09"
+created_at = "February 9, 2024"
 closing_date = "February 29, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits"]

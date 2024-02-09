@@ -5,8 +5,8 @@ organization = "The Wisco Project"
 location = "Wisconsin"
 salary = "$1,000"
 link = "https://docs.google.com/document/d/1QMSoB7poYsjKeiRr0oSNZ4he01sRFHIIumC8-4oP_Vs/edit?usp=sharing"
-sort_date = "2024-02-08"
-created_at = "February 8, 2024"
+sort_date = "2024-02-09"
+created_at = "February 9, 2024"
 closing_date = "November 5, 2024"
 a_job_type = ["Paid Fellowship","Part Time","Temporary"]
 b_benefits = ["no benefits listed"]

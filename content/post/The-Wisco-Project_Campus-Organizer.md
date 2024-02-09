@@ -5,8 +5,8 @@ organization = "The Wisco Project"
 location = "Wisconsin"
 salary = "$4,300"
 link = "https://docs.google.com/document/d/1NRWj2R--3cRTFEkFsUP0nAfjJM2_YPhwa7SNR12gJtk/edit?usp=sharing"
-sort_date = "2024-02-08"
-created_at = "February 8, 2024"
+sort_date = "2024-02-09"
+created_at = "February 9, 2024"
 closing_date = "November 5, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits"]
