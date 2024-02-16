@@ -5,8 +5,8 @@ organization = "Trust Women"
 location = "Kansas"
 salary = "$28.00-$34.00"
 link = "https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=103863&clientkey=270E0467F88A30416E23C4FC7E483BF9"
-sort_date = "2024-02-15"
-created_at = "February 15, 2024"
+sort_date = "2024-02-16"
+created_at = "February 16, 2024"
 closing_date = "March 8, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["Paid Vacation","Health Insurance","Dental","Vision","Sick time","Life insurance","FSA","Short-term disability insurance"]

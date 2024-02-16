@@ -5,8 +5,8 @@ organization = "The Pivot Group"
 location = "Remote"
 salary = "$78,000"
 link = "https://thepivot.bamboohr.com/careers/85?source=aWQ9MTM2"
-sort_date = "2024-02-15"
-created_at = "February 15, 2024"
+sort_date = "2024-02-16"
+created_at = "February 16, 2024"
 closing_date = "February 27, 2024"
 a_job_type = ["Full Time","Temporary"]
 b_benefits = ["Retirement","Paid Leave","Health Insurance","Paid Vacation","Permanently Remote","Dental","Vision","Sick time","Disability insurance","Life insurance","FSA","Trans health","Adoption and surrogacy benefits","Short-term disability insurance","Long-term disability insurance","Unlimited vacation","health insurance","periodic bonuses","paid time off"]
