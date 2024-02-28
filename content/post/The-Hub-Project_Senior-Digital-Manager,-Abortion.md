@@ -4,12 +4,12 @@ title = "Senior Digital Manager, Abortion"
 organization = "The Hub Project"
 location = "District of Columbia"
 salary = "$72,000-$78,000"
-link = "https://jobs.lever.co/thehubproject/2ab4c832-07b0-4bc2-9972-ae532c1e078e"
-sort_date = "2023-11-27"
-created_at = "November 27, 2023"
-closing_date = "-"
+link = "https://newventurefund.applytojob.com/apply/flRWy4yXzO/Senior-Digital-Manager-Abortion?source=Repro+Jobs"
+sort_date = "2024-01-09"
+created_at = "January 9, 2024"
+closing_date = "February 29, 2024"
 a_job_type = ["Full Time"]
-b_benefits = ["Union-Eligible","Retirement","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Transit benefits"]
+b_benefits = ["General Benefits","Union-Eligible","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance","FSA","Trans health","Transit benefits","Short-term disability insurance","Long-term disability insurance"]
 c_feedback = ""
 aa_degrees_required = "Bachelor's degree required"
 thumbnail = ""
