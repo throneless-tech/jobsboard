@@ -5,8 +5,8 @@ organization = "Whitman-Walker Institute"
 location = "District of Columbia, Maryland, Virginia, Remote"
 salary = "$25,000"
 link = "https://drive.google.com/file/d/1FWzDu26ohHRb2K9vuvSqrOdx_dE3ZM22/view?usp=sharing"
-sort_date = "2024-03-02"
-created_at = "March 2, 2024"
+sort_date = "2024-03-03"
+created_at = "March 3, 2024"
 closing_date = "March 15, 2024"
 a_job_type = ["Consultant","Part Time","Temporary"]
 b_benefits = ["no benefits listed"]

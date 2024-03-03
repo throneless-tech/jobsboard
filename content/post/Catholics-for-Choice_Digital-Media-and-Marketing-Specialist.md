@@ -5,8 +5,8 @@ organization = "Catholics for Choice"
 location = "District of Columbia"
 salary = "75,000"
 link = "https://catholicsforchoice.bamboohr.com/careers/24?source=aWQ9MjY%3D"
-sort_date = "2024-03-02"
-created_at = "March 2, 2024"
+sort_date = "2024-03-03"
+created_at = "March 3, 2024"
 closing_date = "March 31, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Professional development","Transit benefits","Short-term disability insurance","Long-term disability insurance","Unlimited vacation","health insurance","a retirement plan (with a company contribution starting the first of the quarter after 6 months of employment)","paid time off","periodic bonuses","and 10 paid holidays"]
