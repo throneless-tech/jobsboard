@@ -5,8 +5,8 @@ organization = "Family Planning Associates Medical Group"
 location = "Arizona"
 salary = "62500"
 link = "https://www.indeed.com/job/clinic-manager-8654bd160dbc955c?_gl=1*1yjh1zl*_gcl_au*OTAwMDA3NzQ1LjE3MDE3OTEwMDc."
-sort_date = "2024-03-03"
-created_at = "March 3, 2024"
+sort_date = "2024-03-04"
+created_at = "March 4, 2024"
 closing_date = "-"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Professional development"]
