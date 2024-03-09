@@ -5,8 +5,8 @@ organization = "Planned Parenthood Arizona, Inc."
 location = "Arizona"
 salary = "$87,906-$96,600/year"
 link = "https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=75689&clientkey=32253B3B6ACA76F5ACCF1E9BCEE6F9F9"
-sort_date = "2024-03-08"
-created_at = "March 8, 2024"
+sort_date = "2024-03-09"
+created_at = "March 9, 2024"
 closing_date = "March 31, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Health Insurance","Paid Vacation","Dental","Vision","Life insurance","Pet insurance","Long-term disability insurance","Short-term disability insurance"]
