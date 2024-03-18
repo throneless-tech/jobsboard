@@ -5,8 +5,8 @@ organization = "People's Action Institute"
 location = "Remote, District of Columbia, Illinois"
 salary = "Level F: $96,910 - $132,613, salary commensurate with experience."
 link = "https://peoplesaction.bamboohr.com/careers/78?source=aWQ9MTk%3D"
-sort_date = "2024-03-17"
-created_at = "March 17, 2024"
+sort_date = "2024-03-18"
+created_at = "March 18, 2024"
 closing_date = "March 24, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Professional development","Life insurance","FSA","Sabbatical ","and 10 paid holidays","Long-term disability insurance"]
