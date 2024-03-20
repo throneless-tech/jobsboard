@@ -5,8 +5,8 @@ organization = "Kuluntu Reproductive Justice Center"
 location = "Remote"
 salary = "$3000 ($25/hr, 12 hrs/week for 10 weeks)"
 link = "https://drive.google.com/file/d/1wHGwGEmt-MmcivfopCPbCcZJI6hWZmzv/view?usp=sharing"
-sort_date = "2024-03-19"
-created_at = "March 19, 2024"
+sort_date = "2024-03-20"
+created_at = "March 20, 2024"
 closing_date = "April 8, 2024"
 a_job_type = ["Paid Internship"]
 b_benefits = ["Permanently Remote"]
