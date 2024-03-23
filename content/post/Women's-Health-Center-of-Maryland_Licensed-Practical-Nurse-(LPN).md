@@ -5,8 +5,8 @@ organization = "Women's Health Center of Maryland"
 location = "Maryland"
 salary = "$25.00/hour"
 link = "https://www.indeed.com/viewjob?jk=2dc28d8ea9a47f11"
-sort_date = "2024-03-22"
-created_at = "March 22, 2024"
+sort_date = "2024-03-23"
+created_at = "March 23, 2024"
 closing_date = "April 30, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","health insurance","paid time off","and 10 paid holidays","Short-term disability insurance"]

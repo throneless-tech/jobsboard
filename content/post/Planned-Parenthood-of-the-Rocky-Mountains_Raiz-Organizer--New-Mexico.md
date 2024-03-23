@@ -5,8 +5,8 @@ organization = "Planned Parenthood of the Rocky Mountains"
 location = "New Mexico"
 salary = " $25.28/ hour - $30.19 / hour"
 link = "https://pprockymountain.rec.pro.ukg.net/ROC1022ROCP/JobBoard/6a9b43db-9099-4efd-bdae-77324f56aabf/OpportunityDetail?opportunityId=2bbc542d-cab9-4873-aff0-80b59e2168f4"
-sort_date = "2024-03-22"
-created_at = "March 22, 2024"
+sort_date = "2024-03-23"
+created_at = "March 23, 2024"
 closing_date = "April 1, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Abortion procedure funding","Trans health","paid time off"]
