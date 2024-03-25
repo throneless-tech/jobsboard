@@ -5,8 +5,8 @@ organization = "Planned Parenthood North Central States"
 location = "Iowa, Minnesota, Nebraska, Remote"
 salary = "$32+/hour"
 link = "https://recruiting.ultipro.com/PLA1010PLANN/JobBoard/87959a5b-c910-41ff-90b8-da23644409c6/Opportunity/OpportunityDetail?opportunityId=05ac141a-0cc7-4371-92c4-aada293ef0d8"
-sort_date = "2024-03-24"
-created_at = "March 24, 2024"
+sort_date = "2024-03-25"
+created_at = "March 25, 2024"
 closing_date = "April 22, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Union-Eligible","Retirement","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance","FSA","Pet insurance","Short-term disability insurance","Long-term disability insurance","health insurance"]
