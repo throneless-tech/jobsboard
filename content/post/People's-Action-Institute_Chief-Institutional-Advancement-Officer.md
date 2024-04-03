@@ -5,8 +5,8 @@ organization = "People's Action Institute"
 location = "Remote, District of Columbia, Illinois"
 salary = "Level H - Salary starts at $175,840, commensurate with experience"
 link = "https://peoplesaction.bamboohr.com/careers/80?source=aWQ9MTk%3D"
-sort_date = "2024-04-02"
-created_at = "April 2, 2024"
+sort_date = "2024-04-03"
+created_at = "April 3, 2024"
 closing_date = "April 7, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Professional development","Life insurance","FSA","Sabbatical ","and 10 paid holidays"]
