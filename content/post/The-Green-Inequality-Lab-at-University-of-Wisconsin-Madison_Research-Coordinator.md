@@ -5,8 +5,8 @@ organization = "The Green Inequality Lab at University of Wisconsin-Madison"
 location = "Remote, Wisconsin"
 salary = "Minimum salary $50,000"
 link = "https://uwmadison.app.box.com/file/1484782244912?s=8wp15bb52ux7rttelsiiuyzlte24lxrq"
-sort_date = "2024-04-03"
-created_at = "April 3, 2024"
+sort_date = "2024-04-04"
+created_at = "April 4, 2024"
 closing_date = "April 20, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["Retirement","Paid Leave","General Benefits","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance","FSA","Short-term disability insurance","Long-term disability insurance"]
