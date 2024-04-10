@@ -5,8 +5,8 @@ organization = "DuPont Clinic"
 location = "District of Columbia"
 salary = "$25/hour"
 link = "https://secure.entertimeonline.com/ta/dupontclinic.careers?ShowJob=369455896"
-sort_date = "2024-04-09"
-created_at = "April 9, 2024"
+sort_date = "2024-04-10"
+created_at = "April 10, 2024"
 closing_date = "April 15, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["health insurance","paid time off","periodic bonuses","and 10 paid holidays","a retirement plan (with a company contribution starting the first of the quarter after 6 months of employment)"]
