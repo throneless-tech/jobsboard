@@ -5,8 +5,8 @@ organization = "Ibis Reproductive Health"
 location = "Remote, California, Massachusetts"
 salary = "$88,000 - $95,000"
 link = "https://ibis.bamboohr.com/careers/48?source=aWQ9MjY%3D"
-sort_date = "2024-04-12"
-created_at = "April 12, 2024"
+sort_date = "2024-04-13"
+created_at = "April 13, 2024"
 closing_date = "May 1, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["Retirement","Health Insurance","Paid Vacation","Dental","Vision","Sick time"]
