@@ -5,8 +5,8 @@ organization = "The Center on Reproductive Health, Law, and Policy at UCLA Law"
 location = "California"
 salary = "65,000-75,000 (target salary)"
 link = "https://careers-ucla.icims.com/jobs/1610/job?mobile=false&width=1904&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420"
-sort_date = "2024-04-13"
-created_at = "April 13, 2024"
+sort_date = "2024-04-14"
+created_at = "April 14, 2024"
 closing_date = "April 21, 2024"
 a_job_type = ["Paid Fellowship"]
 b_benefits = ["General Benefits","Retirement","Paid Vacation","Health Insurance","Dental","Vision","Sick time","Professional development"]
