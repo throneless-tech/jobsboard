@@ -5,8 +5,8 @@ organization = "Nesbitt & Parrinello"
 location = "Remote"
 salary = "$20/hour"
 link = "https://nesbitt-research.breezy.hr/p/65998fefd019-opposition-research-assistant-remote--part-time-20---40-hours-per-week-20-hr---seeking-journalists-cx-debaters-writers-editors?&popup=true"
-sort_date = "2024-04-17"
-created_at = "April 17, 2024"
+sort_date = "2024-04-18"
+created_at = "April 18, 2024"
 closing_date = "May 15, 2024"
 a_job_type = ["Part Time"]
 b_benefits = ["Permanently Remote"]
