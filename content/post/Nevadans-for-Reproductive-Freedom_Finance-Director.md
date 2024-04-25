@@ -5,8 +5,8 @@ organization = "Nevadans for Reproductive Freedom"
 location = "Nevada"
 salary = "$8,000-$10,000/mo."
 link = "https://docs.google.com/document/d/11m04v8W011MbKCf2NQwGe51y_PoSIj7XhU4HGOBNRFk/edit?usp=sharing"
-sort_date = "2024-04-24"
-created_at = "April 24, 2024"
+sort_date = "2024-04-25"
+created_at = "April 25, 2024"
 closing_date = "May 20, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["Health Insurance","Relocation expenses","health insurance"]

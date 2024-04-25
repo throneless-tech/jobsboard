@@ -5,8 +5,8 @@ organization = "The Hub Project"
 location = "District of Columbia"
 salary = "$62,000 - $77,000"
 link = "https://newventurefund.applytojob.com/apply/N0twZotBZX/Project-Manager-Abortion-Campaigns?source=Repro+Jobs"
-sort_date = "2024-04-24"
-created_at = "April 24, 2024"
+sort_date = "2024-04-25"
+created_at = "April 25, 2024"
 closing_date = "May 10, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Retirement","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Professional development","Transit benefits","health insurance","paid time off","Union-Eligible"]
