@@ -5,8 +5,8 @@ organization = "NextGen America"
 location = "Remote, Nevada"
 salary = " $85,000.00"
 link = "https://nextgenamerica.bamboohr.com/careers/447?source=aWQ9NTE%3D"
-sort_date = "2024-05-01"
-created_at = "May 1, 2024"
+sort_date = "2024-05-02"
+created_at = "May 2, 2024"
 closing_date = "June 30, 2024"
 a_job_type = ["Full Time","Temporary"]
 b_benefits = ["General Benefits","Dental","Vision","Sick time","Short-term disability insurance","Long-term disability insurance","Life insurance"]
