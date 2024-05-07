@@ -5,8 +5,8 @@ organization = "Catholics for Choice"
 location = "Remote"
 salary = "65,000"
 link = "https://catholicsforchoice.bamboohr.com/careers/25?source=aWQ9MjY%3D"
-sort_date = "2024-05-06"
-created_at = "May 6, 2024"
+sort_date = "2024-05-07"
+created_at = "May 7, 2024"
 closing_date = "May 31, 2024"
 a_job_type = ["Full Time","Temporary"]
 b_benefits = ["General Benefits","Paid Leave","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Professional development","Short-term disability insurance","Long-term disability insurance","Unlimited vacation","health insurance","paid time off","and 10 paid holidays"]
