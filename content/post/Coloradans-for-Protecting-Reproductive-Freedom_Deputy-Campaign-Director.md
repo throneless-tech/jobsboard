@@ -5,8 +5,8 @@ organization = "Coloradans for Protecting Reproductive Freedom"
 location = "Colorado, Remote"
 salary = "$7,500 per month"
 link = "https://docs.google.com/document/d/1_i5c6265vSa3dAvG0NTbmOUYSC-dPhUI-tgAH9xWL88/edit?usp=drive_link"
-sort_date = "2024-05-14"
-created_at = "May 14, 2024"
+sort_date = "2024-05-15"
+created_at = "May 15, 2024"
 closing_date = "May 15, 2024"
 a_job_type = ["Full Time","Temporary"]
 b_benefits = ["Health Insurance"]
