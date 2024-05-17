@@ -5,8 +5,8 @@ organization = "NextGen America"
 location = "Arizona"
 salary = "$27.88/hour"
 link = "https://nextgenamerica.bamboohr.com/careers/386?source=aWQ9NTE%3D"
-sort_date = "2024-05-16"
-created_at = "May 16, 2024"
+sort_date = "2024-05-17"
+created_at = "May 17, 2024"
 closing_date = "May 31, 2024"
 a_job_type = ["Part Time"]
 b_benefits = ["Dental","Vision","Sick time","Life insurance","Short-term disability insurance","Long-term disability insurance","paid time off","Health Insurance","Retirement"]
