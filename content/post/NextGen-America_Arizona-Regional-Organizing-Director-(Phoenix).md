@@ -5,8 +5,8 @@ organization = "NextGen America"
 location = "Arizona"
 salary = "$5,695.00/month"
 link = "https://nextgenamerica.bamboohr.com/careers/468?source=aWQ9NTE%3D"
-sort_date = "2024-05-21"
-created_at = "May 21, 2024"
+sort_date = "2024-05-22"
+created_at = "May 22, 2024"
 closing_date = "June 7, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Union-Eligible","Retirement","Health Insurance","Paid Vacation","Dental","Vision","health insurance","paid time off","and 10 paid holidays"]
