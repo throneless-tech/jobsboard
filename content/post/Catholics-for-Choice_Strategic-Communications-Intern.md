@@ -5,8 +5,8 @@ organization = "Catholics for Choice"
 location = "Ohio, Minnesota, North Carolina, Puerto Rico, Remote, District of Columbia, Virginia, Maryland"
 salary = "17.50 per hour"
 link = "https://catholicsforchoice.bamboohr.com/careers/26?source=aWQ9MjY%3D"
-sort_date = "2024-05-22"
-created_at = "May 22, 2024"
+sort_date = "2024-05-23"
+created_at = "May 23, 2024"
 closing_date = "May 24, 2024"
 a_job_type = ["Paid Internship","Full Time"]
 b_benefits = ["General Benefits","Professional development","paid time off","and 10 paid holidays"]
