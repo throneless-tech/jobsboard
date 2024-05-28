@@ -5,8 +5,8 @@ organization = "Abortion On Our Own Terms"
 location = "Remote"
 salary = " $100-$150 per hour"
 link = "https://docs.google.com/document/d/1nMhn8buWbHMQG6jjUSzC_d3ws2TCCm02zQCZo_pP_wE/edit?usp=sharing"
-sort_date = "2024-05-27"
-created_at = "May 27, 2024"
+sort_date = "2024-05-28"
+created_at = "May 28, 2024"
 closing_date = "June 7, 2024"
 a_job_type = ["Consultant","Part Time"]
 b_benefits = ["no benefits listed"]
