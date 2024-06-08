@@ -5,8 +5,8 @@ organization = "Planned Parenthood of the Rocky Mountains"
 location = "Colorado"
 salary = "$32.32/ hour -  45.47/hour"
 link = "https://pprockymountain.rec.pro.ukg.net/ROC1022ROCP/JobBoard/6a9b43db-9099-4efd-bdae-77324f56aabf/OpportunityDetail?opportunityId=a50971cd-e6b4-4cb8-8dd8-96523220ea28"
-sort_date = "2024-06-07"
-created_at = "June 7, 2024"
+sort_date = "2024-06-08"
+created_at = "June 8, 2024"
 closing_date = "June 12, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Union-Eligible","Retirement","Paid Leave","Paid Vacation","Dental","Vision","Sick time"]
