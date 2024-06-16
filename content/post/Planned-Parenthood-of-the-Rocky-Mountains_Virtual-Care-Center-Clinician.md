@@ -5,8 +5,8 @@ organization = "Planned Parenthood of the Rocky Mountains"
 location = "Colorado, Wyoming, Nevada, New Mexico"
 salary = " $47.67/ hour - $60.39/ hour"
 link = "https://pprockymountain.rec.pro.ukg.net/ROC1022ROCP/JobBoard/6a9b43db-9099-4efd-bdae-77324f56aabf/OpportunityDetail?opportunityId=4015a59a-899e-4eb2-9d66-e8caa17a838d"
-sort_date = "2024-06-15"
-created_at = "June 15, 2024"
+sort_date = "2024-06-16"
+created_at = "June 16, 2024"
 closing_date = "July 23, 2024"
 a_job_type = ["Part Time"]
 b_benefits = ["Union-Eligible","Retirement","Permanently Remote","Dental","Vision","Sick time"]
