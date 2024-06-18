@@ -5,8 +5,8 @@ organization = "NEBRASKA FAMILY PLANNING "
 location = "Nebraska"
 salary = "$75,000 – $85,000/annually, plus full benefits."
 link = "https://www.linkedin.com/posts/nebraska-family-planning_hiring-activity-7203425809359974401-Pa1c?utm_source=share&utm_medium=member_desktop"
-sort_date = "2024-06-17"
-created_at = "June 17, 2024"
+sort_date = "2024-06-18"
+created_at = "June 18, 2024"
 closing_date = "June 30, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["Health Insurance","Paid Leave","Retirement","Dental","Vision","Sick time","Paid Vacation","Professional development","Life insurance","Long-term disability insurance","Short-term disability insurance","health insurance","a retirement plan (with a company contribution starting the first of the quarter after 6 months of employment)","and 10 paid holidays","paid time off","Disability insurance"]
