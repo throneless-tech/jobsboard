@@ -1,15 +1,15 @@
 +++
 author = "None"
-title = "Planned Parenthood Votes! Door-to-door Campaign Staff (North Carolina)"
+title = "Planned Parenthood Votes! Door-to-door Campaign Staff (North Carolina) "
 organization = "The Outreach Team"
 location = "North Carolina"
-salary = "$20-21.50/hr"
-link = "https://theoutreachteam.applytojob.com/apply/jobs/details/m2ZPINRObJ?&"
+salary = "$20-$21.50/hr"
+link = "https://theoutreachteam.applytojob.com/apply/jobs/details/jIMLDIMAEh?&"
 sort_date = "2024-06-27"
 created_at = "June 27, 2024"
 closing_date = "November 5, 2024"
 a_job_type = ["Full Time"]
-b_benefits = ["periodic bonuses","Sick time"]
+b_benefits = ["Sick time"]
 c_feedback = ""
 aa_degrees_required = "No degree required"
 thumbnail = ""
