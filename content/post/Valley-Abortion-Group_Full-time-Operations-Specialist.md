@@ -5,8 +5,8 @@ organization = "Valley Abortion Group"
 location = "New Mexico"
 salary = "We are working to build a model of equity and fair pay among our team members. If you are interested in joining a progressive team that is working to readdress what a thriving wage is for all team members (medical assistants, nurses, clinicians, administrative staff), then this clinic is the right place for you."
 link = "https://drive.google.com/file/d/16EF7Mg2isnjz5aOcKPQ959MaUsLOdNrO/view?usp=sharing"
-sort_date = "2024-06-30"
-created_at = "June 30, 2024"
+sort_date = "2024-07-01"
+created_at = "July 1, 2024"
 closing_date = "July 22, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Health Insurance"]
