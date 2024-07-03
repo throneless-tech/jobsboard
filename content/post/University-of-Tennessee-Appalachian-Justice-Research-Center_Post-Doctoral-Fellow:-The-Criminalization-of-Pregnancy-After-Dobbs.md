@@ -5,8 +5,8 @@ organization = "University of Tennessee Appalachian Justice Research Center"
 location = "Tennessee"
 salary = "$72,000 per year"
 link = "https://ut.taleo.net/careersection/ut_system/jobdetail.ftl?job=2400000145&tz=GMT-04%3A00&tzname=America%2FNew_York"
-sort_date = "2024-07-02"
-created_at = "July 2, 2024"
+sort_date = "2024-07-03"
+created_at = "July 3, 2024"
 closing_date = "July 19, 2024"
 a_job_type = ["Paid Fellowship","Full Time","Temporary"]
 b_benefits = ["Union-Eligible","Retirement","Paid Vacation","Health Insurance","General Benefits","Dental","Vision","Sick time","Life insurance","FSA","Short-term disability insurance","Long-term disability insurance","health insurance"]
