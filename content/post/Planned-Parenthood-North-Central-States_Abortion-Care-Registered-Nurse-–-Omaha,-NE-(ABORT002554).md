@@ -5,8 +5,8 @@ organization = "Planned Parenthood North Central States"
 location = "Nebraska"
 salary = "29.80+/hr"
 link = "https://recruiting.ultipro.com/PLA1010PLANN/JobBoard/87959a5b-c910-41ff-90b8-da23644409c6/OpportunityDetail?opportunityId=d5bcbd89-a6ad-43ca-be47-c5cf2c6bdd76"
-sort_date = "2024-07-05"
-created_at = "July 5, 2024"
+sort_date = "2024-07-06"
+created_at = "July 6, 2024"
 closing_date = "July 12, 2024"
 a_job_type = ["Part Time"]
 b_benefits = ["General Benefits","Union-Eligible","Retirement","Paid Leave","Tuition Reimbursement","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Professional development","Life insurance","FSA"]

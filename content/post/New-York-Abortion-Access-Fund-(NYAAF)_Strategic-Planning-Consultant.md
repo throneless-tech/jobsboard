@@ -5,8 +5,8 @@ organization = "New York Abortion Access Fund (NYAAF)"
 location = "Remote"
 salary = "Project total: $25,000 - $40,000"
 link = "https://docs.google.com/document/d/1Bny65JbnWR1Z2BqBaUdGLkwPfnThH1ediiSOgOUgxig/edit?usp=sharing"
-sort_date = "2024-07-05"
-created_at = "July 5, 2024"
+sort_date = "2024-07-06"
+created_at = "July 6, 2024"
 closing_date = "July 15, 2024"
 a_job_type = ["Consultant"]
 b_benefits = ["no benefits listed"]
