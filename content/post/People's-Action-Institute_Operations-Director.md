@@ -5,8 +5,8 @@ organization = "People's Action Institute"
 location = "Illinois, District of Columbia"
 salary = "$129,935 - $150,975"
 link = "https://peoplesaction.bamboohr.com/careers/81?source=aWQ9MTk%3D"
-sort_date = "2024-07-11"
-created_at = "July 11, 2024"
+sort_date = "2024-07-12"
+created_at = "July 12, 2024"
 closing_date = "July 28, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["Health Insurance","Paid Vacation","Dental","Vision","Sick time","Professional development","Life insurance","FSA","Sabbatical ","Retirement"]

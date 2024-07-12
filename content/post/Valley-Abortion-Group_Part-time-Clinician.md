@@ -5,8 +5,8 @@ organization = "Valley Abortion Group"
 location = "New Mexico"
 salary = "$500/day"
 link = "https://drive.google.com/file/d/1O1rBIL8HY5TSnmGnm8hs_twH_41r9iE5/view?usp=sharing"
-sort_date = "2024-07-11"
-created_at = "July 11, 2024"
+sort_date = "2024-07-12"
+created_at = "July 12, 2024"
 closing_date = "July 22, 2024"
 a_job_type = ["Part Time"]
 b_benefits = ["no benefits listed"]
