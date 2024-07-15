@@ -5,8 +5,8 @@ organization = "National Health Law Program"
 location = "Remote"
 salary = "$67,000-77,000"
 link = "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=b2ccf720-dd40-4944-9e7a-718516710906&ccId=19000101_000001&lang=en_US"
-sort_date = "2024-07-14"
-created_at = "July 14, 2024"
+sort_date = "2024-07-15"
+created_at = "July 15, 2024"
 closing_date = "July 22, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Paid Leave","Health Insurance","Paid Vacation","Dental","Life insurance","Sick time","Retirement","Disability insurance"]
