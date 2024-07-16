@@ -5,8 +5,8 @@ organization = "Arizona Coordinated Campaign"
 location = "Arizona"
 salary = "$5,250"
 link = "https://recruiting.myapps.paychex.com/appone/MainInfoReq.asp?R_ID=6103463&B_ID=91&fid=1&Adid=0&ssbgcolor=17143A&SearchScreenID=17869&CountryID=3&LanguageID=2"
-sort_date = "2024-07-15"
-created_at = "July 15, 2024"
+sort_date = "2024-07-16"
+created_at = "July 16, 2024"
 closing_date = "July 31, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["Health Insurance","Dental","Vision","Sick time","paid time off","Relocation expenses"]
