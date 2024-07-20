@@ -5,8 +5,8 @@ organization = "Nesbitt & Parrinello"
 location = "Nevada"
 salary = "$45000"
 link = "https://nesbitt-research.breezy.hr/p/620e07d3b277-associate-nevada?state=published"
-sort_date = "2024-07-19"
-created_at = "July 19, 2024"
+sort_date = "2024-07-20"
+created_at = "July 20, 2024"
 closing_date = "July 29, 2024"
 a_job_type = ["Consultant","Full Time","Temporary"]
 b_benefits = ["General Benefits"]
