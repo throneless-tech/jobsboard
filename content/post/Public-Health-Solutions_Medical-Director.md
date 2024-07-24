@@ -5,8 +5,8 @@ organization = "Public Health Solutions"
 location = "New York"
 salary = "$142-$144/hourly"
 link = "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=e5810a62-8d6a-4747-aaff-ac836102619c&ccId=19000101_000001&lang=en_US&jobId=515741"
-sort_date = "2024-07-23"
-created_at = "July 23, 2024"
+sort_date = "2024-07-24"
+created_at = "July 24, 2024"
 closing_date = "August 31, 2024"
 a_job_type = ["Part Time"]
 b_benefits = ["Health Insurance","General Benefits","Dental","Vision","FSA","Transit benefits","health insurance","paid time off","Retirement","Life insurance","Short-term disability insurance","Long-term disability insurance"]
