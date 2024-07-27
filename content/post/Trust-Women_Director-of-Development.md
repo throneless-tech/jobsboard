@@ -5,8 +5,8 @@ organization = "Trust Women"
 location = "Kansas"
 salary = "$65-$85k"
 link = "https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=116759&clientkey=53EFBDAB43C49E21466D5E3F5CCC82F1"
-sort_date = "2024-07-26"
-created_at = "July 26, 2024"
+sort_date = "2024-07-27"
+created_at = "July 27, 2024"
 closing_date = "August 23, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["Health Insurance","Dental","Vision","Sick time","Disability insurance","Life insurance","FSA","health insurance","a retirement plan (with a company contribution starting the first of the quarter after 6 months of employment)","Short-term disability insurance","paid time off"]

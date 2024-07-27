@@ -5,8 +5,8 @@ organization = "People's Action Institute"
 location = "Remote"
 salary = "Your proposal must include the hourly range that you are seeking. Please keep in mind that we are requesting services per hour for approximately 30-40 hours per week with a 9am—5pm CST schedule. You must be available during our collective work hours of 11am - 4pm CST. "
 link = "https://peoplesaction.bamboohr.com/careers/83?source=aWQ9MTk%3D"
-sort_date = "2024-07-26"
-created_at = "July 26, 2024"
+sort_date = "2024-07-27"
+created_at = "July 27, 2024"
 closing_date = "July 28, 2024"
 a_job_type = ["Temporary"]
 b_benefits = ["no benefits listed"]
