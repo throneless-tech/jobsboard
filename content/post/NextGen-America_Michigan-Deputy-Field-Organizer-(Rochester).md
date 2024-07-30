@@ -5,8 +5,8 @@ organization = "NextGen America"
 location = "Michigan"
 salary = "$22.44"
 link = "https://nextgenamerica.bamboohr.com/careers/518?source=aWQ9NTE%3D"
-sort_date = "2024-07-29"
-created_at = "July 29, 2024"
+sort_date = "2024-07-30"
+created_at = "July 30, 2024"
 closing_date = "November 15, 2024"
 a_job_type = ["Part Time","Temporary"]
 b_benefits = ["General Benefits","Union-Eligible","Retirement","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Life insurance","Short-term disability insurance","Long-term disability insurance","health insurance","paid time off"]

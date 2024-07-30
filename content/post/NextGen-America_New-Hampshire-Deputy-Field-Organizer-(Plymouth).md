@@ -5,8 +5,8 @@ organization = "NextGen America"
 location = "New Hampshire"
 salary = "$22.44/hour"
 link = "https://nextgenamerica.bamboohr.com/careers/553?source=aWQ9NTE%3D"
-sort_date = "2024-07-29"
-created_at = "July 29, 2024"
+sort_date = "2024-07-30"
+created_at = "July 30, 2024"
 closing_date = "September 1, 2024"
 a_job_type = ["Part Time"]
 b_benefits = ["General Benefits","Union-Eligible","Dental","Vision","Sick time","paid time off"]

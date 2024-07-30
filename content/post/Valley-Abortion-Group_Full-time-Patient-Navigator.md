@@ -5,8 +5,8 @@ organization = "Valley Abortion Group"
 location = "New Mexico"
 salary = "The annual salary for this position is a minimum of $70,000."
 link = "https://drive.google.com/file/d/1ssgOKrIQHpDPY7xG2Niu1nVler1xFaQi/view?usp=sharing"
-sort_date = "2024-07-29"
-created_at = "July 29, 2024"
+sort_date = "2024-07-30"
+created_at = "July 30, 2024"
 closing_date = "July 31, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits"]
