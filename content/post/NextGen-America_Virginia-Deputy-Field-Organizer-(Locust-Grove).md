@@ -1,33 +1,35 @@
 +++
 author = "None"
-title = "Michigan Deputy Field Organizer (Rochester)"
+title = "Virginia Deputy Field Organizer (Locust Grove)"
 organization = "NextGen America"
-location = "Michigan"
-salary = "$22.44"
-link = "https://nextgenamerica.bamboohr.com/careers/518?source=aWQ9NTE%3D"
+location = "Virginia"
+salary = "22.44/hour"
+link = "https://nextgenamerica.bamboohr.com/careers/421?source=aWQ9NTE%3D"
 sort_date = "2024-07-31"
 created_at = "July 31, 2024"
 closing_date = "November 15, 2024"
-a_job_type = ["Part Time","Temporary"]
-b_benefits = ["General Benefits","Union-Eligible","Retirement","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Life insurance","Short-term disability insurance","Long-term disability insurance","health insurance","paid time off"]
+a_job_type = ["Full Time"]
+b_benefits = ["Retirement","Dental","Vision","Sick time"]
 c_feedback = ""
 aa_degrees_required = "No degree required"
 thumbnail = "../../images/NGALogo_ac82639f.png"
 +++
-Michigan Deputy Field Organizer (Rochester)
-
 THE ROLE: 
 
-NextGen America is seeking passionate and hardworking candidates to join our youth organizing program in Michigan, working to engage young people in electoral politics by registering thousands of young people to vote across the state. NextGen is committed to engaging young people in Michigan in the political process and increasing participation among 18-35 year olds. This role will be focused on organizing in one of several regions in Michigan as part of this ambitious effort.
+NextGen America is seeking passionate and hardworking candidates to join our youth organizing program in Virginia, working to engage young people in electoral politics by registering thousands of young people to vote across the state. NextGen is committed to engaging young people in Virginia in the political process and increasing participation among 18-35 year olds. This role will be focused on organizing in one of several regions in Virginia as part of this ambitious effort. 
 
 
-This location for this role is Rochester, MI - Oakland University. This is an in-person position and you will be required to work on your primary campus according to the schedule laid out below. 
+
+The primary work location for this role will be Germanna Community College. This is an in-person position and you will be required to work on your primary campus according to the schedule laid out below. 
 
 
-In Michigan, this effort will focus on organizing young people on campuses and the surrounding communities to bring progressive change to government through voting. Our work will engage young people in voter registration efforts, volunteer recruitment, and pledging young people to vote. Organizers need to be comfortable and confident in: mobilizing their own community, growing their network to include new volunteers to train, and motivating community leaders to help register and mobilize their own networks. Organizers are directly responsible for managing a team of volunteers in their region to hit weekly and phase metric goals. 
+
+In Virginia, this effort will focus on organizing young people on campuses and the surrounding communities to bring progressive change to government through voting. Our work will engage young people in voter registration efforts, volunteer recruitment, and pledging young people to vote. Organizers need to be comfortable and confident in: mobilizing their own community, growing their network to include new volunteers to train, and motivating community leaders to help register and mobilize their own networks. Organizers are directly responsible for managing a team of volunteers in their region to hit weekly and phase metric goals. 
+
 
 
 This role reports to the Regional Organizing Director. 
+
 
 
 FLSA Classification: Non-Exempt
