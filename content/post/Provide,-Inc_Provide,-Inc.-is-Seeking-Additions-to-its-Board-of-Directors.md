@@ -5,8 +5,8 @@ organization = "Provide, Inc"
 location = "Remote"
 salary = "Volunteer Position"
 link = "https://provideinc.bamboohr.com/careers/26?source=aWQ9MjQ%3D"
-sort_date = "2024-08-06"
-created_at = "August 6, 2024"
+sort_date = "2024-08-07"
+created_at = "August 7, 2024"
 closing_date = "August 15, 2024"
 a_job_type = ["Consultant"]
 b_benefits = ["no benefits listed","Union-Eligible"]
