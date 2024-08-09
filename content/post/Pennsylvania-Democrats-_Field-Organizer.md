@@ -5,8 +5,8 @@ organization = "Pennsylvania Democrats "
 location = "Pennsylvania"
 salary = "$17.85 an hour "
 link = "https://padems.hrmdirect.com/employment/job-opening.php?req=1255151&req_loc=96153&&#job"
-sort_date = "2024-08-08"
-created_at = "August 8, 2024"
+sort_date = "2024-08-09"
+created_at = "August 9, 2024"
 closing_date = "August 31, 2024"
 a_job_type = ["Full Time","Temporary"]
 b_benefits = ["General Benefits","Union-Eligible","Health Insurance","Dental","Vision","health insurance"]
