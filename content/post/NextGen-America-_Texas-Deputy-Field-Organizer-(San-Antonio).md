@@ -5,8 +5,8 @@ organization = "NextGen America "
 location = "Texas"
 salary = "https://nextgenamerica.bamboohr.com/careers/564?source=aWQ9NTE%3D"
 link = "https://nextgenamerica.bamboohr.com/careers/564?source=aWQ9NTE%3D"
-sort_date = "2024-08-09"
-created_at = "August 9, 2024"
+sort_date = "2024-08-10"
+created_at = "August 10, 2024"
 closing_date = "November 15, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","health insurance","Dental","Vision","Sick time"]
