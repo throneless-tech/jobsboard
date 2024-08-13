@@ -5,8 +5,8 @@ organization = "NextGen America"
 location = "Virginia"
 salary = "$22.44"
 link = "https://nextgenamerica.bamboohr.com/careers/497?source=aWQ9NTE%3D"
-sort_date = "2024-08-12"
-created_at = "August 12, 2024"
+sort_date = "2024-08-13"
+created_at = "August 13, 2024"
 closing_date = "November 15, 2024"
 a_job_type = ["Part Time"]
 b_benefits = ["General Benefits"]
