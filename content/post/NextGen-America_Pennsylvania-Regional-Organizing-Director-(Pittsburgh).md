@@ -5,8 +5,8 @@ organization = "NextGen America"
 location = "Pennsylvania"
 salary = "$5,695.00/month"
 link = "https://nextgenamerica.bamboohr.com/careers/563?source=aWQ9NTE%3D"
-sort_date = "2024-08-14"
-created_at = "August 14, 2024"
+sort_date = "2024-08-15"
+created_at = "August 15, 2024"
 closing_date = "October 6, 2024"
 a_job_type = ["Full Time"]
 b_benefits = ["General Benefits","Union-Eligible","Paid Leave","Dental","Vision","Sick time","paid time off"]
