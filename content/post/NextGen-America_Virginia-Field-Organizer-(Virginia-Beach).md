@@ -5,8 +5,8 @@ organization = "NextGen America"
 location = "Virginia"
 salary = "$4,632.50/month"
 link = "https://nextgenamerica.bamboohr.com/careers/494?source=aWQ9NTE%3D"
-sort_date = "2024-08-19"
-created_at = "August 19, 2024"
+sort_date = "2024-08-20"
+created_at = "August 20, 2024"
 closing_date = "November 15, 2024"
 a_job_type = ["Full Time","Temporary"]
 b_benefits = ["General Benefits","Union-Eligible","Paid Leave","Health Insurance","Paid Vacation","Dental","Vision","Sick time","Disability insurance","Life insurance","Short-term disability insurance","Long-term disability insurance","health insurance"]
